@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "universities": "Universities",
+    "testimonials": "Testimonials",
+    "funding": "Student Finance",
+    "contact": "Contact",
+    "bookMeeting": "Book a Meeting",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Study in the UK",
+    "subtitle": "Your Gateway to World-Class Education",
+    "description": "Discover the benefits of studying in the UK with expert guidance on university applications, student finance, and immigration support.",
+    "cta": {
+      "consultation": "Book a Consultation",
+      "learnMore": "Learn More"
+    }
+  },
+  "sfe": {
+    "title": "Student Finance England Benefits",
+    "subtitle": "Financial Support for Your Studies",
+    "tuitionLoan": "Tuition Fee Loan",
+    "tuitionDesc": "Cover your full tuition fees with a loan that you only start repaying after graduation",
+    "maintenanceLoan": "Maintenance Loan",
+    "maintenanceDesc": "Get support for living costs while you study",
+    "repayment": "Flexible Repayment",
+    "repaymentDesc": "Only start repaying when you earn above the threshold",
+    "additional": "Additional Support",
+    "additionalDesc": "Extra funding available for disabled students and those with dependents"
+  },
+  
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "search": "Search for a question...",
+    "q1": {
+      "question": "What is Student Finance?",
+      "answer": "It’s a UK government loan that covers the cost of university tuition fees."
+    },
+    "q2": {
+      "question": "Who can apply for Student Finance?",
+      "answer": "British or EU citizens with pre-settled or settled status in the UK."
+    },
+    "q3": {
+      "question": "Can I apply with pre-settled status?",
+      "answer": "Yes, if you meet the residency requirements."
+    },
+    "q4": {
+      "question": "What is the difference between pre-settled and settled?",
+      "answer": "Pre-settled is temporary (5 years), settled is permanent. Both can qualify you depending on residency."
+    },
+    "q5": {
+      "question": "What is a Foundation Year?",
+      "answer": "A preparatory year before starting a degree, to improve academic skills and English level."
+    },
+    "q6": {
+      "question": "Do I have to pay anything during the course?",
+      "answer": "No. Repayment starts only after graduation and when earning above a certain threshold."
+    },
+    "q7": {
+      "question": "Which universities accept Student Finance?",
+      "answer": "Most public universities in the UK accept it."
+    },
+    "q8": {
+      "question": "How much does Student Finance cover?",
+      "answer": "Up to £9,250 per year for tuition fees."
+    },
+    "q9": {
+      "question": "Can I get help with living costs?",
+      "answer": "Yes, through the Maintenance Loan if you live away from your family."
+    },
+    "q10": {
+      "question": "How do I apply for Student Finance?",
+      "answer": "You apply online on the Student Finance England website. You can also get help from an advisor."
+    },
+    "q11": {
+      "question": "What documents are needed?",
+      "answer": "Passport, pre/settled status, proof of address, and academic transcripts."
+    },
+    "q12": {
+      "question": "How long does approval take?",
+      "answer": "Usually 4 to 8 weeks after submitting all documents."
+    },
+    "q13": {
+      "question": "Can I choose any course?",
+      "answer": "Yes, as long as it’s eligible and approved by Student Finance."
+    },
+    "q14": {
+      "question": "Can I study part-time?",
+      "answer": "Yes, part-time students can also receive funding."
+    },
+    "q15": {
+      "question": "My English isn’t great. Can I still apply?",
+      "answer": "Yes, many universities offer Foundation Year with English support."
+    },
+    "q16": {
+      "question": "I’m over 30. Can I still study?",
+      "answer": "Yes! There is no age limit for undergraduate courses with Student Finance."
+    },
+    "q17": {
+      "question": "Does it cover online courses?",
+      "answer": "Usually not. Student Finance mainly covers in-person courses."
+    },
+    "q18": {
+      "question": "What if I drop out?",
+      "answer": "Inform the university and Student Finance. You may have to repay for the time attended."
+    },
+    "q19": {
+      "question": "What happens if I leave the UK?",
+      "answer": "You may still need to repay based on your income abroad."
+    },
+    "q20": {
+      "question": "Are there interest rates?",
+      "answer": "Yes, but rates depend on your income after graduation. They are fair and income-based."
+    },
+    "q21": {
+      "question": "Do I need a visa to study with Student Finance?",
+      "answer": "Not if you have pre-settled or settled status. Otherwise, a student visa is required."
+    },
+    "q22": {
+      "question": "What is UCAS?",
+      "answer": "It’s the official UK university application system. Most courses use it."
+    },
+    "q23": {
+      "question": "Is Student Finance a loan or a scholarship?",
+      "answer": "It’s a government loan that is repaid through taxes after graduation, only if you earn enough."
+    },
+    "q24": {
+      "question": "What is student life like in the UK?",
+      "answer": "It’s culturally rich, with great student support, events, discounts, and facilities."
+    }
+  }
+}

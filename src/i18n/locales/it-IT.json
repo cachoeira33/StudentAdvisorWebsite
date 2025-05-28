@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Chi sono",
+    "services": "Servizi",
+    "universities": "Università",
+    "funding": "Finanziamenti",
+    "contact": "Contatti",
+    "bookMeeting": "Prenota un appuntamento",
+    "faq": "Domande Frequenti"
+  },
+  "hero": {
+    "title": "Studia nel Regno Unito",
+    "subtitle": "La tua porta verso un'istruzione di livello mondiale",
+    "description": "Scopri i vantaggi di studiare nel Regno Unito con consulenza esperta su ammissioni universitarie, finanziamenti e supporto per l'immigrazione.",
+    "cta": {
+      "consultation": "Prenota una consulenza",
+      "learnMore": "Scopri di più"
+    }
+  },
+  "sfe": {
+    "title": "Vantaggi del Student Finance England",
+    "subtitle": "Supporto finanziario per i tuoi studi",
+    "tuitionLoan": "Prestito per le tasse universitarie",
+    "tuitionDesc": "Copre il costo dell’università con un prestito che si rimborsa solo dopo la laurea.",
+    "maintenanceLoan": "Prestito per il mantenimento",
+    "maintenanceDesc": "Supporto economico per le spese di vita durante gli studi.",
+    "repayment": "Rimborso flessibile",
+    "repaymentDesc": "Paghi solo quando guadagni sopra una certa soglia.",
+    "additional": "Supporto aggiuntivo",
+    "additionalDesc": "Finanziamenti extra disponibili per studenti con disabilità o persone a carico."
+  },
+  "faq": {
+    "title": "Domande Frequenti su Studiare in Inghilterra",
+    "search": "Cerca una domanda...",
+    "q1": {
+      "question": "Cos'è il Student Finance?",
+      "answer": "È un sistema di finanziamento del governo britannico che copre le tasse universitarie e offre supporto per le spese di vita."
+    },
+    "q2": {
+      "question": "Chi può richiedere il Student Finance?",
+      "answer": "Cittadini britannici, residenti con status settled o pre-settled, e cittadini UE con residenza legale nel Regno Unito."
+    },
+    "q3": {
+      "question": "Cos'è il pre-settled status?",
+      "answer": "È un permesso di soggiorno temporaneo nel Regno Unito, concesso ai cittadini dell’UE arrivati prima del 31/12/2020."
+    },
+    "q4": {
+      "question": "Qual è la differenza tra settled e pre-settled?",
+      "answer": "Settled è una residenza permanente; pre-settled è temporanea. Entrambi permettono di richiedere il Student Finance, ma con differenze."
+    },
+    "q5": {
+      "question": "Posso studiare con il Foundation Year?",
+      "answer": "Sì. Il Foundation Year è un anno preparatorio e può essere finanziato con il Student Finance."
+    },
+    "q6": {
+      "question": "Cos'è il Foundation Year?",
+      "answer": "È un corso introduttivo di un anno per preparare gli studenti che non hanno i requisiti per accedere direttamente all’università."
+    },
+    "q7": {
+      "question": "Quanto costa studiare in Inghilterra?",
+      "answer": "Fino a £9.250 all’anno, ma il Student Finance copre questo costo se hai i requisiti."
+    },
+    "q8": {
+      "question": "Devo restituire il prestito?",
+      "answer": "Sì, ma solo quando superi la soglia minima di reddito. Il rimborso è proporzionato al tuo stipendio."
+    },
+    "q9": {
+      "question": "Quanto ricevo per vivere (maintenance loan)?",
+      "answer": "Dipende dal reddito familiare e dalla città dove vivi. A Londra può superare £12.000 all’anno."
+    },
+    "q10": {
+      "question": "Come si richiede il Student Finance?",
+      "answer": "La domanda si fa online sul sito del governo britannico: www.gov.uk/student-finance"
+    },
+    "q11": {
+      "question": "Ho bisogno di un visto per studiare?",
+      "answer": "Se hai lo status settled o pre-settled, non hai bisogno di un visto per studiare nel Regno Unito."
+    },
+    "q12": {
+      "question": "Posso lavorare mentre studio?",
+      "answer": "Sì, puoi lavorare part-time fino a 20 ore settimanali durante i corsi."
+    },
+    "q13": {
+      "question": "Come scelgo un’università in Inghilterra?",
+      "answer": "Considera posizione, costi, reputazione, classifica del corso e supporto per studenti internazionali."
+    },
+    "q14": {
+      "question": "Quando iniziano le lezioni nel Regno Unito?",
+      "answer": "Generalmente a settembre o ottobre."
+    },
+    "q15": {
+      "question": "E se abbandono gli studi? Devo pagare lo stesso?",
+      "answer": "Paghi solo per il periodo in cui hai studiato. Il resto del prestito non viene erogato."
+    },
+    "q16": {
+      "question": "Come si rimborsa il prestito?",
+      "answer": "Solo quando guadagni più della soglia prevista. Il rimborso viene detratto automaticamente dallo stipendio."
+    },
+    "q17": {
+      "question": "Posso avere finanziamenti per i master?",
+      "answer": "Il Student Finance copre lauree e Foundation Year. Per i master, esistono opzioni specifiche."
+    },
+    "q18": {
+      "question": "Cosa succede se cambio indirizzo?",
+      "answer": "Devi aggiornare i tuoi dati sul portale Student Finance per evitare problemi nei pagamenti."
+    },
+    "q19": {
+      "question": "Qual è la scadenza per fare domanda?",
+      "answer": "Devi presentare domanda prima dell’inizio del corso. Controlla sempre le date sul sito ufficiale."
+    },
+    "q20": {
+      "question": "Cosa sono maintenance loan e maintenance grant?",
+      "answer": "Il maintenance loan è un prestito per il mantenimento, da rimborsare. Il grant (poco comune) è un contributo a fondo perduto."
+    },
+    "q21": {
+      "question": "Con il pre-settled status posso studiare qualsiasi corso?",
+      "answer": "Sì, ma verifica sempre i requisiti specifici di ogni università."
+    },
+    "q22": {
+      "question": "Posso avere una borsa di studio oltre al Student Finance?",
+      "answer": "Sì, molte borse di studio sono compatibili con il Student Finance."
+    },
+    "q23": {
+      "question": "Come dimostro il mio reddito?",
+      "answer": "Puoi presentare buste paga, dichiarazioni dei redditi o documenti che attestano i tuoi guadagni o benefici."
+    },
+    "q24": {
+      "question": "Esiste supporto per studenti con disabilità?",
+      "answer": "Sì, esistono finanziamenti e servizi specifici per studenti con esigenze particolari."
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "cards": {
+      "consultancy": {
+        "title": "Consulenza Personalizzata",
+        "description": "Ti aiutiamo a trovare il corso e l’università più adatti ai tuoi obiettivi e al tuo profilo."
+      },
+      "application": {
+        "title": "Supporto nelle Iscrizioni",
+        "description": "Ti accompagniamo passo dopo passo, dalla scelta del corso all’iscrizione definitiva."
+      },
+      "finance": {
+        "title": "Supporto per il Finanziamento",
+        "description": "Ti aiutiamo a richiedere il Student Finance e a comprendere tutte le tue opzioni economiche."
+      },
+      "accommodation": {
+        "title": "Aiuto con Alloggio e Logistica",
+        "description": "Consigli pratici su come trovare casa e pianificare il costo della vita nel Regno Unito."
+      }
+    },
+    "why": {
+      "title": "Perché Sceglierci?",
+      "expertise": {
+        "title": "Esperienza nel Settore",
+        "description": "Anni di esperienza nel sistema educativo britannico per guidarti al meglio."
+      },
+      "personalized": {
+        "title": "Approccio Personalizzato",
+        "description": "Ogni studente è unico. Offriamo assistenza su misura per i tuoi obiettivi."
+      },
+      "support": {
+        "title": "Supporto Completo",
+        "description": "Dal primo contatto fino all’arrivo in UK, ti siamo vicini in ogni fase."
+      },
+      "ongoing": {
+        "title": "Assistenza Continuativa",
+        "description": "Restiamo a tua disposizione anche dopo l’iscrizione, per garantire una buona esperienza accademica."
+      }
+    }
+  },
+  "universities": {
+    "title": "Università Partner",
+    "why": {
+      "title": "Perché Scegliere le Nostre Università?",
+      "quality": {
+        "title": "Istruzione di Qualità",
+        "description": "Università riconosciute per l’eccellenza accademica e l’ambiente internazionale."
+      },
+      "career": {
+        "title": "Opportunità Lavorative",
+        "description": "Collegamenti con il mondo del lavoro e servizi di carriera per il post-laurea."
+      },
+      "support": {
+        "title": "Supporto per Studenti",
+        "description": "Servizi dedicati a studenti internazionali, inclusi supporto linguistico e orientamento culturale."
+      }
+    },
+    "programs": "Corsi Principali:"
+  },
+  "about": {
+    "title": "Corsi Foundation Year",
+    "who": {
+      "title": "Chi Può Beneficiare del Foundation Year?",
+      "general": "Ideale per chi vuole studiare nel Regno Unito ma non ha i requisiti d’ingresso diretti.",
+      "students": {
+        "title": "Studenti con Studi Limitati",
+        "description": "Ti manca il livello accademico richiesto? Questo corso ti prepara per l’università."
+      },
+      "professionals": {
+        "title": "Professionisti che Tornano a Studiare",
+        "description": "Dopo una pausa dagli studi, il Foundation Year aiuta a rientrare nel mondo accademico."
+      },
+      "immigrants": {
+        "title": "Studenti Immigrati",
+        "description": "Per chi è appena arrivato nel Regno Unito e ha bisogno di adattarsi al sistema locale."
+      },
+      "nontraditional": {
+        "title": "Studenti Non Tradizionali",
+        "description": "Hai qualifiche estere non riconosciute? Questo è il tuo trampolino per accedere all’università."
+      }
+    },
+    "whatIs": {
+      "title": "Cos'è un Foundation Year?",
+      "p1": "Un anno introduttivo per preparare gli studenti all’università.",
+      "p2": "Include materie di base come matematica, inglese accademico e altre competenze chiave.",
+      "p3": "Al termine sarai pronto per affrontare la tua laurea con maggiore sicurezza."
+    }
+  }
+}
