@@ -1,34 +1,34 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import LoadingSpinner from './components/LoadingSpinner';
-
-// Páginas com lazy loading
-const HomePage = React.lazy(() => import('./pages/HomePage'));
-const AboutPage = React.lazy(() => import('./pages/AboutPage'));
-const ServicesPage = React.lazy(() => import('./pages/ServicesPage'));
-const UniversitiesPage = React.lazy(() => import('./pages/UniversitiesPage'));
-const StudentFinancePage = React.lazy(() => import('./pages/StudentFinancePage'));
-const ContactPage = React.lazy(() => import('./pages/ContactPage'));
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import UniversitiesPage from './pages/UniversitiesPage';
+import StudentFinancePage from './pages/StudentFinancePage';
+import ContactPage from './pages/ContactPage';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <Router>
-      <div className="min-h-screen bg-black text-white flex flex-col">
+      <div className="min-h-screen bg-black text-white">
         <Navbar />
-        <main className="flex-grow pt-16"> {/* Espaço para o header fixo */}
-          <Suspense fallback={<LoadingSpinner />}>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/services" element={<ServicesPage />} />
-              <Route path="/universities" element={<UniversitiesPage />} />
-              <Route path="/student-finance" element={<StudentFinancePage />} />
-              <Route path="/contact" element={<ContactPage />} />
-            </Routes>
-          </Suspense>
-        </main>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/universities" element={<UniversitiesPage />} />
+          <Route path="/student-finance" element={<StudentFinancePage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
