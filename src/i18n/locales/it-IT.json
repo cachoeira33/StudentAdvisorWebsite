@@ -324,11 +324,11 @@
         "time": "Ora",
         "submit": "Prenota"
       },
-    "confirmation": {
-      "title": "Appuntamento Prenotato!",
-      "message": "Grazie per aver prenotato un appuntamento. Ti contatteremo per confermare i dettagli."
+      "confirmation": {
+        "title": "Appuntamento Prenotato!",
+        "message": "Grazie per aver prenotato un appuntamento. Ti contatteremo per confermare i dettagli."
+      }
     }
-  }
   },
   "footer": {
     "about": "Chi Siamo",
@@ -465,5 +465,34 @@
     "title": "La Nostra Sede",
     "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
     "mapLink": "https://www.google.com/maps"
+  }
+  ,
+  "title": "Corsi di Anno Fondamentale",
+  "benefitSection": {
+  "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
+  "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
+  "studentsLimited": {
+    "title": "Studenti con Esperienza Accademica Limitata",
+    "content": "Se non hai le qualifiche necessarie per accedere direttamente a un corso universitario, un Anno Fondamentale ti offre l'opportunità di aggiornare le tue conoscenze e competenze per una transizione agevole all'istruzione superiore."
   },
+  "professionals": {
+    "title": "Professionisti che Tornano agli Studi",
+    "content": "Se sei stato lontano dall'istruzione formale per un po' e desideri rientrare nell'ambiente accademico, l'Anno Fondamentale offre supporto preparatorio."
+  },
+  "international": {
+    "title": "Studenti Internazionali e Immigrati",
+    "content": "Per coloro che si sono recentemente trasferiti nel Regno Unito e hanno bisogno di un anno di adattamento prima di iniziare il loro corso di laurea."
+  },
+  "nonTraditional": {
+    "title": "Studenti con Qualifiche Non Tradizionali",
+    "content": "Se hai diplomi o qualifiche che non sono direttamente riconosciuti nel Regno Unito, l'Anno Fondamentale potrebbe essere il ponte verso il corso di laurea desiderato."
+  }
+},
+"whatIsSection": {
+  "title": "Cos'è un Anno Fondamentale?",
+  "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
+  "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
+  "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
+},
+"imageAlt": "Studenti che studiano"
 }

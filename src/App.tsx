@@ -7,10 +7,12 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ServicesPage from './pages/ServicesPage';
 import UniversitiesPage from './pages/UniversitiesPage';
+import FoundationPage from './pages/FoundationPage';
 import StudentFinancePage from './pages/StudentFinancePage';
 import ContactPage from './pages/ContactPage';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
+
 
 function App() {
   const { t } = useTranslation();
