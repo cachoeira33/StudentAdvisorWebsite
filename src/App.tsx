@@ -1,9 +1,12 @@
 import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import Header from './components/Header' // Substituir Navbar pelo novo Header
+import Header from './components/NavBar'
 import Footer from './components/Footer'
 import LoadingSpinner from './components/LoadingSpinner' // Novo componente
+import './App.css' // Importar estilos globais
+import 'tailwindcss/tailwind.css' // Importar Tailwind CSS
+import './styles/global.css' // Importar estilos globais personalizados
 
 // Lazy loading para páginas
 const HomePage = React.lazy(() => import('./pages/HomePage'))
@@ -16,14 +19,10 @@ const Testimonials = React.lazy(() => import('./components/Testimonials'))
 const FAQ = React.lazy(() => import('./components/FAQ'))
 
 function App() {
-  const { t } = useTranslation()
-
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-        <Header /> {/* Novo header premium */}
-        
-        {/* Suspense para lazy loading */}
+      <div className="min-h-screen bg-black text-white">
+        <Navbar />
         <Suspense fallback={<LoadingSpinner />}>
           <Routes>
             <Route path="/" element={<HomePage />} />

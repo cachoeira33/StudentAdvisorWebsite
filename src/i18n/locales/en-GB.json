@@ -31,7 +31,6 @@
     "additional": "Additional Support",
     "additionalDesc": "Extra funding available for disabled students and those with dependents"
   },
-  
   "faq": {
     "title": "Frequently Asked Questions",
     "search": "Search for a question...",
@@ -259,10 +258,67 @@
     "emailPlaceholder": "Your Email",
     "messagePlaceholder": "Your Message",
     "submitButton": "Send Message"
-  }, 
+  },
   "funding": {
     "title": "Student Finance",
     "description": "Learn about the financial support available for students in the UK, including tuition fee loans, maintenance loans, and additional funding options.",
     "cta": "Explore Student Finance"
+  },
+  "sfe.tuitionLoan": {
+    "title": "Tuition Fee Loan",
+    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+  },
+  "sfe.maintenanceLoan": {
+    "title": "Maintenance Loan",
+    "description": "Get support for living costs while you study."
+  },
+  "sfe.repayment": {
+    "title": "Flexible Repayment",
+    "description": "Only start repaying when you earn above the threshold."
+  },
+  "sfe.additional": {
+    "title": "Additional Support",
+    "description": "Extra funding available for disabled students and those with dependents."
+  },
+  "sfe.tuitionLoanDesc": {
+    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+  },
+  "sfe.maintenanceLoanDesc": {
+    "description": "Get support for living costs while you study."
+  },
+  "sfe.tuitionDesc": {
+    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+  },
+  "sfe.maintenanceDesc": {
+    "description": "Get support for living costs while you study."
+  },
+  "sfe.repaymentDesc": {
+    "description": "Only start repaying when you earn above the threshold."
+  },
+  "sfe.additionalDesc": {
+    "description": "Extra funding available for disabled students and those with dependents."
+  },
+  "sfeBenefits": {
+    "title": "Student Finance England Benefits",
+    "description": "Financial support for your studies, including tuition fee loans, maintenance loans, and additional support for eligible students."
+  },
+  "sfeTuitionLoan": {
+    "title": "Tuition Fee Loan",
+    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+  },
+  "sfeMaintenanceLoan": {
+    "title": "Maintenance Loan",
+    "description": "Get support for living costs while you study."
+  },
+  "sfeRepayment": {
+    "title": "Flexible Repayment",
+    "description": "Only start repaying when you earn above the threshold."
+  },
+  "sfeAdditional": {
+    "title": "Additional Support",
+    "description": "Extra funding available for disabled students and those with dependents."
+  },
+  "sfeTuitionDesc": {
+    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
   }
 }

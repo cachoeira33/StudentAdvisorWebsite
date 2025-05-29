@@ -1,102 +1,110 @@
 import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import LanguageSelector from './LanguageSelector';
+import { useTranslation } from 'react-i18next';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const handleBookMeeting = () => {
-    // You can replace this with your actual booking logic
-    window.open('https://calendly.com/your-link', '_blank');
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+    setMobileMenuOpen(false);
   };
 
+  const navLinks = [
+    { path: '/about', key: 'nav.about' },
+    { path: '/services', key: 'nav.services' },
+    { path: '/universities', key: 'nav.universities' },
+    { path: '/student-finance', key: 'nav.finance' },
+    { path: '/contact', key: 'nav.contact' }
+  ];
+
+  const languages = [
+    { code: 'en', name: 'English' },
+    { code: 'pt', name: 'Português' },
+    { code: 'es', name: 'Español' },
+    { code: 'fr', name: 'Français' },
+    { code: 'de', name: 'Deutsch' }
+  ];
+
   return (
-    <nav className="fixed w-full bg-black/90 backdrop-blur-sm z-50 border-b border-neutral-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-serif text-white">
-              Gabriel Cachoeira
-            </Link>
-          </div>
+    <header className="bg-black border-b border-gray-800 fixed w-full z-50">
+      <div className="container mx-auto px-4 py-3">
+        <div className="flex justify-between items-center">
           
-          {/* Desktop Menu */}
-          <div className="hidden md:flex md:items-center md:space-x-8">
-            <NavLink to="/">{t('nav.home')}</NavLink>
-            <NavLink to="/about">{t('nav.about')}</NavLink>
-            <NavLink to="/services">{t('nav.services')}</NavLink>
-            <NavLink to="/universities">{t('nav.universities')}</NavLink>
-            <NavLink to="/student-finance">{t('nav.funding')}</NavLink>
-            <NavLink to="/contact">{t('nav.contact')}</NavLink>
-            <NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>
-            <NavLink to="/faq">{t('nav.faq')}</NavLink>
-            <LanguageSelector />
-            <button 
-              onClick={handleBookMeeting}
-              className="px-4 py-2 text-sm font-medium text-white bg-neutral-800 rounded-md hover:bg-neutral-700 transition-colors border border-neutral-700"
-            >
-              {t('nav.bookMeeting')}
-            </button>
-          </div>
+          {/* Logo */}
+          <Link to="/" className="text-xl font-bold text-white hover:text-gray-300 transition-colors">
+            StudentAdvisor
+          </Link>
 
-          {/* Mobile menu button */}
-          <div className="md:hidden flex items-center gap-4">
-            <LanguageSelector />
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-300 focus:outline-none"
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center space-x-6">
+            {navLinks.map((link) => (
+              <Link
+                key={link.key}
+                to={link.path}
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                {t(link.key)}
+              </Link>
+            ))}
+
+            {/* Language Selector */}
+            <select
+              onChange={(e) => changeLanguage(e.target.value)}
+              value={i18n.language}
+              className="bg-gray-800 text-white text-sm px-3 py-1 rounded ml-4 border border-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500"
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
+              {languages.map((lang) => (
+                <option key={lang.code} value={lang.code}>
+                  {lang.name}
+                </option>
+              ))}
+            </select>
+          </nav>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="md:hidden text-white p-1 focus:outline-none"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 space-y-3 animate-fade-in">
+            {navLinks.map((link) => (
+              <Link
+                key={link.key}
+                to={link.path}
+                className="block px-3 py-2 text-gray-300 hover:bg-gray-800 hover:text-white rounded transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {t(link.key)}
+              </Link>
+            ))}
+
+            <div className="pt-3 border-t border-gray-800">
+              <select
+                onChange={(e) => changeLanguage(e.target.value)}
+                value={i18n.language}
+                className="w-full bg-gray-800 text-white text-sm px-3 py-2 rounded border border-gray-600 focus:outline-none"
+              >
+                {languages.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        )}
       </div>
-
-      {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-black border-t border-neutral-800">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <MobileNavLink to="/">{t('nav.home')}</MobileNavLink>
-            <MobileNavLink to="/about">{t('nav.about')}</MobileNavLink>
-            <MobileNavLink to="/services">{t('nav.services')}</MobileNavLink>
-            <MobileNavLink to="/universities">{t('nav.universities')}</MobileNavLink>
-            <MobileNavLink to="/student-finance">{t('nav.funding')}</MobileNavLink>
-            <MobileNavLink to="/contact">{t('nav.contact')}</MobileNavLink>
-            <MobileNavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</MobileNavLink>
-            <MobileNavLink to="/faq">{t('nav.faq')}</MobileNavLink>
-
-            <button 
-              onClick={handleBookMeeting}
-              className="w-full mt-4 px-4 py-2 text-sm font-medium text-white bg-neutral-800 rounded-md hover:bg-neutral-700 transition-colors border border-neutral-700"
-            >
-              {t('nav.bookMeeting')}
-            </button>
-          </div>
-        </div>
-      )}
-    </nav>
+    </header>
   );
 };
-
-const NavLink = ({ to, children }: { to: string; children: React.ReactNode }) => (
-  <Link
-    to={to}
-    className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors"
-  >
-    {children}
-  </Link>
-);
-
-const MobileNavLink = ({ to, children }: { to: string; children: React.ReactNode }) => (
-  <Link
-    to={to}
-    className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium"
-  >
-    {children}
-  </Link>
-);
 
 export default Navbar;
