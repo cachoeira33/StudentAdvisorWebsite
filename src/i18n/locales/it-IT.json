@@ -23,11 +23,11 @@
     "title": "Vantaggi del Student Finance England",
     "subtitle": "Supporto finanziario per i tuoi studi",
     "tuitionLoan": "Prestito per le tasse universitarie",
-    "tuitionDesc": "Copre il costo dell’università con un prestito che si rimborsa solo dopo la laurea.",
+    "tuitionDesc": "Copre il costo dell’università con un prestito da rimborsare solo dopo la laurea.",
     "maintenanceLoan": "Prestito per il mantenimento",
-    "maintenanceDesc": "Supporto economico per le spese di vita durante gli studi.",
+    "maintenanceDesc": "Supporto economico per le spese quotidiane durante gli studi.",
     "repayment": "Rimborso flessibile",
-    "repaymentDesc": "Paghi solo quando guadagni sopra una certa soglia.",
+    "repaymentDesc": "Paghi solo quando guadagni oltre una certa soglia.",
     "additional": "Supporto aggiuntivo",
     "additionalDesc": "Finanziamenti extra disponibili per studenti con disabilità o persone a carico."
   },
@@ -68,7 +68,7 @@
     },
     "q9": {
       "question": "Quanto ricevo per vivere (maintenance loan)?",
-      "answer": "Dipende dal reddito familiare e dalla città dove vivi. A Londra può superare £12.000 all’anno."
+      "answer": "Dipende dal reddito familiare e dalla città in cui vivi. A Londra può superare £12.000 all’anno."
     },
     "q10": {
       "question": "Come si richiede il Student Finance?",
@@ -190,6 +190,7 @@
     },
     "programs": "Corsi Principali:"
   },
+
   "about": {
     "title": "Corsi Foundation Year",
     "who": {
@@ -230,7 +231,7 @@
       "button": "Prenota una consulenza"
     }
   },
-  "contact": {
+  "contactForm": {
     "title": "Contattaci",
     "description": "Hai domande o vuoi saperne di più sui nostri servizi? Siamo qui per aiutarti.",
     "form": {
@@ -287,7 +288,10 @@
     "cookies": {
       "title": "Informativa sui Cookie",
       "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti l'uso dei cookie."
-    },
+    }
+  },
+
+    "contact": {
     "newsletter": {
       "title": "Iscriviti alla nostra Newsletter",
       "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
@@ -465,34 +469,33 @@
     "title": "La Nostra Sede",
     "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
     "mapLink": "https://www.google.com/maps"
-  }
-  ,
+  },
   "title": "Corsi di Anno Fondamentale",
   "benefitSection": {
-  "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
-  "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
-  "studentsLimited": {
-    "title": "Studenti con Esperienza Accademica Limitata",
-    "content": "Se non hai le qualifiche necessarie per accedere direttamente a un corso universitario, un Anno Fondamentale ti offre l'opportunità di aggiornare le tue conoscenze e competenze per una transizione agevole all'istruzione superiore."
+    "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
+    "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
+    "studentsLimited": {
+      "title": "Studenti con Esperienza Accademica Limitata",
+      "content": "Se non hai le qualifiche necessarie per accedere direttamente a un corso universitario, un Anno Fondamentale ti offre l'opportunità di aggiornare le tue conoscenze e competenze per una transizione agevole all'istruzione superiore."
+    },
+    "professionals": {
+      "title": "Professionisti che Tornano agli Studi",
+      "content": "Se sei stato lontano dall'istruzione formale per un po' e desideri rientrare nell'ambiente accademico, l'Anno Fondamentale offre supporto preparatorio."
+    },
+    "international": {
+      "title": "Studenti Internazionali e Immigrati",
+      "content": "Per coloro che si sono recentemente trasferiti nel Regno Unito e hanno bisogno di un anno di adattamento prima di iniziare il loro corso di laurea."
+    },
+    "nonTraditional": {
+      "title": "Studenti con Qualifiche Non Tradizionali",
+      "content": "Se hai diplomi o qualifiche che non sono direttamente riconosciuti nel Regno Unito, l'Anno Fondamentale potrebbe essere il ponte verso il corso di laurea desiderato."
+    }
   },
-  "professionals": {
-    "title": "Professionisti che Tornano agli Studi",
-    "content": "Se sei stato lontano dall'istruzione formale per un po' e desideri rientrare nell'ambiente accademico, l'Anno Fondamentale offre supporto preparatorio."
+  "whatIsSection": {
+    "title": "Cos'è un Anno Fondamentale?",
+    "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
+    "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
+    "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
   },
-  "international": {
-    "title": "Studenti Internazionali e Immigrati",
-    "content": "Per coloro che si sono recentemente trasferiti nel Regno Unito e hanno bisogno di un anno di adattamento prima di iniziare il loro corso di laurea."
-  },
-  "nonTraditional": {
-    "title": "Studenti con Qualifiche Non Tradizionali",
-    "content": "Se hai diplomi o qualifiche che non sono direttamente riconosciuti nel Regno Unito, l'Anno Fondamentale potrebbe essere il ponte verso il corso di laurea desiderato."
-  }
-},
-"whatIsSection": {
-  "title": "Cos'è un Anno Fondamentale?",
-  "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
-  "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
-  "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
-},
-"imageAlt": "Studenti che studiano"
+  "imageAlt": "Studenti che studiano"
 }
