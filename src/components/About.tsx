@@ -7,7 +7,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://drive.google.com/file/d/1Q0OPdjc4lD1JblYvKM5AL5tHBiiGL-Sw/view?usp=drive_link"
+              src="cachoeira33/StudentAdvisorWebsite/profile.png"
               alt="Gabriel Cachoeira"
               className="rounded-lg shadow-2xl"
             />
@@ -31,7 +31,7 @@ const About = () => {
                 <ul className="text-gray-400 space-y-2">
                   <li>UK Education System</li>
                   <li>Law Support</li>
-                  <li>Adventure Photography</li>
+                  <li>Events and all kinds of Photography</li>
                 </ul>
               </div>
             </div>

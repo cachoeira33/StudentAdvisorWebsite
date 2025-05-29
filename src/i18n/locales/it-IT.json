@@ -6,6 +6,7 @@
     "universities": "Università",
     "funding": "Finanziamenti",
     "contact": "Contatti",
+    "testimonials": "Testimonianze",
     "bookMeeting": "Prenota un appuntamento",
     "faq": "Domande Frequenti"
   },
@@ -464,5 +465,5 @@
     "title": "La Nostra Sede",
     "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
     "mapLink": "https://www.google.com/maps"
-  }
-} 
+  },
+}

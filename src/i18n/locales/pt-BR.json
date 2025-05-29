@@ -6,6 +6,7 @@
     "universities": "Universidades",
     "funding": "Financiamento",
     "contact": "Contato",
+    "testimonials": "Testemunhos",
     "bookMeeting": "Agendar Reunião",
     "faq": "Perguntas Frequentes"
   },
@@ -167,10 +168,10 @@
       "ongoing": {
         "title": "Assistência Contínua",
         "description": "Nosso suporte continua mesmo após a aceitação. Seguimos oferecendo orientação durante sua jornada acadêmica."
-      }
-    }
-  },
-  "universities": {
+        }
+      },
+  
+    "universities": {
     "title": "Universidades Parceiras",
     "why": {
       "title": "Por que Estudar nas Nossas Universidades Parceiras?",
@@ -217,68 +218,82 @@
       "p2": "Durante esse ano, os alunos recebem treinamento em disciplinas como matemática, inglês acadêmico e outros conhecimentos relevantes para o curso desejado.",
       "p3": "Ao final do ano, você estará pronto para iniciar sua graduação com uma base sólida para o sucesso."
     },
-
     "benefits": {
       "title": "Benefícios do Foundation Year",
       "p1": "Melhora suas habilidades acadêmicas e de estudo, preparando-o para os desafios da graduação.",
-      "p2": "Oferece uma transição suave para o sistema educacional do Reino Unido, ajudando você a se adaptar ao ambiente acadêmico.", 
+      "p2": "Oferece uma transição suave para o sistema educacional do Reino Unido, ajudando você a se adaptar ao ambiente acadêmico.",
       "p3": "Aumenta suas chances de sucesso na graduação, fornecendo uma base sólida em disciplinas essenciais.",
       "p4": "Permite que você construa uma rede de contatos com outros estudantes internacionais e professores, facilitando sua integração."
     },
-
     "header": {
-    "title": "StudentAdvisor",
-    "features": "Features",
-    "testimonials": "Testimonials",
-    "contact": "Contact",
-    "language": "Language"
-  },
-
-  "footer": {
-    "contact": "Entre em Contato",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
-    "social": {
-      "followUs": "Siga-nos",
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram"
+      "title": "StudentAdvisor",
+      "features": "Features",
+      "testimonials": "Testimonials",
+      "contact": "Contact",
+      "language": "Language"
+    },
+    "footer": {
+      "contact": "Entre em Contato",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "social": {
+        "followUs": "Siga-nos",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram"
+      }
+    },
+    "contact": {
+      "title": "Entre em Contato Conosco",
+      "description": "Tem alguma dúvida ou precisa de mais informações? Preencha o formulário abaixo e entraremos em contato.",
+      "form": {
+        "name": "Seu Nome",
+        "email": "Seu Email",
+        "message": "Sua Mensagem",
+        "submit": "Enviar"
+      },
+      "successMessage": "Obrigado por entrar em contato! Responderemos o mais breve possível.",
+      "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
+    },
+    "aboutUs": {
+      "title": "Sobre Nós",
+      "description": "Somos uma equipe dedicada a ajudar estudantes internacionais a alcançarem seus objetivos acadêmicos no Reino Unido. Com anos de experiência, oferecemos consultoria personalizada, suporte na inscrição em universidades e orientação sobre financiamento estudantil.",
+      "mission": "Nossa missão é tornar o processo de estudar no Reino Unido acessível e descomplicado para todos os estudantes."
+    },
+    "bookMeeting": {
+      "title": "Agende uma Reunião",
+      "description": "Gostaria de discutir suas opções de estudo no Reino Unido? Agende uma reunião conosco para uma consulta personalizada.",
+      "form": {
+        "name": "Seu Nome",
+        "email": "Seu Email",
+        "date": "Data Preferida",
+        "time": "Hora Preferida",
+        "submit": "Agendar Reunião"
+      },
+      "successMessage": "Sua reunião foi agendada com sucesso! Entraremos em contato para confirmar os detalhes.",
+      "errorMessage": "Ocorreu um erro ao agendar sua reunião. Por favor, tente novamente mais tarde."
+    },
+    "notFound": {
+      "title": "Página Não Encontrada",
+      "description": "Desculpe, a página que você está procurando não existe.",
+      "goHome": "Voltar para o Início"
+    },
+    "aboutPage": {
+      "title": "Sobre Mim",
+      "profileAlt": "Gabriel Cachoeira",
+      "description": "Com anos de experiência em assessoria acadêmica e paixão por fotografia, ajudo estudantes a navegar em sua jornada educacional enquanto capturo os momentos mais extraordinários da vida. Minha combinação única de experiência em sistemas educacionais do Reino Unido e narrativa criativa me permite fornecer orientação e suporte abrangentes para toda a sua jornada.",
+      "experienceTitle": "Experiência",
+      "experienceItems": [
+        "3+ anos em Assessoria Acadêmica",
+        "100+ Estudantes Posicionados",
+        "Fotógrafo Profissional"
+      ],
+      "expertiseTitle": "Especialidades",
+      "expertiseItems": [
+        "Sistema Educacional do Reino Unido",
+        "Suporte Jurídico",
+        "Eventos e Fotografia"
+      ]
     }
-  },
-  "contact": {
-    "title": "Entre em Contato Conosco",
-    "description": "Tem alguma dúvida ou precisa de mais informações? Preencha o formulário abaixo e entraremos em contato.",
-    "form": {
-      "name": "Seu Nome",
-      "email": "Seu Email",
-      "message": "Sua Mensagem",
-      "submit": "Enviar"
-    },
-    "successMessage": "Obrigado por entrar em contato! Responderemos o mais breve possível.",
-    "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
-  },
-  "aboutUs": {
-    "title": "Sobre Nós",
-    "description": "Somos uma equipe dedicada a ajudar estudantes internacionais a alcançarem seus objetivos acadêmicos no Reino Unido. Com anos de experiência, oferecemos consultoria personalizada, suporte na inscrição em universidades e orientação sobre financiamento estudantil.",
-    "mission": "Nossa missão é tornar o processo de estudar no Reino Unido acessível e descomplicado para todos os estudantes."
-  },
-  "bookMeeting": {
-    "title": "Agende uma Reunião",
-    "description": "Gostaria de discutir suas opções de estudo no Reino Unido? Agende uma reunião conosco para uma consulta personalizada.",
-    "form": {
-      "name": "Seu Nome",
-      "email": "Seu Email",
-      "date": "Data Preferida",
-      "time": "Hora Preferida",
-      "submit": "Agendar Reunião"
-    },
-    "successMessage": "Sua reunião foi agendada com sucesso! Entraremos em contato para confirmar os detalhes.",
-    "errorMessage": "Ocorreu um erro ao agendar sua reunião. Por favor, tente novamente mais tarde."
-  },
-  "notFound": {
-    "title": "Página Não Encontrada",
-    "description": "Desculpe, a página que você está procurando não existe.",
-    "goHome": "Voltar para o Início"
   }
-} 
-}    
+}
