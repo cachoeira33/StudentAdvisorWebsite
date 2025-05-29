@@ -216,6 +216,253 @@
       "p1": "Un anno introduttivo per preparare gli studenti all’università.",
       "p2": "Include materie di base come matematica, inglese accademico e altre competenze chiave.",
       "p3": "Al termine sarai pronto per affrontare la tua laurea con maggiore sicurezza."
+    },
+    "benefits": {
+      "title": "Vantaggi del Foundation Year",
+      "p1": "Migliora le tue competenze accademiche e linguistiche.",
+      "p2": "Aumenta le tue possibilità di successo all’università.",
+      "p3": "Fornisce un supporto personalizzato per il tuo percorso educativo."
+    },
+    "cta": {
+      "title": "Pronto a Iniziare il Tuo Foundation Year?",
+      "description": "Contattaci per scoprire come possiamo aiutarti a prepararti per l’università nel Regno Unito.",
+      "button": "Prenota una consulenza"
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "description": "Hai domande o vuoi saperne di più sui nostri servizi? Siamo qui per aiutarti.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia"
+    },
+    "address": {
+      "title": "Indirizzo",
+      "line1": "123 Via Esempio",
+      "line2": "Città, CAP",
+      "country": "Italia"
+    },
+    "phone": {
+      "title": "Telefono",
+      "number": "+39 123 456 7890"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@example.com"
+    },
+    "social": {
+      "title": "Seguici sui Social",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "map": {
+      "title": "Trova la Nostra Sede",
+      "description": "Visita la nostra sede per una consulenza di persona. Siamo qui per aiutarti a realizzare i tuoi sogni accademici nel Regno Unito."
+    },
+    "thankYou": {
+      "title": "Grazie per averci contattato!",
+      "message": "Ti risponderemo al più presto."
+    },
+    "error": {
+      "title": "Errore",
+      "message": "Si è verificato un errore durante l'invio del modulo. Riprova più tardi."
+    },
+    "success": {
+      "title": "Successo",
+      "message": "Il tuo messaggio è stato inviato con successo. Ti contatteremo presto."
+    },
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "message": "I tuoi dati saranno trattati in conformità con la nostra informativa sulla privacy. Non condivideremo le tue informazioni con terze parti senza il tuo consenso."
+    },
+    "terms": {
+      "title": "Termini e Condizioni",
+      "message": "Utilizzando i nostri servizi, accetti i nostri termini e condizioni. Assicurati di leggerli attentamente."
+    },
+    "cookies": {
+      "title": "Informativa sui Cookie",
+      "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti l'uso dei cookie."
+    },
+    "newsletter": {
+      "title": "Iscriviti alla nostra Newsletter",
+      "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
+      "emailPlaceholder": "Inserisci la tua email",
+      "subscribeButton": "Iscriviti"
+    },
+    "feedback": {
+      "title": "Dacci il tuo feedback",
+      "description": "Ci piacerebbe sapere come possiamo migliorare i nostri servizi. Condividi la tua esperienza con noi.",
+      "rating": "Valutazione (es. da 1 a 5 stelle o scala numerica)",
+      "comments": "Commenti",
+      "submit": "Invia Feedback"
+    },
+    "location": {
+      "title": "La Nostra Sede",
+      "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
+      "mapLink": "https://www.google.com/maps"
+    },
+    "workingHours": {
+      "title": "Orari di Apertura",
+      "monday": "Lunedì: 9:00 - 18:00",
+      "tuesday": "Martedì: 9:00 - 18:00",
+      "wednesday": "Mercoledì: 9:00 - 18:00",
+      "thursday": "Giovedì: 9:00 - 18:00",
+      "friday": "Venerdì: 9:00 - 18:00",
+      "saturday": "Sabato: Chiuso",
+      "sunday": "Domenica: Chiuso"
+    },
+    "appointment": {
+      "title": "Prenota un Appuntamento",
+      "description": "Vuoi parlare con uno dei nostri consulenti? Prenota un appuntamento online.",
+      "form": {
+        "date": "Data",
+        "time": "Ora",
+        "submit": "Prenota"
+      },
+    "confirmation": {
+      "title": "Appuntamento Prenotato!",
+      "message": "Grazie per aver prenotato un appuntamento. Ti contatteremo per confermare i dettagli."
     }
   }
-}
+  },
+  "footer": {
+    "about": "Chi Siamo",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini e Condizioni",
+    "contact": "Contattaci",
+    "social": "Seguici sui Social",
+    "newsletter": "Iscriviti alla Newsletter"
+  },
+  "common": {
+    "loading": "Caricamento in corso...",
+    "error": "Si è verificato un errore. Riprova più tardi.",
+    "success": "Operazione completata con successo!",
+    "backToTop": "Torna su",
+    "learnMore": "Scopri di più",
+    "contactUs": "Contattaci",
+    "bookNow": "Prenota Ora"
+  },
+  "consultation": {
+    "title": "Prenota una Consulenza",
+    "description": "Parla con i nostri esperti per ricevere consigli personalizzati su come studiare nel Regno Unito.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefono",
+      "preferredDate": "Data Preferita",
+      "preferredTime": "Ora Preferita",
+      "message": "Messaggio",
+      "submit": "Invia Richiesta"
+    },
+    "confirmation": {
+      "title": "Richiesta di Consulenza Inviata!",
+      "message": "Grazie per aver prenotato una consulenza. Ti contatteremo presto per confermare i dettagli."
+    }
+  },
+  "errorPage": {
+    "title": "Pagina Non Trovata",
+    "message": "Sembra che la pagina che stai cercando non esista. Controlla l'URL o torna alla homepage.",
+    "backToHome": "Torna alla Home"
+  },
+  "successPage": {
+    "title": "Operazione Completata",
+    "message": "La tua richiesta è stata elaborata con successo. Grazie per averci contattato!",
+    "backToHome": "Torna alla Home"
+  },
+  "privacyPolicy": {
+    "title": "Informativa sulla Privacy",
+    "description": "La tua privacy è importante per noi. Questa informativa spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali.",
+    "sections": {
+      "dataCollection": {
+        "title": "Raccolta dei Dati",
+        "content": "Raccogliamo informazioni personali quando ci contatti, prenoti una consulenza o ti iscrivi alla nostra newsletter."
+      },
+      "dataUsage": {
+        "title": "Utilizzo dei Dati",
+        "content": "Utilizziamo i tuoi dati per fornirti i nostri servizi, rispondere alle tue domande e inviarti aggiornamenti."
+      },
+      "dataProtection": {
+        "title": "Protezione dei Dati",
+        "content": "Adottiamo misure di sicurezza per proteggere le tue informazioni personali da accessi non autorizzati."
+      },
+      "userRights": {
+        "title": "Diritti degli Utenti",
+        "content": "Hai il diritto di accedere, correggere o cancellare le tue informazioni personali in qualsiasi momento."
+      }
+    }
+  },
+  "termsConditions": {
+    "title": "Termini e Condizioni",
+    "description": "Questi termini e condizioni regolano l'uso dei nostri servizi. Utilizzando il nostro sito, accetti di rispettarli.",
+    "sections": {
+      "general": {
+        "title": "Condizioni Generali",
+        "content": "L'uso del nostro sito implica l'accettazione di questi termini. Se non sei d'accordo, ti preghiamo di non utilizzare il sito."
+      },
+      "services": {
+        "title": "Servizi Offerti",
+        "content": "Offriamo consulenze, supporto per le iscrizioni universitarie e assistenza per il finanziamento degli studi."
+      },
+      "liability": {
+        "title": "Limitazione di Responsabilità",
+        "content": "Non siamo responsabili per eventuali danni derivanti dall'uso del nostro sito o dei nostri servizi."
+      },
+      "modifications": {
+        "title": "Modifiche ai Termini",
+        "content": "Ci riserviamo il diritto di modificare questi termini in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina."
+      }
+    }
+  },
+  "cookiePolicy": {
+    "title": "Informativa sui Cookie",
+    "description": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Questa informativa spiega cosa sono i cookie e come li utilizziamo.",
+    "sections": {
+      "whatAreCookies": {
+        "title": "Cosa Sono i Cookie?",
+        "content": "I cookie sono piccoli file di testo che vengono memorizzati sul tuo dispositivo quando visiti un sito web."
+      },
+      "howWeUseCookies": {
+        "title": "Come Utilizziamo i Cookie",
+        "content": "Utilizziamo i cookie per analizzare il traffico del sito, personalizzare i contenuti e migliorare la tua esperienza utente."
+      },
+      "managingCookies": {
+        "title": "Gestione dei Cookie",
+        "content": "Puoi gestire le tue preferenze sui cookie attraverso le impostazioni del tuo browser. Tuttavia, disabilitare i cookie potrebbe influire sulla funzionalità del sito."
+      }
+    }
+  },
+  "newsletterSubscription": {
+    "title": "Iscriviti alla Newsletter",
+    "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
+    "form": {
+      "email": "Inserisci la tua email",
+      "subscribeButton": "Iscriviti"
+    },
+    "confirmation": {
+      "title": "Iscrizione Avvenuta!",
+      "message": "Grazie per esserti iscritto alla nostra newsletter. Riceverai presto le nostre comunicazioni."
+    }
+  },
+  "feedback": {
+    "title": "Il tuo feedback è importante per noi",
+    "description": "Ci piacerebbe sapere come possiamo migliorare i nostri servizi. Condividi la tua esperienza con noi.",
+    "form": {
+      "rating": "Valutazione",
+      "comments": "Commenti",
+      "submitFeedback": "Invia Feedback"
+    },
+    "confirmation": {
+      "title": "Grazie per il tuo feedback!",
+      "message": "Grazie per il tuo feedback. Lo utilizzeremo per migliorare i nostri servizi."
+    }
+  },
+  "locationDetails": {
+    "title": "La Nostra Sede",
+    "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
+    "mapLink": "https://www.google.com/maps"
+  }
+} 

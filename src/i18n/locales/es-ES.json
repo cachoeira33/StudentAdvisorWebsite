@@ -1,5 +1,6 @@
 {
-  "nav": {
+  "phoneNumber": "+44 0774543 2478",
+  "navigation": {
     "home": "Inicio",
     "about": "Sobre mí",
     "services": "Servicios",
@@ -217,5 +218,10 @@
       "p2": "Durante el curso se imparten materias como matemáticas, inglés académico y otros contenidos relevantes.",
       "p3": "Al finalizarlo, estarás preparado para comenzar tu grado con una base sólida."
     }
-  }
+
+  },
+  "shared": {
+    "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
+  },
+  "contact": "{{contact}}"
 }

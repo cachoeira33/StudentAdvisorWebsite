@@ -130,6 +130,139 @@
     "q24": {
       "question": "What is student life like in the UK?",
       "answer": "It’s culturally rich, with great student support, events, discounts, and facilities."
+    },
+    "q25": {
+      "question": "Can I work while studying?",
+      "answer": "Yes, most students can work part-time during their studies."
+    },
+    "q26": {
+      "question": "What if I need help with my application?",
+      "answer": "You can book a consultation with our advisors for personalized support."
+    },
+    "q27": {
+      "question": "How do I contact you for more information?",
+      "answer": "You can use the contact form on our website or book a meeting with an advisor."
+    },
+    "q28": {
+      "question": "Can I get funding for a Master's degree?",
+      "answer": "Yes, there are specific loans available for postgraduate courses."
+    },
+    "q29": {
+      "question": "What if I have a disability?",
+      "answer": "You can apply for additional support through Disabled Students' Allowances (DSAs)."
+    },
+    "q30": {
+      "question": "Can I apply for funding if I’m already studying?",
+      "answer": "Yes, you can apply for funding for the next academic year if you meet the criteria."
     }
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "social": {
+      "followUs": "Follow Us",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram"
+    },
+    "newsletter": {
+      "subscribe": "Subscribe to our Newsletter",
+      "emailPlaceholder": "Enter your email address",
+      "subscribeButton": "Subscribe"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are dedicated to helping students navigate the complexities of studying in the UK, from university applications to student finance and our mission is to provide clear, accessible information and personalized support to ensure your success in the UK education system.",
+    "team": "Meet Our Team",
+    "teamDescription": "Our experienced advisors are here to guide you every step of the way, ensuring you have the best possible experience."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions? We're here to help! Reach out to us via the contact form or book a meeting with one of our advisors.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "submit": "Send Message"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer a range of services to support your journey in the UK, including university application guidance, student finance advice"
+  },
+  "universities": {
+    "title": "UK Universities",
+    "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students.",
+    "cta": "Learn More About Universities"
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "description": "Hear from our students about their experiences studying in the UK and how we helped them achieve their goals.",
+    "cta": "Read More Testimonials"
+  },
+  "bookMeeting": {
+    "title": "Book a Meeting",
+    "description": "Schedule a one-on-one consultation with our advisors to discuss your study plans, student finance, and any other questions you may have.",
+    "cta": "Book Now"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Your privacy is important to us. Read our privacy policy to understand how we collect, use, and protect your personal information."
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "description": "By using our website, you agree to our terms of service. Please read them carefully to understand your rights and responsibilities."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for does not exist. Please check the URL or return to the home page.",
+    "cta": "Go to Home"
+  },
+  "loading": {
+    "message": "Loading, please wait..."
+  },
+  "success": {
+    "message": "Your request has been successfully submitted!"
+  },
+  "error": {
+    "message": "An error occurred. Please try again later."
+  },
+  "consultation": {
+    "title": "Book a Consultation",
+    "description": "Get personalized advice on studying in the UK, including university applications, student finance, and much more. Our experts are here to help you every step of the way.",
+    "cta": "Schedule Your Consultation"
+  },
+  "learnMore": {
+    "title": "Learn More",
+    "description": "Discover more about our services, the UK education system, and how we can assist you in achieving your academic goals."
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "description": "Subscribe to our newsletter for the latest news, tips, and resources related to studying in the UK.",
+    "subscribeButton": "Subscribe Now"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "description": "Our dedicated team of advisors is here to support you with their expertise and experience in UK education."
+  },
+  "consultationBooking": {
+    "title": "Book Your Consultation",
+    "description": "Choose a convenient time for your consultation with our expert advisors. We look forward to helping you with your study plans in the UK.",
+    "cta": "Select a Time"
+  },
+  "contactForm": {
+    "title": "Get in Touch",
+    "description": "We'd love to hear from you! Fill out the form below, and one of our advisors will get back to you as soon as possible.",
+    "namePlaceholder": "Your Name",
+    "emailPlaceholder": "Your Email",
+    "messagePlaceholder": "Your Message",
+    "submitButton": "Send Message"
+  }, 
+  "funding": {
+    "title": "Student Finance",
+    "description": "Learn about the financial support available for students in the UK, including tuition fee loans, maintenance loans, and additional funding options.",
+    "cta": "Explore Student Finance"
   }
 }
