@@ -3,7 +3,7 @@ import { GraduationCap, Building2, PiggyBank, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const ServicesPage = () => {
-  const { t } = useTranslation('services'); // Namespace 'services', ajuste conforme sua estrutura
+  const { t } = useTranslation();
 
   return (
     <div className="py-32 bg-neutral-950">

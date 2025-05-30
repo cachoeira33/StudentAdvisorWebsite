@@ -9,7 +9,7 @@ const Hero = () => {
 
   const handleConsultation = () => {
     // You can replace this with your actual booking logic
-    window.open('https://calendly.com/your-link', '_blank');
+    window.open('https://calendly.com/gabriielcachoeira/30min', '_blank');
   };
 
   const handleLearnMore = () => {
