@@ -26,7 +26,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex md:items-center md:space-x-8">
             <NavLink to="/">{t('nav.home')}</NavLink>
-            <NavLink to="/aboutPG">{t('nav.about')}</NavLink>
+            <NavLink to="/about">{t('nav.about')}</NavLink>
             <NavLink to="/services">{t('nav.services')}</NavLink>
             <NavLink to="/universities">{t('nav.universities')}</NavLink>
             <NavLink to="/foundation">{t('nav.foundation')}</NavLink>
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="md:hidden bg-black border-t border-neutral-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <MobileNavLink to="/">{t('nav.home')}</MobileNavLink>
-            <MobileNavLink to="/aboutPG">{t('nav.about')}</MobileNavLink>
+            <MobileNavLink to="/about">{t('nav.about')}</MobileNavLink>
             <MobileNavLink to="/services">{t('nav.services')}</MobileNavLink>
             <MobileNavLink to="/universities">{t('nav.universities')}</MobileNavLink>
             <MobileNavLink to="/student-finance">{t('nav.funding')}</MobileNavLink>
