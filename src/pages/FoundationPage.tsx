@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const AboutPG = () => {
-  const { t } = useTranslation('foundation');
+  const { t } = useTranslation();
 
   return (
     <div className="py-32 bg-neutral-950">
