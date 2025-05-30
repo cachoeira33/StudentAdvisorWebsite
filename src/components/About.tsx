@@ -7,8 +7,8 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="cachoeira33/StudentAdvisorWebsite/profile.png"
-              alt="Gabriel Cachoeira"
+              src="/profile.png" 
+              alt={t('aboutPage.profileAlt')}
               className="rounded-lg shadow-2xl"
             />
           </div>
