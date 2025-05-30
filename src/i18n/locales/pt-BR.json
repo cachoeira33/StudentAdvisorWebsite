@@ -16,7 +16,7 @@
     "description": "Descubra os benefícios de estudar no Reino Unido com orientação especializada sobre inscrições universitárias, financiamento estudantil e suporte à imigração.",
     "cta": {
       "consultation": "Agende uma Consulta",
-      "learnMore": "Saiba Mais"
+    "learnMore": "Saiba Mais"
     }
   },
   "sfe": {
@@ -288,12 +288,46 @@
           "Fotógrafo Profissional"
         ],
         "expertiseTitle": "Especialidades",
-          "expertiseItems": [
-            "Sistema Educacional do Reino Unido",
-            "Suporte Jurídico",
-            "Eventos e Fotografia"
-          ]
-        }
+        "expertiseItems": [
+          "Sistema Educacional do Reino Unido",
+          "Suporte Jurídico",
+          "Eventos e Fotografia"
+        ]
       }
     }
+  },
+  "our_services": "Nossos Serviços",
+  "personalized_consultancy": {
+    "title": "Consultoria Personalizada",
+    "description": "Receba orientação sobre qual universidade e curso são mais adequados aos seus objetivos e perfil. Levamos em conta sua formação acadêmica, aspirações profissionais e preferências pessoais para recomendar o caminho educacional perfeito."
+  },
+  "application_support": {
+    "title": "Apoio Completo na Inscrição",
+    "description": "Desde a escolha da instituição certa até a conclusão da sua matrícula e finalização dos detalhes. Guiamos você em cada etapa do processo de inscrição, garantindo que toda a documentação seja devidamente preparada e enviada."
+  },
+  "finance_support": {
+    "title": "Apoio Financeiro ao Estudante",
+    "description": "Auxílio na solicitação de empréstimos estudantis e de manutenção, com explicação detalhada das opções disponíveis. Ajudamos você a entender os aspectos financeiros de estudar no Reino Unido e maximizar suas oportunidades de financiamento."
+  },
+  "accommodation_support": {
+    "title": "Suporte em Acomodação e Logística",
+    "description": "Ajuda na busca por acomodações e informações sobre custos de vida no Reino Unido. Auxiliamos na procura de opções adequadas de moradia e no entendimento do custo de vida em diferentes cidades britânicas."
+  },
+  "why_choose_us": "Por que escolher nossos serviços?",
+  "expertise": {
+    "title": "Expertise e Experiência",
+    "description": "Com anos de experiência no ensino superior do Reino Unido, entendemos as complexidades do processo de inscrição e podemos ajudá-lo a navegar por elas com sucesso."
+  },
+  "personalized_approach": {
+    "title": "Atendimento Personalizado",
+    "description": "A jornada de cada estudante é única. Oferecemos orientação personalizada considerando suas circunstâncias e objetivos individuais."
+  },
+  "comprehensive_support": {
+    "title": "Apoio Abrangente",
+    "description": "Da consulta inicial à chegada no Reino Unido, estamos ao seu lado em todas as etapas, garantindo uma transição tranquila para sua nova vida acadêmica."
+  },
+  "ongoing_assistance": {
+    "title": "Assistência Contínua",
+    "description": "Nosso suporte não termina com sua aprovação. Continuamos a oferecer orientação durante toda a sua trajetória acadêmica no Reino Unido."
   }
+}

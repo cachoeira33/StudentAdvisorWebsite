@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import AboutPG from './pages/AboutPG';
 import ServicesPage from './pages/ServicesPage';
 import UniversitiesPage from './pages/UniversitiesPage';
 import FoundationPage from './pages/FoundationPage';
