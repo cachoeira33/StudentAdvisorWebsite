@@ -165,26 +165,6 @@
       "answer": "Sim, existem fundos adicionais para apoiar estudantes com necessidades especiais."
     }
   },
-  "services": {
-    "title": "Nossos Serviços",
-    "cards": {
-      "consultancy": {
-        "title": "Consultoria Personalizada",
-        "description": "Receba orientação sobre qual universidade e curso são mais adequados aos seus objetivos e perfil. Levamos em consideração sua formação acadêmica, aspirações profissionais e preferências pessoais para recomendar o caminho ideal."
-      },
-      "application": {
-        "title": "Suporte Completo à Inscrição",
-        "description": "Desde a escolha da instituição até a conclusão da matrícula e detalhes finais. Guiamos você em todas as etapas do processo de aplicação, garantindo que toda a documentação seja preparada e enviada corretamente."
-      },
-      "finance": {
-        "title": "Apoio com o Financiamento Estudantil",
-        "description": "Auxílio na solicitação de empréstimos estudantis e manutenção, com explicações claras sobre as opções disponíveis. Ajudamos você a entender os aspectos financeiros dos estudos no Reino Unido e a maximizar suas oportunidades de financiamento."
-      },
-      "accommodation": {
-        "title": "Apoio com Moradia e Logística",
-        "description": "Auxiliamos na busca por moradia e fornecemos informações sobre o custo de vida no Reino Unido. Ajudamos você a encontrar opções adequadas e entender os custos em diferentes cidades."
-      }
-    },
     "why": {
       "title": "Por que Escolher Nossos Serviços?",
       "expertise": {
@@ -330,4 +310,3 @@
       }
     }
   }
-}

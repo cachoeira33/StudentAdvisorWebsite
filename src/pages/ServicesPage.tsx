@@ -2,6 +2,8 @@ import React from 'react';
 import { GraduationCap, Building2, PiggyBank, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
+import Services from '../components/Services';
+import '../i18n'; // Ensure i18n is initialized
 
 const ServicesPage = () => {
   const { t, i18n } = useTranslation();
