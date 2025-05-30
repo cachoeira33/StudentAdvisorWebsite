@@ -1,9 +1,16 @@
 import React from 'react';
 import { GraduationCap, Building2, PiggyBank, MapPin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 const ServicesPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    i18n.changeLanguage('pt-BR');
+  }, [i18n]);
+
+  console.log('our_services:', t('our_services'))
+  console.log('personalized_consultancy.title:', t('personalized_consultancy.title'))
 
   return (
     <div className="py-32 bg-neutral-950">
