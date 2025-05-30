@@ -52,4 +52,4 @@ const About = () => {
   );
 };
 
-export default AboutPG;
+export default AboutPage;

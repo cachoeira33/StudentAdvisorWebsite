@@ -29,7 +29,6 @@ const Navbar = () => {
             <NavLink to="/about">{t('nav.about')}</NavLink>
             <NavLink to="/services">{t('nav.services')}</NavLink>
             <NavLink to="/universities">{t('nav.universities')}</NavLink>
-            <NavLink to="/foundation">{t('nav.foundation')}</NavLink>
             <NavLink to="/student-finance">{t('nav.funding')}</NavLink>
             <NavLink to="/contact">{t('nav.contact')}</NavLink>
             <NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>

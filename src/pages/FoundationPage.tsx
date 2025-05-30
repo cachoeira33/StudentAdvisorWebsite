@@ -84,4 +84,4 @@ const AboutPG = () => {
   );
 };
 
-export default AboutPG;
+export default AboutPage;
