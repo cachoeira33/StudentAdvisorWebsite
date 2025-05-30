@@ -382,5 +382,41 @@
     "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
     "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
   },
-  "imageAlt": "Students studying"
+  "imageAlt": "Students studying",
+  "our_services": {
+    "title": "Our Services"
+  },
+  "personalized_consultancy": {
+    "title": "Personalized Consultancy",
+    "description": "Receive guidance on which university and course are best suited to your goals and profile. We take into account your academic background, career aspirations, and personal preferences to recommend the perfect educational path."
+  },
+  "application_support": {
+    "title": "Complete Application Support",
+    "description": "From selecting the right institution to completing your enrollment and finalizing the details. We guide you through every step of the application process, ensuring all documentation is properly prepared and submitted."
+  },
+  "finance_support": {
+    "title": "Student Finance Support",
+    "description": "Assistance in applying for student loans and maintenance loans, with a thorough explanation of available options. We help you understand the financial aspects of studying in the UK and maximize your funding opportunities."
+  },
+  "accommodation_support": {
+    "title": "Accommodation and Logistics Support",
+    "description": "Help finding accommodation and providing information on living expenses in the UK. We assist you in finding suitable housing options and understanding the cost of living in different UK cities."
+  },
+  "why_choose_us": "Why Choose Our Services?",
+  "expertise": {
+    "title": "Expertise and Experience",
+    "description": "With years of experience in UK higher education, we understand the complexities of the application process and can help you navigate them successfully."
+  },
+  "personalized_approach": {
+    "title": "Personalized Approach",
+    "description": "Every student's journey is unique. We provide tailored guidance that considers your individual circumstances and goals."
+  },
+  "comprehensive_support": {
+    "title": "Comprehensive Support",
+    "description": "From initial consultation to arrival in the UK, we're with you every step of the way, ensuring a smooth transition to your new academic life."
+  },
+  "ongoing_assistance": {
+    "title": "Ongoing Assistance",
+    "description": "Our support doesn't end with your acceptance. We continue to provide guidance throughout your academic journey in the UK."
+  }
 }
