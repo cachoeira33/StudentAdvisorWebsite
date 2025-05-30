@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import profileImage from '../public/profile.png';
 
 const AboutPG = () => {
   const { t } = useTranslation();
@@ -11,10 +10,11 @@ const AboutPG = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src={profileImage}
+              src="/profile.png" alt={t('aboutPage.profileAlt')}
               alt={t('aboutPage.profileAlt')}
               className="rounded-lg shadow-2xl"
             />
+
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-serif text-white mb-6">
