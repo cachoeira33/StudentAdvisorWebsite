@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import profileImage from '../public/profile.png';
 
 const AboutPG = () => {
   const { t } = useTranslation();

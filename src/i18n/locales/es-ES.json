@@ -21,10 +21,12 @@
     }
   },
   "aboutPage": {
+    "title": "Sobre mí",
+    "subtitle": "Tu Experto en Educación Superior en el Reino Unido",
     "experienceItems": [
       {
         "title": "Experiencia en Educación Superior",
-        "description": "Más de 10 años ayudando a estudiantes a alcanzar sus metas académicas en el Reino Unido"
+        "description": "Más de 3 años ayudando a estudiantes a alcanzar sus metas académicas en el Reino Unido"
       },
       {
         "title": "Red de Universidades",
@@ -267,7 +269,9 @@
       "title": "¿Qué es un Año Fundacional?",
       "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
       "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
-      "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito."
+      "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito.",
+      "paragraph4": "Te permite construir una red de contactos con otros estudiantes internacionales y profesores, facilitando tu integración."
+
     },
     "imageAlt": "Estudiantes estudiando"
   }

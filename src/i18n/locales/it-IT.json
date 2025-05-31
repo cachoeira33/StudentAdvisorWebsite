@@ -21,514 +21,516 @@
     }
   },
   "aboutPage": {
-    "experienceItems": [
-      {
-        "title": "Esperienza nell'Istruzione Superiore",
-        "description": "Oltre 10 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
-      },
-      {
-        "title": "Network Universitario",
-        "description": "Collaborazioni consolidate con le principali università britanniche"
-      },
-      {
-        "title": "Successo Comprovato",
-        "description": "Migliaia di studenti soddisfatti che studiano nel Regno Unito"
-      }
-    ],
-    "expertiseItems": [
-      {
-        "title": "Ammissioni Universitarie",
-        "description": "Guida esperta nel processo di ammissione alle università britanniche"
-      },
-      {
-        "title": "Finanziamenti per gli Studi",
-        "description": "Consulenza completa sulle opzioni di finanziamento e borse di studio"
-      },
-      {
-        "title": "Supporto all'Immigrazione",
-        "description": "Assistenza con visti e requisiti di immigrazione"
-      },
-      {
-        "title": "Orientamento Accademico",
-        "description": "Consigli personalizzati per scegliere il corso più adatto"
-      }
-    ]
+    "title": "Sobre mí",
+    "subtitle": "Tu Experto en Educación Superior en el Reino Unido"
   },
-  "sfe": {
-    "title": "Vantaggi del Student Finance England",
-    "subtitle": "Supporto finanziario per i tuoi studi",
-    "tuitionLoan": "Prestito per le tasse universitarie",
-    "tuitionDesc": "Copre il costo dell'università con un prestito da rimborsare solo dopo la laurea.",
-    "maintenanceLoan": "Prestito per il mantenimento",
-    "maintenanceDesc": "Supporto economico per le spese quotidiane durante gli studi.",
-    "repayment": "Rimborso flessibile",
-    "repaymentDesc": "Paghi solo quando guadagni oltre una certa soglia.",
-    "additional": "Supporto aggiuntivo",
-    "additionalDesc": "Finanziamenti extra disponibili per studenti con disabilità o persone a carico."
+  "experienceItems": [
+    {
+      "title": "Esperienza nell'Istruzione Superiore",
+      "description": "Oltre 3 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
+    },
+    {
+      "title": "Network Universitario",
+      "description": "Collaborazioni consolidate con le principali università britanniche"
+    },
+    {
+      "title": "Successo Comprovato",
+      "description": "Migliaia di studenti soddisfatti che studiano nel Regno Unito"
+    }
+  ],
+  "expertiseItems": [
+    {
+      "title": "Ammissioni Universitarie",
+      "description": "Guida esperta nel processo di ammissione alle università britanniche"
+    },
+    {
+      "title": "Finanziamenti per gli Studi",
+      "description": "Consulenza completa sulle opzioni di finanziamento e borse di studio"
+    },
+    {
+      "title": "Supporto all'Immigrazione",
+      "description": "Assistenza con visti e requisiti di immigrazione"
+    },
+    {
+      "title": "Orientamento Accademico",
+      "description": "Consigli personalizzati per scegliere il corso più adatto"
+    }
+  ],
+"sfe": {
+  "title": "Vantaggi del Student Finance England",
+  "subtitle": "Supporto finanziario per i tuoi studi",
+  "tuitionLoan": "Prestito per le tasse universitarie",
+  "tuitionDesc": "Copre il costo dell'università con un prestito da rimborsare solo dopo la laurea.",
+  "maintenanceLoan": "Prestito per il mantenimento",
+  "maintenanceDesc": "Supporto economico per le spese quotidiane durante gli studi.",
+  "repayment": "Rimborso flessibile",
+  "repaymentDesc": "Paghi solo quando guadagni oltre una certa soglia.",
+  "additional": "Supporto aggiuntivo",
+  "additionalDesc": "Finanziamenti extra disponibili per studenti con disabilità o persone a carico."
+},
+"faq": {
+  "title": "Domande Frequenti su Studiare in Inghilterra",
+  "search": "Cerca una domanda...",
+  "q1": {
+    "question": "Cos'è il Student Finance?",
+    "answer": "È un sistema di finanziamento del governo britannico che copre le tasse universitarie e offre supporto per le spese di vita."
   },
-  "faq": {
-    "title": "Domande Frequenti su Studiare in Inghilterra",
-    "search": "Cerca una domanda...",
-    "q1": {
-      "question": "Cos'è il Student Finance?",
-      "answer": "È un sistema di finanziamento del governo britannico che copre le tasse universitarie e offre supporto per le spese di vita."
+  "q2": {
+    "question": "Chi può richiedere il Student Finance?",
+    "answer": "Cittadini britannici, residenti con status settled o pre-settled, e cittadini UE con residenza legale nel Regno Unito."
+  },
+  "q3": {
+    "question": "Cos'è il pre-settled status?",
+    "answer": "È un permesso di soggiorno temporaneo nel Regno Unito, concesso ai cittadini dell'UE arrivati prima del 31/12/2020."
+  },
+  "q4": {
+    "question": "Qual è la differenza tra settled e pre-settled?",
+    "answer": "Settled è una residenza permanente; pre-settled è temporanea. Entrambi permettono di richiedere il Student Finance, ma con differenze."
+  },
+  "q5": {
+    "question": "Posso studiare con il Foundation Year?",
+    "answer": "Sì. Il Foundation Year è un anno preparatorio e può essere finanziato con il Student Finance."
+  },
+  "q6": {
+    "question": "Cos'è il Foundation Year?",
+    "answer": "È un corso introduttivo di un anno per preparare gli studenti che non hanno i requisiti per accedere direttamente all'università."
+  },
+  "q7": {
+    "question": "Quanto costa studiare in Inghilterra?",
+    "answer": "Fino a £9.250 all'anno, ma il Student Finance copre questo costo se hai i requisiti."
+  },
+  "q8": {
+    "question": "Devo restituire il prestito?",
+    "answer": "Sì, ma solo quando superi la soglia minima di reddito. Il rimborso è proporzionato al tuo stipendio."
+  },
+  "q9": {
+    "question": "Quanto ricevo per vivere (maintenance loan)?",
+    "answer": "Dipende dal reddito familiare e dalla città in cui vivi. A Londra può superare £12.000 all'anno."
+  },
+  "q10": {
+    "question": "Come si richiede il Student Finance?",
+    "answer": "La domanda si fa online sul sito del governo britannico: www.gov.uk/student-finance"
+  },
+  "q11": {
+    "question": "Ho bisogno di un visto per studiare?",
+    "answer": "Se hai lo status settled o pre-settled, non hai bisogno di un visto per studiare nel Regno Unito."
+  },
+  "q12": {
+    "question": "Posso lavorare mentre studio?",
+    "answer": "Sì, puoi lavorare part-time fino a 20 ore settimanali durante i corsi."
+  },
+  "q13": {
+    "question": "Come scelgo un'università in Inghilterra?",
+    "answer": "Considera posizione, costi, reputazione, classifica del corso e supporto per studenti internazionali."
+  },
+  "q14": {
+    "question": "Quando iniziano le lezioni nel Regno Unito?",
+    "answer": "Generalmente a settembre o ottobre."
+  },
+  "q15": {
+    "question": "E se abbandono gli studi? Devo pagare lo stesso?",
+    "answer": "Paghi solo per il periodo in cui hai studiato. Il resto del prestito non viene erogato."
+  },
+  "q16": {
+    "question": "Come si rimborsa il prestito?",
+    "answer": "Solo quando guadagni più della soglia prevista. Il rimborso viene detratto automaticamente dallo stipendio."
+  },
+  "q17": {
+    "question": "Posso avere finanziamenti per i master?",
+    "answer": "Il Student Finance copre lauree e Foundation Year. Per i master, esistono opzioni specifiche."
+  },
+  "q18": {
+    "question": "Cosa succede se cambio indirizzo?",
+    "answer": "Devi aggiornare i tuoi dati sul portale Student Finance per evitare problemi nei pagamenti."
+  },
+  "q19": {
+    "question": "Qual è la scadenza per fare domanda?",
+    "answer": "Devi presentare domanda prima dell'inizio del corso. Controlla sempre le date sul sito ufficiale."
+  },
+  "q20": {
+    "question": "Cosa sono maintenance loan e maintenance grant?",
+    "answer": "Il maintenance loan è un prestito per il mantenimento, da rimborsare. Il grant (poco comune) è un contributo a fondo perduto."
+  },
+  "q21": {
+    "question": "Con il pre-settled status posso studiare qualsiasi corso?",
+    "answer": "Sì, ma verifica sempre i requisiti specifici di ogni università."
+  },
+  "q22": {
+    "question": "Posso avere una borsa di studio oltre al Student Finance?",
+    "answer": "Sì, molte borse di studio sono compatibili con il Student Finance."
+  },
+  "q23": {
+    "question": "Come dimostro il mio reddito?",
+    "answer": "Puoi presentare buste paga, dichiarazioni dei redditi o documenti che attestano i tuoi guadagni o benefici."
+  },
+  "q24": {
+    "question": "Esiste supporto per studenti con disabilità?",
+    "answer": "Sì, esistono finanziamenti e servizi specifici per studenti con esigenze particolari."
+  }
+},
+"services": {
+  "title": "I Nostri Servizi",
+  "cards": {
+    "consultancy": {
+      "title": "Consulenza Personalizzata",
+      "description": "Ti aiutiamo a trovare il corso e l'università più adatti ai tuoi obiettivi e al tuo profilo."
     },
-    "q2": {
-      "question": "Chi può richiedere il Student Finance?",
-      "answer": "Cittadini britannici, residenti con status settled o pre-settled, e cittadini UE con residenza legale nel Regno Unito."
+    "application": {
+      "title": "Supporto nelle Iscrizioni",
+      "description": "Ti accompagniamo passo dopo passo, dalla scelta del corso all'iscrizione definitiva."
     },
-    "q3": {
-      "question": "Cos'è il pre-settled status?",
-      "answer": "È un permesso di soggiorno temporaneo nel Regno Unito, concesso ai cittadini dell'UE arrivati prima del 31/12/2020."
+    "finance": {
+      "title": "Supporto per il Finanziamento",
+      "description": "Ti aiutiamo a richiedere il Student Finance e a comprendere tutte le tue opzioni economiche."
     },
-    "q4": {
-      "question": "Qual è la differenza tra settled e pre-settled?",
-      "answer": "Settled è una residenza permanente; pre-settled è temporanea. Entrambi permettono di richiedere il Student Finance, ma con differenze."
-    },
-    "q5": {
-      "question": "Posso studiare con il Foundation Year?",
-      "answer": "Sì. Il Foundation Year è un anno preparatorio e può essere finanziato con il Student Finance."
-    },
-    "q6": {
-      "question": "Cos'è il Foundation Year?",
-      "answer": "È un corso introduttivo di un anno per preparare gli studenti che non hanno i requisiti per accedere direttamente all'università."
-    },
-    "q7": {
-      "question": "Quanto costa studiare in Inghilterra?",
-      "answer": "Fino a £9.250 all'anno, ma il Student Finance copre questo costo se hai i requisiti."
-    },
-    "q8": {
-      "question": "Devo restituire il prestito?",
-      "answer": "Sì, ma solo quando superi la soglia minima di reddito. Il rimborso è proporzionato al tuo stipendio."
-    },
-    "q9": {
-      "question": "Quanto ricevo per vivere (maintenance loan)?",
-      "answer": "Dipende dal reddito familiare e dalla città in cui vivi. A Londra può superare £12.000 all'anno."
-    },
-    "q10": {
-      "question": "Come si richiede il Student Finance?",
-      "answer": "La domanda si fa online sul sito del governo britannico: www.gov.uk/student-finance"
-    },
-    "q11": {
-      "question": "Ho bisogno di un visto per studiare?",
-      "answer": "Se hai lo status settled o pre-settled, non hai bisogno di un visto per studiare nel Regno Unito."
-    },
-    "q12": {
-      "question": "Posso lavorare mentre studio?",
-      "answer": "Sì, puoi lavorare part-time fino a 20 ore settimanali durante i corsi."
-    },
-    "q13": {
-      "question": "Come scelgo un'università in Inghilterra?",
-      "answer": "Considera posizione, costi, reputazione, classifica del corso e supporto per studenti internazionali."
-    },
-    "q14": {
-      "question": "Quando iniziano le lezioni nel Regno Unito?",
-      "answer": "Generalmente a settembre o ottobre."
-    },
-    "q15": {
-      "question": "E se abbandono gli studi? Devo pagare lo stesso?",
-      "answer": "Paghi solo per il periodo in cui hai studiato. Il resto del prestito non viene erogato."
-    },
-    "q16": {
-      "question": "Come si rimborsa il prestito?",
-      "answer": "Solo quando guadagni più della soglia prevista. Il rimborso viene detratto automaticamente dallo stipendio."
-    },
-    "q17": {
-      "question": "Posso avere finanziamenti per i master?",
-      "answer": "Il Student Finance copre lauree e Foundation Year. Per i master, esistono opzioni specifiche."
-    },
-    "q18": {
-      "question": "Cosa succede se cambio indirizzo?",
-      "answer": "Devi aggiornare i tuoi dati sul portale Student Finance per evitare problemi nei pagamenti."
-    },
-    "q19": {
-      "question": "Qual è la scadenza per fare domanda?",
-      "answer": "Devi presentare domanda prima dell'inizio del corso. Controlla sempre le date sul sito ufficiale."
-    },
-    "q20": {
-      "question": "Cosa sono maintenance loan e maintenance grant?",
-      "answer": "Il maintenance loan è un prestito per il mantenimento, da rimborsare. Il grant (poco comune) è un contributo a fondo perduto."
-    },
-    "q21": {
-      "question": "Con il pre-settled status posso studiare qualsiasi corso?",
-      "answer": "Sì, ma verifica sempre i requisiti specifici di ogni università."
-    },
-    "q22": {
-      "question": "Posso avere una borsa di studio oltre al Student Finance?",
-      "answer": "Sì, molte borse di studio sono compatibili con il Student Finance."
-    },
-    "q23": {
-      "question": "Come dimostro il mio reddito?",
-      "answer": "Puoi presentare buste paga, dichiarazioni dei redditi o documenti che attestano i tuoi guadagni o benefici."
-    },
-    "q24": {
-      "question": "Esiste supporto per studenti con disabilità?",
-      "answer": "Sì, esistono finanziamenti e servizi specifici per studenti con esigenze particolari."
+    "accommodation": {
+      "title": "Aiuto con Alloggio e Logistica",
+      "description": "Consigli pratici su come trovare casa e pianificare il costo della vita nel Regno Unito."
     }
   },
-  "services": {
-    "title": "I Nostri Servizi",
-    "cards": {
-      "consultancy": {
-        "title": "Consulenza Personalizzata",
-        "description": "Ti aiutiamo a trovare il corso e l'università più adatti ai tuoi obiettivi e al tuo profilo."
-      },
-      "application": {
-        "title": "Supporto nelle Iscrizioni",
-        "description": "Ti accompagniamo passo dopo passo, dalla scelta del corso all'iscrizione definitiva."
-      },
-      "finance": {
-        "title": "Supporto per il Finanziamento",
-        "description": "Ti aiutiamo a richiedere il Student Finance e a comprendere tutte le tue opzioni economiche."
-      },
-      "accommodation": {
-        "title": "Aiuto con Alloggio e Logistica",
-        "description": "Consigli pratici su come trovare casa e pianificare il costo della vita nel Regno Unito."
-      }
+  "why": {
+    "title": "Perché Sceglierci?",
+    "expertise": {
+      "title": "Esperienza nel Settore",
+      "description": "Anni di esperienza nel sistema educativo britannico per guidarti al meglio."
     },
-    "why": {
-      "title": "Perché Sceglierci?",
-      "expertise": {
-        "title": "Esperienza nel Settore",
-        "description": "Anni di esperienza nel sistema educativo britannico per guidarti al meglio."
-      },
-      "personalized": {
-        "title": "Approccio Personalizzato",
-        "description": "Ogni studente è unico. Offriamo assistenza su misura per i tuoi obiettivi."
-      },
-      "support": {
-        "title": "Supporto Completo",
-        "description": "Dal primo contatto fino all'arrivo in UK, ti siamo vicini in ogni fase."
-      },
-      "ongoing": {
-        "title": "Assistenza Continuativa",
-        "description": "Restiamo a tua disposizione anche dopo l'iscrizione, per garantire una buona esperienza accademica."
-      }
+    "personalized": {
+      "title": "Approccio Personalizzato",
+      "description": "Ogni studente è unico. Offriamo assistenza su misura per i tuoi obiettivi."
+    },
+    "support": {
+      "title": "Supporto Completo",
+      "description": "Dal primo contatto fino all'arrivo in UK, ti siamo vicini in ogni fase."
+    },
+    "ongoing": {
+      "title": "Assistenza Continuativa",
+      "description": "Restiamo a tua disposizione anche dopo l'iscrizione, per garantire una buona esperienza accademica."
+    }
+  }
+},
+"universities": {
+  "title": "Università Partner",
+  "why": {
+    "title": "Perché Scegliere le Nostre Università?",
+    "quality": {
+      "title": "Istruzione di Qualità",
+      "description": "Università riconosciute per l'eccellenza accademica e l'ambiente internazionale."
+    },
+    "career": {
+      "title": "Opportunità Lavorative",
+      "description": "Collegamenti con il mondo del lavoro e servizi di carriera per il post-laurea."
+    },
+    "support": {
+      "title": "Supporto per Studenti",
+      "description": "Servizi dedicati a studenti internazionali, inclusi supporto linguistico e orientamento culturale."
     }
   },
-  "universities": {
-    "title": "Università Partner",
-    "why": {
-      "title": "Perché Scegliere le Nostre Università?",
-      "quality": {
-        "title": "Istruzione di Qualità",
-        "description": "Università riconosciute per l'eccellenza accademica e l'ambiente internazionale."
-      },
-      "career": {
-        "title": "Opportunità Lavorative",
-        "description": "Collegamenti con il mondo del lavoro e servizi di carriera per il post-laurea."
-      },
-      "support": {
-        "title": "Supporto per Studenti",
-        "description": "Servizi dedicati a studenti internazionali, inclusi supporto linguistico e orientamento culturale."
-      }
+  "programs": "Corsi Principali:"
+},
+"about": {
+  "title": "Corsi Foundation Year",
+  "who": {
+    "title": "Chi Può Beneficiare del Foundation Year?",
+    "general": "Ideale per chi vuole studiare nel Regno Unito ma non ha i requisiti d'ingresso diretti.",
+    "students": {
+      "title": "Studenti con Studi Limitati",
+      "description": "Ti manca il livello accademico richiesto? Questo corso ti prepara per l'università."
     },
-    "programs": "Corsi Principali:"
-  },
-  "about": {
-    "title": "Corsi Foundation Year",
-    "who": {
-      "title": "Chi Può Beneficiare del Foundation Year?",
-      "general": "Ideale per chi vuole studiare nel Regno Unito ma non ha i requisiti d'ingresso diretti.",
-      "students": {
-        "title": "Studenti con Studi Limitati",
-        "description": "Ti manca il livello accademico richiesto? Questo corso ti prepara per l'università."
-      },
-      "professionals": {
-        "title": "Professionisti che Tornano a Studiare",
-        "description": "Dopo una pausa dagli studi, il Foundation Year aiuta a rientrare nel mondo accademico."
-      },
-      "immigrants": {
-        "title": "Studenti Immigrati",
-        "description": "Per chi è appena arrivato nel Regno Unito e ha bisogno di adattarsi al sistema locale."
-      },
-      "nontraditional": {
-        "title": "Studenti Non Tradizionali",
-        "description": "Hai qualifiche estere non riconosciute? Questo è il tuo trampolino per accedere all'università."
-      }
+    "professionals": {
+      "title": "Professionisti che Tornano a Studiare",
+      "description": "Dopo una pausa dagli studi, il Foundation Year aiuta a rientrare nel mondo accademico."
     },
-    "whatIs": {
-      "title": "Cos'è un Foundation Year?",
-      "p1": "Un anno introduttivo per preparare gli studenti all'università.",
-      "p2": "Include materie di base come matematica, inglese accademico e altre competenze chiave.",
-      "p3": "Al termine sarai pronto per affrontare la tua laurea con maggiore sicurezza."
+    "immigrants": {
+      "title": "Studenti Immigrati",
+      "description": "Per chi è appena arrivato nel Regno Unito e ha bisogno di adattarsi al sistema locale."
     },
-    "benefits": {
-      "title": "Vantaggi del Foundation Year",
-      "p1": "Migliora le tue competenze accademiche e linguistiche.",
-      "p2": "Aumenta le tue possibilità di successo all'università.",
-      "p3": "Fornisce un supporto personalizzato per il tuo percorso educativo."
-    },
-    "cta": {
-      "title": "Pronto a Iniziare il Tuo Foundation Year?",
-      "description": "Contattaci per scoprire come possiamo aiutarti a prepararti per l'università nel Regno Unito.",
-      "button": "Prenota una consulenza"
+    "nontraditional": {
+      "title": "Studenti Non Tradizionali",
+      "description": "Hai qualifiche estere non riconosciute? Questo è il tuo trampolino per accedere all'università."
     }
   },
-  "contactForm": {
-    "title": "Contattaci",
-    "description": "Hai domande o vuoi saperne di più sui nostri servizi? Siamo qui per aiutarti.",
-    "form": {
-      "name": "Nome",
-      "email": "Email",
-      "message": "Messaggio",
-      "submit": "Invia"
-    },
-    "address": {
-      "title": "Indirizzo",
-      "line1": "123 Via Esempio",
-      "line2": "Città, CAP",
-      "country": "Italia"
-    },
-    "phone": {
-      "title": "Telefono",
-      "number": "+39 123 456 7890"
-    },
-    "email": {
-      "title": "Email",
-      "address": "info@example.com"
-    },
-    "social": {
-      "title": "Seguici sui Social",
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram",
-      "linkedin": "LinkedIn"
-    },
-    "map":  {
-      "title": "Trova la Nostra Sede",
-      "description": "Visita la nostra sede per una consulenza di persona. Siamo qui per aiutarti a realizzare i tuoi sogni accademici nel Regno Unito."
-    },
-    "thankYou": {
-      "title": "Grazie per averci contattato!",
-      "message": "Ti risponderemo al più presto."
-    },
-    "error": {
-      "title": "Errore",
-      "message": "Si è verificato un errore durante l'invio del modulo. Riprova più tardi."
-    },
-    "success": {
-      "title": "Successo",
-      "message": "Il tuo messaggio è stato inviato con successo. Ti contatteremo presto."
-    },
-    "privacy": {
-      "title": "Informativa sulla Privacy",
-      "message": "I tuoi dati saranno trattati in conformità con la nostra informativa sulla privacy. Non condivideremo le tue informazioni con terze parti senza il tuo consenso."
-    },
-    "terms": {
-      "title": "Termini e Condizioni",
-      "message": "Utilizzando i nostri servizi, accetti i nostri termini e condizioni. Assicurati di leggerli attentamente."
-    },
-    "cookies": {
-      "title": "Informativa sui Cookie",
-      "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti l'uso dei cookie."
-    }
+  "whatIs": {
+    "title": "Cos'è un Foundation Year?",
+    "p1": "Un anno introduttivo per preparare gli studenti all'università.",
+    "p2": "Include materie di base come matematica, inglese accademico e altre competenze chiave.",
+    "p3": "Al termine sarai pronto per affrontare la tua laurea con maggiore sicurezza."
   },
-  "contact": {
-    "newsletter": {
-      "title": "Iscriviti alla nostra Newsletter",
-      "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
-      "emailPlaceholder": "Inserisci la tua email",
-      "subscribeButton": "Iscriviti"
-    },
-    "feedback": {
-      "title": "Dacci il tuo feedback",
-      "description": "Ci piacerebbe sapere come possiamo migliorare i nostri servizi. Condividi la tua esperienza con noi.",
-      "rating": "Valutazione (es. da 1 a 5 stelle o scala numerica)",
-      "comments": "Commenti",
-      "submit": "Invia Feedback"
-    },
-    "location": {
-      "title": "La Nostra Sede",
-      "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
-      "mapLink": "https://www.google.com/maps"
-    },
-    "workingHours": {
-      "title": "Orari di Apertura",
-      "monday": "Lunedì: 9:00 - 18:00",
-      "tuesday": "Martedì: 9:00 - 18:00",
-      "wednesday": "Mercoledì: 9:00 - 18:00",
-      "thursday": "Giovedì: 9:00 - 18:00",
-      "friday": "Venerdì: 9:00 - 18:00",
-      "saturday": "Sabato: Chiuso",
-      "sunday": "Domenica: Chiuso"
-    },
-    "appointment": {
-      "title": "Prenota un Appuntamento",
-      "description": "Vuoi parlare con uno dei nostri consulenti? Prenota un appuntamento online.",
-      "form": {
-        "date": "Data",
-        "time": "Ora",
-        "submit": "Prenota"
-      },
-      "confirmation": {
-        "title": "Appuntamento Prenotato!",
-        "message": "Grazie per aver prenotato un appuntamento. Ti contatteremo per confermare i dettagli."
-      }
-    }
+  "benefits": {
+    "title": "Vantaggi del Foundation Year",
+    "p1": "Migliora le tue competenze accademiche e linguistiche.",
+    "p2": "Aumenta le tue possibilità di successo all'università.",
+    "p3": "Fornisce un supporto personalizzato per il tuo percorso educativo."
   },
-  "footer": {
-    "about": "Chi Siamo",
-    "privacy": "Informativa sulla Privacy",
-    "terms": "Termini e Condizioni",
-    "contact": "Contattaci",
-    "social": "Seguici sui Social",
-    "newsletter": "Iscriviti alla Newsletter"
+  "cta": {
+    "title": "Pronto a Iniziare il Tuo Foundation Year?",
+    "description": "Contattaci per scoprire come possiamo aiutarti a prepararti per l'università nel Regno Unito.",
+    "button": "Prenota una consulenza"
+  }
+},
+"contactForm": {
+  "title": "Contattaci",
+  "description": "Hai domande o vuoi saperne di più sui nostri servizi? Siamo qui per aiutarti.",
+  "form": {
+    "name": "Nome",
+    "email": "Email",
+    "message": "Messaggio",
+    "submit": "Invia"
   },
-  "common": {
-    "loading": "Caricamento in corso...",
-    "error": "Si è verificato un errore. Riprova più tardi.",
-    "success": "Operazione completata con successo!",
-    "backToTop": "Torna su",
-    "learnMore": "Scopri di più",
-    "contactUs": "Contattaci",
-    "bookNow": "Prenota Ora"
+  "address": {
+    "title": "Indirizzo",
+    "line1": "123 Via Esempio",
+    "line2": "Città, CAP",
+    "country": "Italia"
   },
-  "consultation": {
-    "title": "Prenota una Consulenza",
-    "description": "Parla con i nostri esperti per ricevere consigli personalizzati su come studiare nel Regno Unito.",
-    "form": {
-      "name": "Nome",
-      "email": "Email",
-      "phone": "Telefono",
-      "preferredDate": "Data Preferita",
-      "preferredTime": "Ora Preferita",
-      "message": "Messaggio",
-      "submit": "Invia Richiesta"
-    },
-    "confirmation": {
-      "title": "Richiesta di Consulenza Inviata!",
-      "message": "Grazie per aver prenotato una consulenza. Ti contatteremo presto per confermare i dettagli."
-    }
+  "phone": {
+    "title": "Telefono",
+    "number": "+39 123 456 7890"
   },
-  "errorPage": {
-    "title": "Pagina Non Trovata",
-    "message": "Sembra che la pagina che stai cercando non esista. Controlla l'URL o torna alla homepage.",
-    "backToHome": "Torna alla Home"
+  "email": {
+    "title": "Email",
+    "address": "info@example.com"
   },
-  "successPage": {
-    "title": "Operazione Completata",
-    "message": "La tua richiesta è stata elaborata con successo. Grazie per averci contattato!",
-    "backToHome": "Torna alla Home"
+  "social": {
+    "title": "Seguici sui Social",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn"
   },
-  "privacyPolicy": {
+  "map": {
+    "title": "Trova la Nostra Sede",
+    "description": "Visita la nostra sede per una consulenza di persona. Siamo qui per aiutarti a realizzare i tuoi sogni accademici nel Regno Unito."
+  },
+  "thankYou": {
+    "title": "Grazie per averci contattato!",
+    "message": "Ti risponderemo al più presto."
+  },
+  "error": {
+    "title": "Errore",
+    "message": "Si è verificato un errore durante l'invio del modulo. Riprova più tardi."
+  },
+  "success": {
+    "title": "Successo",
+    "message": "Il tuo messaggio è stato inviato con successo. Ti contatteremo presto."
+  },
+  "privacy": {
     "title": "Informativa sulla Privacy",
-    "description": "La tua privacy è importante per noi. Questa informativa spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali.",
-    "sections": {
-      "dataCollection": {
-        "title": "Raccolta dei Dati",
-        "content": "Raccogliamo informazioni personali quando ci contatti, prenoti una consulenza o ti iscrivi alla nostra newsletter."
-      },
-      "dataUsage": {
-        "title": "Utilizzo dei Dati",
-        "content": "Utilizziamo i tuoi dati per fornirti i nostri servizi, rispondere alle tue domande e inviarti aggiornamenti."
-      },
-      "dataProtection": {
-        "title": "Protezione dei Dati",
-        "content": "Adottiamo misure di sicurezza per proteggere le tue informazioni personali da accessi non autorizzati."
-      },
-      "userRights": {
-        "title": "Diritti degli Utenti",
-        "content": "Hai il diritto di accedere, correggere o cancellare le tue informazioni personali in qualsiasi momento."
-      }
-    }
+    "message": "I tuoi dati saranno trattati in conformità con la nostra informativa sulla privacy. Non condivideremo le tue informazioni con terze parti senza il tuo consenso."
   },
-  "termsConditions": {
+  "terms": {
     "title": "Termini e Condizioni",
-    "description": "Questi termini e condizioni regolano l'uso dei nostri servizi. Utilizzando il nostro sito, accetti di rispettarli.",
-    "sections": {
-      "general": {
-        "title": "Condizioni Generali",
-        "content": "L'uso del nostro sito implica l'accettazione di questi termini. Se non sei d'accordo, ti preghiamo di non utilizzare il sito."
-      },
-      "services": {
-        "title": "Servizi Offerti",
-        "content": "Offriamo consulenze, supporto per le iscrizioni universitarie e assistenza per il finanziamento degli studi."
-      },
-      "liability": {
-        "title": "Limitazione di Responsabilità",
-        "content": "Non siamo responsabili per eventuali danni derivanti dall'uso del nostro sito o dei nostri servizi."
-      },
-      "modifications": {
-        "title": "Modifiche ai Termini",
-        "content": "Ci riserviamo il diritto di modificare questi termini in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina."
-      }
-    }
+    "message": "Utilizzando i nostri servizi, accetti i nostri termini e condizioni. Assicurati di leggerli attentamente."
   },
-  "cookiePolicy": {
+  "cookies": {
     "title": "Informativa sui Cookie",
-    "description": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Questa informativa spiega cosa sono i cookie e come li utilizziamo.",
-    "sections": {
-      "whatAreCookies": {
-        "title": "Cosa Sono i Cookie?",
-        "content": "I cookie sono piccoli file di testo che vengono memorizzati sul tuo dispositivo quando visiti un sito web."
-      },
-      "howWeUseCookies": {
-        "title": "Come Utilizziamo i Cookie",
-        "content": "Utilizziamo i cookie per analizzare il traffico del sito, personalizzare i contenuti e migliorare la tua esperienza utente."
-      },
-      "managingCookies": {
-        "title": "Gestione dei Cookie",
-        "content": "Puoi gestire le tue preferenze sui cookie attraverso le impostazioni del tuo browser. Tuttavia, disabilitare i cookie potrebbe influire sulla funzionalità del sito."
-      }
-    }
-  },
-  "newsletterSubscription": {
-    "title": "Iscriviti alla Newsletter",
+    "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti l'uso dei cookie."
+  }
+},
+"contact": {
+  "newsletter": {
+    "title": "Iscriviti alla nostra Newsletter",
     "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
-    "form": {
-      "email": "Inserisci la tua email",
-      "subscribeButton": "Iscriviti"
-    },
-    "confirmation": {
-      "title": "Iscrizione Avvenuta!",
-      "message": "Grazie per esserti iscritto alla nostra newsletter. Riceverai presto le nostre comunicazioni."
-    }
+    "emailPlaceholder": "Inserisci la tua email",
+    "subscribeButton": "Iscriviti"
   },
   "feedback": {
-    "title": "Il tuo feedback è importante per noi",
+    "title": "Dacci il tuo feedback",
     "description": "Ci piacerebbe sapere come possiamo migliorare i nostri servizi. Condividi la tua esperienza con noi.",
-    "form": {
-      "rating": "Valutazione",
-      "comments": "Commenti",
-      "submitFeedback": "Invia Feedback"
-    },
-    "confirmation": {
-      "title": "Grazie per il tuo feedback!",
-      "message": "Grazie per il tuo feedback. Lo utilizzeremo per migliorare i nostri servizi."
-    }
+    "rating": "Valutazione (es. da 1 a 5 stelle o scala numerica)",
+    "comments": "Commenti",
+    "submit": "Invia Feedback"
   },
-  "locationDetails": {
+  "location": {
     "title": "La Nostra Sede",
     "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
     "mapLink": "https://www.google.com/maps"
   },
-  "title": "Corsi di Anno Fondamentale",
-  "benefitSection": {
-    "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
-    "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
-    "studentsLimited": {
-      "title": "Studenti con Esperienza Accademica Limitata",
-      "content": "Se non hai le qualifiche necessarie per accedere direttamente a un corso universitario, un Anno Fondamentale ti offre l'opportunità di aggiornare le tue conoscenze e competenze per una transizione agevole all'istruzione superiore."
+  "workingHours": {
+    "title": "Orari di Apertura",
+    "monday": "Lunedì: 9:00 - 18:00",
+    "tuesday": "Martedì: 9:00 - 18:00",
+    "wednesday": "Mercoledì: 9:00 - 18:00",
+    "thursday": "Giovedì: 9:00 - 18:00",
+    "friday": "Venerdì: 9:00 - 18:00",
+    "saturday": "Sabato: Chiuso",
+    "sunday": "Domenica: Chiuso"
+  },
+  "appointment": {
+    "title": "Prenota un Appuntamento",
+    "description": "Vuoi parlare con uno dei nostri consulenti? Prenota un appuntamento online.",
+    "form": {
+      "date": "Data",
+      "time": "Ora",
+      "submit": "Prenota"
     },
-    "professionals": {
-      "title": "Professionisti che Tornano agli Studi",
-      "content": "Se sei stato lontano dall'istruzione formale per un po' e desideri rientrare nell'ambiente accademico, l'Anno Fondamentale offre supporto preparatorio."
-    },
-    "international": {
-      "title": "Studenti Internazionali e Immigrati",
-      "content": "Per coloro che si sono recentemente trasferiti nel Regno Unito e hanno bisogno di un anno di adattamento prima di iniziare il loro corso di laurea."
-    },
-    "nonTraditional": {
-      "title": "Studenti con Qualifiche Non Tradizionali",
-      "content": "Se hai diplomi o qualifiche che non sono direttamente riconosciuti nel Regno Unito, l'Anno Fondamentale potrebbe essere il ponte verso il corso di laurea desiderato."
+    "confirmation": {
+      "title": "Appuntamento Prenotato!",
+      "message": "Grazie per aver prenotato un appuntamento. Ti contatteremo per confermare i dettagli."
     }
+  }
+},
+"footer": {
+  "about": "Chi Siamo",
+  "privacy": "Informativa sulla Privacy",
+  "terms": "Termini e Condizioni",
+  "contact": "Contattaci",
+  "social": "Seguici sui Social",
+  "newsletter": "Iscriviti alla Newsletter"
+},
+"common": {
+  "loading": "Caricamento in corso...",
+  "error": "Si è verificato un errore. Riprova più tardi.",
+  "success": "Operazione completata con successo!",
+  "backToTop": "Torna su",
+  "learnMore": "Scopri di più",
+  "contactUs": "Contattaci",
+  "bookNow": "Prenota Ora"
+},
+"consultation": {
+  "title": "Prenota una Consulenza",
+  "description": "Parla con i nostri esperti per ricevere consigli personalizzati su come studiare nel Regno Unito.",
+  "form": {
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "preferredDate": "Data Preferita",
+    "preferredTime": "Ora Preferita",
+    "message": "Messaggio",
+    "submit": "Invia Richiesta"
   },
-  "whatIsSection": {
-    "title": "Cos'è un Anno Fondamentale?",
-    "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
-    "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
-    "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
+  "confirmation": {
+    "title": "Richiesta di Consulenza Inviata!",
+    "message": "Grazie per aver prenotato una consulenza. Ti contatteremo presto per confermare i dettagli."
+  }
+},
+"errorPage": {
+  "title": "Pagina Non Trovata",
+  "message": "Sembra che la pagina che stai cercando non esista. Controlla l'URL o torna alla homepage.",
+  "backToHome": "Torna alla Home"
+},
+"successPage": {
+  "title": "Operazione Completata",
+  "message": "La tua richiesta è stata elaborata con successo. Grazie per averci contattato!",
+  "backToHome": "Torna alla Home"
+},
+"privacyPolicy": {
+  "title": "Informativa sulla Privacy",
+  "description": "La tua privacy è importante per noi. Questa informativa spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali.",
+  "sections": {
+    "dataCollection": {
+      "title": "Raccolta dei Dati",
+      "content": "Raccogliamo informazioni personali quando ci contatti, prenoti una consulenza o ti iscrivi alla nostra newsletter."
+    },
+    "dataUsage": {
+      "title": "Utilizzo dei Dati",
+      "content": "Utilizziamo i tuoi dati per fornirti i nostri servizi, rispondere alle tue domande e inviarti aggiornamenti."
+    },
+    "dataProtection": {
+      "title": "Protezione dei Dati",
+      "content": "Adottiamo misure di sicurezza per proteggere le tue informazioni personali da accessi non autorizzati."
+    },
+    "userRights": {
+      "title": "Diritti degli Utenti",
+      "content": "Hai il diritto di accedere, correggere o cancellare le tue informazioni personali in qualsiasi momento."
+    }
+  }
+},
+"termsConditions": {
+  "title": "Termini e Condizioni",
+  "description": "Questi termini e condizioni regolano l'uso dei nostri servizi. Utilizzando il nostro sito, accetti di rispettarli.",
+  "sections": {
+    "general": {
+      "title": "Condizioni Generali",
+      "content": "L'uso del nostro sito implica l'accettazione di questi termini. Se non sei d'accordo, ti preghiamo di non utilizzare il sito."
+    },
+    "services": {
+      "title": "Servizi Offerti",
+      "content": "Offriamo consulenze, supporto per le iscrizioni universitarie e assistenza per il finanziamento degli studi."
+    },
+    "liability": {
+      "title": "Limitazione di Responsabilità",
+      "content": "Non siamo responsabili per eventuali danni derivanti dall'uso del nostro sito o dei nostri servizi."
+    },
+    "modifications": {
+      "title": "Modifiche ai Termini",
+      "content": "Ci riserviamo il diritto di modificare questi termini in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina."
+    }
+  }
+},
+"cookiePolicy": {
+  "title": "Informativa sui Cookie",
+  "description": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Questa informativa spiega cosa sono i cookie e come li utilizziamo.",
+  "sections": {
+    "whatAreCookies": {
+      "title": "Cosa Sono i Cookie?",
+      "content": "I cookie sono piccoli file di testo che vengono memorizzati sul tuo dispositivo quando visiti un sito web."
+    },
+    "howWeUseCookies": {
+      "title": "Come Utilizziamo i Cookie",
+      "content": "Utilizziamo i cookie per analizzare il traffico del sito, personalizzare i contenuti e migliorare la tua esperienza utente."
+    },
+    "managingCookies": {
+      "title": "Gestione dei Cookie",
+      "content": "Puoi gestire le tue preferenze sui cookie attraverso le impostazioni del tuo browser. Tuttavia, disabilitare i cookie potrebbe influire sulla funzionalità del sito."
+    }
+  }
+},
+"newsletterSubscription": {
+  "title": "Iscriviti alla Newsletter",
+  "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
+  "form": {
+    "email": "Inserisci la tua email",
+    "subscribeButton": "Iscriviti"
   },
-  "imageAlt": "Studenti che studiano"
+  "confirmation": {
+    "title": "Iscrizione Avvenuta!",
+    "message": "Grazie per esserti iscritto alla nostra newsletter. Riceverai presto le nostre comunicazioni."
+  }
+},
+"feedback": {
+  "title": "Il tuo feedback è importante per noi",
+  "description": "Ci piacerebbe sapere come possiamo migliorare i nostri servizi. Condividi la tua esperienza con noi.",
+  "form": {
+    "rating": "Valutazione",
+    "comments": "Commenti",
+    "submitFeedback": "Invia Feedback"
+  },
+  "confirmation": {
+    "title": "Grazie per il tuo feedback!",
+    "message": "Grazie per il tuo feedback. Lo utilizzeremo per migliorare i nostri servizi."
+  }
+},
+"locationDetails": {
+  "title": "La Nostra Sede",
+  "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
+  "mapLink": "https://www.google.com/maps"
+},
+"title": "Corsi di Anno Fondamentale",
+"benefitSection": {
+  "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
+  "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
+  "studentsLimited": {
+    "title": "Studenti con Esperienza Accademica Limitata",
+    "content": "Se non hai le qualifiche necessarie per accedere direttamente a un corso universitario, un Anno Fondamentale ti offre l'opportunità di aggiornare le tue conoscenze e competenze per una transizione agevole all'istruzione superiore."
+  },
+  "professionals": {
+    "title": "Professionisti che Tornano agli Studi",
+    "content": "Se sei stato lontano dall'istruzione formale per un po' e desideri rientrare nell'ambiente accademico, l'Anno Fondamentale offre supporto preparatorio."
+  },
+  "international": {
+    "title": "Studenti Internazionali e Immigrati",
+    "content": "Per coloro che si sono recentemente trasferiti nel Regno Unito e hanno bisogno di un anno di adattamento prima di iniziare il loro corso di laurea."
+  },
+  "nonTraditional": {
+    "title": "Studenti con Qualifiche Non Tradizionali",
+    "content": "Se hai diplomi o qualifiche che non sono direttamente riconosciuti nel Regno Unito, l'Anno Fondamentale potrebbe essere il ponte verso il corso di laurea desiderato."
+  }
+},
+"whatIsSection": {
+  "title": "Cos'è un Anno Fondamentale?",
+  "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
+  "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
+  "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
+},
+"imageAlt": "Studenti che studiano"
 }
