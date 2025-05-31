@@ -20,11 +20,45 @@
       "learnMore": "Scopri di più"
     }
   },
+  "aboutPage": {
+    "experienceItems": [
+      {
+        "title": "Esperienza nell'Istruzione Superiore",
+        "description": "Oltre 10 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
+      },
+      {
+        "title": "Network Universitario",
+        "description": "Collaborazioni consolidate con le principali università britanniche"
+      },
+      {
+        "title": "Successo Comprovato",
+        "description": "Migliaia di studenti soddisfatti che studiano nel Regno Unito"
+      }
+    ],
+    "expertiseItems": [
+      {
+        "title": "Ammissioni Universitarie",
+        "description": "Guida esperta nel processo di ammissione alle università britanniche"
+      },
+      {
+        "title": "Finanziamenti per gli Studi",
+        "description": "Consulenza completa sulle opzioni di finanziamento e borse di studio"
+      },
+      {
+        "title": "Supporto all'Immigrazione",
+        "description": "Assistenza con visti e requisiti di immigrazione"
+      },
+      {
+        "title": "Orientamento Accademico",
+        "description": "Consigli personalizzati per scegliere il corso più adatto"
+      }
+    ]
+  },
   "sfe": {
     "title": "Vantaggi del Student Finance England",
     "subtitle": "Supporto finanziario per i tuoi studi",
     "tuitionLoan": "Prestito per le tasse universitarie",
-    "tuitionDesc": "Copre il costo dell’università con un prestito da rimborsare solo dopo la laurea.",
+    "tuitionDesc": "Copre il costo dell'università con un prestito da rimborsare solo dopo la laurea.",
     "maintenanceLoan": "Prestito per il mantenimento",
     "maintenanceDesc": "Supporto economico per le spese quotidiane durante gli studi.",
     "repayment": "Rimborso flessibile",
@@ -45,7 +79,7 @@
     },
     "q3": {
       "question": "Cos'è il pre-settled status?",
-      "answer": "È un permesso di soggiorno temporaneo nel Regno Unito, concesso ai cittadini dell’UE arrivati prima del 31/12/2020."
+      "answer": "È un permesso di soggiorno temporaneo nel Regno Unito, concesso ai cittadini dell'UE arrivati prima del 31/12/2020."
     },
     "q4": {
       "question": "Qual è la differenza tra settled e pre-settled?",
@@ -57,11 +91,11 @@
     },
     "q6": {
       "question": "Cos'è il Foundation Year?",
-      "answer": "È un corso introduttivo di un anno per preparare gli studenti che non hanno i requisiti per accedere direttamente all’università."
+      "answer": "È un corso introduttivo di un anno per preparare gli studenti che non hanno i requisiti per accedere direttamente all'università."
     },
     "q7": {
       "question": "Quanto costa studiare in Inghilterra?",
-      "answer": "Fino a £9.250 all’anno, ma il Student Finance copre questo costo se hai i requisiti."
+      "answer": "Fino a £9.250 all'anno, ma il Student Finance copre questo costo se hai i requisiti."
     },
     "q8": {
       "question": "Devo restituire il prestito?",
@@ -69,7 +103,7 @@
     },
     "q9": {
       "question": "Quanto ricevo per vivere (maintenance loan)?",
-      "answer": "Dipende dal reddito familiare e dalla città in cui vivi. A Londra può superare £12.000 all’anno."
+      "answer": "Dipende dal reddito familiare e dalla città in cui vivi. A Londra può superare £12.000 all'anno."
     },
     "q10": {
       "question": "Come si richiede il Student Finance?",
@@ -84,7 +118,7 @@
       "answer": "Sì, puoi lavorare part-time fino a 20 ore settimanali durante i corsi."
     },
     "q13": {
-      "question": "Come scelgo un’università in Inghilterra?",
+      "question": "Come scelgo un'università in Inghilterra?",
       "answer": "Considera posizione, costi, reputazione, classifica del corso e supporto per studenti internazionali."
     },
     "q14": {
@@ -109,7 +143,7 @@
     },
     "q19": {
       "question": "Qual è la scadenza per fare domanda?",
-      "answer": "Devi presentare domanda prima dell’inizio del corso. Controlla sempre le date sul sito ufficiale."
+      "answer": "Devi presentare domanda prima dell'inizio del corso. Controlla sempre le date sul sito ufficiale."
     },
     "q20": {
       "question": "Cosa sono maintenance loan e maintenance grant?",
@@ -137,11 +171,11 @@
     "cards": {
       "consultancy": {
         "title": "Consulenza Personalizzata",
-        "description": "Ti aiutiamo a trovare il corso e l’università più adatti ai tuoi obiettivi e al tuo profilo."
+        "description": "Ti aiutiamo a trovare il corso e l'università più adatti ai tuoi obiettivi e al tuo profilo."
       },
       "application": {
         "title": "Supporto nelle Iscrizioni",
-        "description": "Ti accompagniamo passo dopo passo, dalla scelta del corso all’iscrizione definitiva."
+        "description": "Ti accompagniamo passo dopo passo, dalla scelta del corso all'iscrizione definitiva."
       },
       "finance": {
         "title": "Supporto per il Finanziamento",
@@ -164,11 +198,11 @@
       },
       "support": {
         "title": "Supporto Completo",
-        "description": "Dal primo contatto fino all’arrivo in UK, ti siamo vicini in ogni fase."
+        "description": "Dal primo contatto fino all'arrivo in UK, ti siamo vicini in ogni fase."
       },
       "ongoing": {
         "title": "Assistenza Continuativa",
-        "description": "Restiamo a tua disposizione anche dopo l’iscrizione, per garantire una buona esperienza accademica."
+        "description": "Restiamo a tua disposizione anche dopo l'iscrizione, per garantire una buona esperienza accademica."
       }
     }
   },
@@ -178,7 +212,7 @@
       "title": "Perché Scegliere le Nostre Università?",
       "quality": {
         "title": "Istruzione di Qualità",
-        "description": "Università riconosciute per l’eccellenza accademica e l’ambiente internazionale."
+        "description": "Università riconosciute per l'eccellenza accademica e l'ambiente internazionale."
       },
       "career": {
         "title": "Opportunità Lavorative",
@@ -191,15 +225,14 @@
     },
     "programs": "Corsi Principali:"
   },
-
   "about": {
     "title": "Corsi Foundation Year",
     "who": {
       "title": "Chi Può Beneficiare del Foundation Year?",
-      "general": "Ideale per chi vuole studiare nel Regno Unito ma non ha i requisiti d’ingresso diretti.",
+      "general": "Ideale per chi vuole studiare nel Regno Unito ma non ha i requisiti d'ingresso diretti.",
       "students": {
         "title": "Studenti con Studi Limitati",
-        "description": "Ti manca il livello accademico richiesto? Questo corso ti prepara per l’università."
+        "description": "Ti manca il livello accademico richiesto? Questo corso ti prepara per l'università."
       },
       "professionals": {
         "title": "Professionisti che Tornano a Studiare",
@@ -211,24 +244,24 @@
       },
       "nontraditional": {
         "title": "Studenti Non Tradizionali",
-        "description": "Hai qualifiche estere non riconosciute? Questo è il tuo trampolino per accedere all’università."
+        "description": "Hai qualifiche estere non riconosciute? Questo è il tuo trampolino per accedere all'università."
       }
     },
     "whatIs": {
       "title": "Cos'è un Foundation Year?",
-      "p1": "Un anno introduttivo per preparare gli studenti all’università.",
+      "p1": "Un anno introduttivo per preparare gli studenti all'università.",
       "p2": "Include materie di base come matematica, inglese accademico e altre competenze chiave.",
       "p3": "Al termine sarai pronto per affrontare la tua laurea con maggiore sicurezza."
     },
     "benefits": {
       "title": "Vantaggi del Foundation Year",
       "p1": "Migliora le tue competenze accademiche e linguistiche.",
-      "p2": "Aumenta le tue possibilità di successo all’università.",
+      "p2": "Aumenta le tue possibilità di successo all'università.",
       "p3": "Fornisce un supporto personalizzato per il tuo percorso educativo."
     },
     "cta": {
       "title": "Pronto a Iniziare il Tuo Foundation Year?",
-      "description": "Contattaci per scoprire come possiamo aiutarti a prepararti per l’università nel Regno Unito.",
+      "description": "Contattaci per scoprire come possiamo aiutarti a prepararti per l'università nel Regno Unito.",
       "button": "Prenota una consulenza"
     }
   },
@@ -262,7 +295,7 @@
       "instagram": "Instagram",
       "linkedin": "LinkedIn"
     },
-    "map": {
+    "map":  {
       "title": "Trova la Nostra Sede",
       "description": "Visita la nostra sede per una consulenza di persona. Siamo qui per aiutarti a realizzare i tuoi sogni accademici nel Regno Unito."
     },
@@ -291,8 +324,7 @@
       "message": "Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Continuando a navigare, accetti l'uso dei cookie."
     }
   },
-
-    "contact": {
+  "contact": {
     "newsletter": {
       "title": "Iscriviti alla nostra Newsletter",
       "description": "Rimani aggiornato sulle ultime novità e opportunità per studiare nel Regno Unito.",
