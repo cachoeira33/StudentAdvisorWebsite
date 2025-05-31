@@ -17,7 +17,7 @@ i18n
       'es-ES': { translation: esES },
       'it-IT': { translation: itIT },
     },
-    fallbackLng: 'pt-BR',
+    fallbackLng: 'en-GB',
     supportedLngs: ['pt-BR', 'en-GB', 'es-ES', 'it-IT'],
     interpolation: {
       escapeValue: false,
