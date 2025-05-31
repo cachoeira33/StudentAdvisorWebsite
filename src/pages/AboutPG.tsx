@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import profileImage from '../public/profile.png';
 
-const About = () => {
+const AboutPG = () => {
   const { t } = useTranslation();
 
   return (
