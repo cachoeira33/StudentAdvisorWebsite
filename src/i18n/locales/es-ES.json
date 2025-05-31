@@ -20,6 +20,40 @@
       "learnMore": "Saber más"
     }
   },
+  "aboutPage": {
+    "experienceItems": [
+      {
+        "title": "Experiencia en Educación Superior",
+        "description": "Más de 10 años ayudando a estudiantes a alcanzar sus metas académicas en el Reino Unido"
+      },
+      {
+        "title": "Red de Universidades",
+        "description": "Colaboraciones establecidas con las principales universidades británicas"
+      },
+      {
+        "title": "Éxito Comprobado",
+        "description": "Miles de estudiantes satisfechos estudiando en el Reino Unido"
+      }
+    ],
+    "expertiseItems": [
+      {
+        "title": "Admisiones Universitarias",
+        "description": "Guía experta en el proceso de admisión a universidades británicas"
+      },
+      {
+        "title": "Financiación Estudiantil",
+        "description": "Asesoramiento completo sobre opciones de financiación y becas"
+      },
+      {
+        "title": "Apoyo Migratorio",
+        "description": "Asistencia con visados y requisitos de inmigración"
+      },
+      {
+        "title": "Orientación Académica",
+        "description": "Consejos personalizados para elegir el curso adecuado"
+      }
+    ]
+  },
   "sfe": {
     "title": "Ventajas del Student Finance England",
     "subtitle": "Apoyo Financiero para tus Estudios",
