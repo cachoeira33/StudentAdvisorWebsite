@@ -1,14 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-24 bg-neutral-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://drive.google.com/file/d/1Q0OPdjc4lD1JblYvKM5AL5tHBiiGL-Sw/view?usp=drive_link"
-              alt="Gabriel Cachoeira"
+              src="/profile.png" 
+              alt={t('aboutPage.profileAlt')}
               className="rounded-lg shadow-2xl"
             />
           </div>
@@ -31,7 +34,7 @@ const About = () => {
                 <ul className="text-gray-400 space-y-2">
                   <li>UK Education System</li>
                   <li>Law Support</li>
-                  <li>Adventure Photography</li>
+                  <li>Events and all kinds of Photography</li>
                 </ul>
               </div>
             </div>
