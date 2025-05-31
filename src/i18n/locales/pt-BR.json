@@ -283,15 +283,11 @@
       "language": "Idioma"
     },
     "footer": {
-      "contact": "Entre em Contato",
-      "privacy": "Política de Privacidade",
-      "terms": "Termos e Condições",
-      "social": {
-        "followUs": "Siga-nos",
-        "facebook": "Facebook",
-        "twitter": "Twitter",
-        "instagram": "Instagram"
-      }
+      "contact": "Contate-me",
+      "followUs": "Siga-nos em",
+      "EffectMessage": "Ajudando estudantes a alcançar seus sonhos acadêmicos enquanto capturamos os momentos extraordinários da vida.",
+      "DireitosReservados": "Todos os direitos reservados",
+      "atalhotexto": "Link rápido"
     },
     "contact": {
       "title": "Entre em Contato Conosco",

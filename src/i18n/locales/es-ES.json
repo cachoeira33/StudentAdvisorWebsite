@@ -1,5 +1,5 @@
 {
-    "nav": {
+  "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
     "services": "Servicios",
@@ -31,7 +31,6 @@
     "phoneNumber": "+44 0774543 2478",
     "emailAdvisor": "gabriielcachoeira@gmail.com"
   },
-
   "aboutPage": {
     "title": "Sobre mí",
     "subtitle": "Tu Experto en Educación Superior en el Reino Unido",
@@ -88,7 +87,7 @@
       "title": "Estudiantes con Calificaciones No Tradicionales",
       "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
     }
- },
+  },
   "sfe": {
     "title": "Ventajas del Student Finance England",
     "subtitle": "Apoyo Financiero para tus Estudios",
@@ -202,7 +201,7 @@
     }
   },
   "services": {
-    "title": "Servicos",
+    "title": "Servicios",
     "titlefoundation": "Nuestros Servicios",
     "cards": {
       "consultancy": {
@@ -260,22 +259,34 @@
       },
       "programs": "Principales Carreras:"
     },
-    "about": {
+    "aboutUni": {
       "title": "Acerca de Nosotros",
       "content": "Bienvenidos a nuestra institución educativa. Estamos dedicados a proporcionar educación de alta calidad y oportunidades de aprendizaje para estudiantes de todo el mundo. Nuestra misión es preparar a los estudiantes para el éxito académico y profesional a través de programas innovadores y un ambiente de aprendizaje de apoyo."
     },
-    "shared": {
+    "msgForm": {
       "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
     },
-    "contact": {
-      "{{contact}}": "",
+    "contactForm": {
       "title": "Contáctanos",
-      "description": "¿Tienes preguntas o necesitas más información? ¡Estamos aquí para ayudarte! Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.",
       "form": {
-        "name": "Nombre",
-        "email": "Correo Electrónico",
+        "name": "Nombre completo",
+        "email": "Correo electrónico",
+        "whatsAppNumber": "Número de WhatsApp (opcional)",
         "message": "Mensaje",
-        "submit": "Enviar"
+        "messageLabel": "Tu mensaje",
+        "submit": "Enviar mensaje",
+        "nameLabel": "Tu nombre completo",
+        "emailLabel": "Tu correo electrónico",
+        "whatsAppLabel": "Tu número de WhatsApp (opcional)",
+        "whatsAppLabel2": "Número de WhatsApp (opcional)"
+      },
+      "exportToExcel": "Exportar a Excel",
+      "msgForm": {
+        "successMessage": "¡Mensaje enviado con éxito!"
+      },
+      "formErrors": {
+        "required": "es obligatorio",
+        "invalidEmail": "Formato de correo electrónico inválido"
       }
     }
   },

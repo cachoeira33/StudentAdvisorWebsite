@@ -138,10 +138,11 @@ const UniversityList: React.FC = () => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
+            <label htmlFor="partnership-type" className="block text-sm font-medium text-gray-300 mb-1">
               Partnership Type
             </label>
             <select
+              id="partnership-type"
               value={formData.partnership}
               onChange={e => setFormData({ ...formData, partnership: e.target.value })}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -217,12 +218,16 @@ const UniversityList: React.FC = () => {
                 <span className="text-sm text-emerald-500">{university.partnership}</span>
                 <div className="flex space-x-2">
                   <button
+                    type="button"
+                    title="Edit university"
                     onClick={() => handleEdit(university)}
                     className="p-2 text-gray-400 hover:text-white transition-colors"
                   >
                     <Pencil size={16} />
                   </button>
                   <button
+                    type="button"
+                    title="Delete university"
                     onClick={() => handleDelete(university.id)}
                     className="p-2 text-gray-400 hover:text-red-500 transition-colors"
                   >

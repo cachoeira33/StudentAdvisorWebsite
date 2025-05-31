@@ -370,12 +370,11 @@
   }
 },
 "footer": {
-  "about": "Chi Siamo",
-  "privacy": "Informativa sulla Privacy",
-  "terms": "Termini e Condizioni",
-  "contact": "Contattaci",
-  "social": "Seguici sui Social",
-  "newsletter": "Iscriviti alla Newsletter"
+  "contact": "Contattami",
+  "followUs": "Seguici su",
+  "EffectMessage": "Aiutiamo gli studenti a raggiungere i loro sogni accademici mentre catturiamo i momenti straordinari della vita.",
+  "DireitosReservados": "Tutti i diritti riservati",
+  "atalhotexto": "Collegamento rapido"
 },
 "common": {
   "loading": "Caricamento in corso...",

@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import { Pencil, Trash2, Plus, X, Check } from 'lucide-react';
-import UniversityList, { University } from './UniversityList';
+import UniversityList from './UniversityList';
+
+interface University {
+  id: string;
+  name: string;
+  city: string;
+  partnership: string;
+  logo: string;
+}
 
 interface Course {
   id: string;
@@ -151,10 +159,15 @@ const CourseManager: React.FC = () => {
             <label className="block text-sm font-medium text-gray-300 mb-1">
               Entry Month
             </label>
+            <label htmlFor="entry-month-select" className="block text-sm font-medium text-gray-300 mb-1">
+              Entry Month
+            </label>
             <select
+              id="entry-month-select"
               value={formData.entryMonth}
               onChange={e => setFormData({ ...formData, entryMonth: e.target.value })}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              aria-label="Entry Month"
             >
               {entryMonths.map(month => (
                 <option key={month} value={month}>{month}</option>
@@ -163,10 +176,11 @@ const CourseManager: React.FC = () => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-300 mb-1">
+            <label htmlFor="university-select" className="block text-sm font-medium text-gray-300 mb-1">
               University
             </label>
             <select
+              id="university-select"
               value={formData.university}
               onChange={e => setFormData({ ...formData, university: e.target.value })}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
@@ -237,12 +251,16 @@ const CourseManager: React.FC = () => {
               <div className="flex items-center justify-between">
                 <div className="flex space-x-2">
                   <button
+                    type="button"
+                    title="Edit Course"
                     onClick={() => handleEdit(course)}
                     className="p-2 text-gray-400 hover:text-white transition-colors"
                   >
                     <Pencil size={16} />
                   </button>
                   <button
+                    type="button"
+                    title="Delete Course"
                     onClick={() => handleDelete(course.id)}
                     className="p-2 text-gray-400 hover:text-red-500 transition-colors"
                   >
