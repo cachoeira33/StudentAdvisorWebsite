@@ -12,10 +12,10 @@ const Footer = () => {
               Helping students achieve their academic dreams while capturing life's extraordinary moments.
             </p>
             <div className="flex space-x-4">
-              <SocialLink href="#" icon={<Instagram size={20} />} />
+              <SocialLink href="https://www.instagram.com/gabriielcachoeira" icon={<Instagram size={20} />} />
               <SocialLink href="#" icon={<Linkedin size={20} />} />
-              <SocialLink href="mailto:contact@example.com" icon={<Mail size={20} />} />
-              <SocialLink href="tel:+1234567890" icon={<Phone size={20} />} />
+              <SocialLink href="mailto:gabriel.r@univive.com" icon={<Mail size={20} />} />
+              <SocialLink href="tel:+447745432478" icon={<Phone size={20} />} />
             </div>
           </div>
           
@@ -33,8 +33,8 @@ const Footer = () => {
             <h4 className="text-white font-medium mb-4">Contact</h4>
             <ul className="space-y-2">
               <li>London, UK</li>
-              <li>contact@example.com</li>
-              <li>+44 123 456 7890</li>
+              <li>gabriel.r@univive.com</li>
+              <li>+44 7745432478</li>
             </ul>
           </div>
         </div>

@@ -7,6 +7,7 @@
     "universities": "Universidades",
     "funding": "Financiación",
     "foundation": "año de fundación",
+    "testimonials": "Testimonios",
     "contact": "Contacto",
     "bookMeeting": "Reservar cita",
     "faq": "Preguntas Frecuentes"
@@ -133,7 +134,7 @@
     }
   },
   "services": {
-    "title": "Nuestros Servicios",
+    "titlefoundation": "Nuestros Servicios",
     "cards": {
       "consultancy": {
         "title": "Asesoramiento Personalizado",
@@ -170,59 +171,71 @@
         "title": "Seguimiento Continuo",
         "description": "Seguimos en contacto incluso después de tu inscripción, para ayudarte en tu experiencia académica."
       }
-    }
-  },
-  "universities": {
-    "title": "Universidades Asociadas",
-    "why": {
-      "title": "¿Por Qué Estudiar en Nuestras Universidades Asociadas?",
-      "quality": {
-        "title": "Educación de Calidad",
-        "description": "Todas nuestras universidades asociadas tienen reconocimiento por su excelencia académica."
+    },
+    "universities": {
+      "title": "Universidades Asociadas",
+      "why": {
+        "title": "¿Por Qué Estudiar en Nuestras Universidades Asociadas?",
+        "quality": {
+          "title": "Educación de Calidad",
+          "description": "Todas nuestras universidades asociadas tienen reconocimiento por su excelencia académica."
+        },
+        "career": {
+          "title": "Perspectivas Laborales",
+          "description": "Fuertes vínculos con el mercado laboral y servicios de orientación profesional para ayudarte después de graduarte."
+        },
+        "support": {
+          "title": "Apoyo al Estudiante",
+          "description": "Servicios completos para estudiantes internacionales, incluyendo ayuda lingüística y cultural."
+        }
       },
-      "career": {
-        "title": "Perspectivas Laborales",
-        "description": "Fuertes vínculos con el mercado laboral y servicios de orientación profesional para ayudarte después de graduarte."
-      },
-      "support": {
-        "title": "Apoyo al Estudiante",
-        "description": "Servicios completos para estudiantes internacionales, incluyendo ayuda lingüística y cultural."
+      "programs": "Principales Carreras:"
+    },
+    "about": {
+      "title": "Acerca de Nosotros",
+      "content": "Bienvenidos a nuestra institución educativa. Estamos dedicados a proporcionar educación de alta calidad y oportunidades de aprendizaje para estudiantes de todo el mundo. Nuestra misión es preparar a los estudiantes para el éxito académico y profesional a través de programas innovadores y un ambiente de aprendizaje de apoyo."
+    },
+    "shared": {
+      "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
+    },
+    "contact": {
+      "{{contact}}": "",
+      "title": "Contáctanos",
+      "description": "¿Tienes preguntas o necesitas más información? ¡Estamos aquí para ayudarte! Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.",
+      "form": {
+        "name": "Nombre",
+        "email": "Correo Electrónico",
+        "message": "Mensaje",
+        "submit": "Enviar"
       }
     },
-    "programs": "Principales Carreras:"
-  },
-  "about": {
-    "title": "Cursos de Foundation Year",
-    "who": {
-      "title": "¿Quién Puede Beneficiarse del Foundation Year?",
-      "general": "El Foundation Year es ideal para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones necesarias para ingresar directamente a un grado.",
-      "students": {
-        "title": "Estudiantes con Formación Académica Limitada",
-        "description": "Si no cumples con los requisitos para una carrera, el Foundation Year te prepara para empezar con éxito."
+    "title": "Cursos de Año Fundacional",
+    "benefitSection": {
+      "title": "¿Quién puede beneficiarse de los cursos de Año Fundacional?",
+      "intro": "Los cursos de Año Fundacional son una excelente oportunidad para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones académicas necesarias para ingresar directamente a un título universitario.",
+      "studentsLimited": {
+        "title": "Estudiantes con Experiencia Académica Limitada",
+        "content": "Si no tienes las calificaciones necesarias para ingresar directamente a un curso universitario, un Año Fundacional te ofrece la oportunidad de actualizar tus conocimientos y habilidades para una transición suave a la educación superior."
       },
       "professionals": {
-        "title": "Profesionales que Vuelven a Estudiar",
-        "description": "Si llevas tiempo sin estudiar y quieres volver, este curso te ayudará a adaptarte nuevamente al entorno académico."
+        "title": "Profesionales que Regresan a lo Académico",
+        "content": "Si has estado fuera de la educación formal por un tiempo y deseas reingresar al ambiente académico, el Año Fundacional proporciona apoyo preparatorio."
       },
-      "immigrants": {
-        "title": "Estudiantes Inmigrantes",
-        "description": "Ideal para quienes se han mudado al Reino Unido y necesitan un año de adaptación antes de iniciar un grado."
+      "international": {
+        "title": "Estudiantes Internacionales e Inmigrantes",
+        "content": "Para aquellos que se han mudado recientemente al Reino Unido y necesitan un año de adaptación antes de comenzar su título universitario."
       },
-      "nontraditional": {
-        "title": "Estudiantes con Estudios No Convencionales",
-        "description": "Si tus diplomas no son reconocidos directamente en el Reino Unido, el Foundation Year puede ser la vía de acceso a la universidad."
+      "nonTraditional": {
+        "title": "Estudiantes con Calificaciones No Tradicionales",
+        "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
       }
     },
-    "whatIs": {
-      "title": "¿Qué es un Foundation Year?",
-      "p1": "El Foundation Year es un curso introductorio de un año diseñado para preparar académicamente a los estudiantes para una carrera.",
-      "p2": "Durante el curso se imparten materias como matemáticas, inglés académico y otros contenidos relevantes.",
-      "p3": "Al finalizarlo, estarás preparado para comenzar tu grado con una base sólida."
-    }
-
-  },
-  "shared": {
-    "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
-  },
-  "contact": "{{contact}}"
+    "whatIsSection": {
+      "title": "¿Qué es un Año Fundacional?",
+      "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
+      "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
+      "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito."
+    },
+    "imageAlt": "Estudiantes estudiando"
+  }
 }
