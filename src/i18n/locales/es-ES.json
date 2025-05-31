@@ -1,6 +1,5 @@
 {
-  "phoneNumber": "+44 0774543 2478",
-  "navigation": {
+    "nav": {
     "home": "Inicio",
     "about": "Sobre mí",
     "services": "Servicios",
@@ -20,6 +19,19 @@
       "learnMore": "Saber más"
     }
   },
+  "footer": {
+    "contact": "Contáctame",
+    "followUs": "Síguenos en",
+    "EffectMessage": "Ayudando a los estudiantes a alcanzar sus sueños académicos mientras capturamos los momentos extraordinarios de la vida.",
+    "DireitosReservados": "Todos los derechos reservados",
+    "atalhotexto": "Link rapido"
+  },
+  "contactDetails": {
+    "title": "Contáctame",
+    "phoneNumber": "+44 0774543 2478",
+    "emailAdvisor": "gabriielcachoeira@gmail.com"
+  },
+
   "aboutPage": {
     "title": "Sobre mí",
     "subtitle": "Tu Experto en Educación Superior en el Reino Unido",
@@ -54,8 +66,29 @@
         "title": "Orientación Académica",
         "description": "Consejos personalizados para elegir el curso adecuado"
       }
-    ]
-  },
+    ],
+    "benefitSection": {
+      "title": "Beneficios de hacer un curso de Foundation Year",
+      "benefitContent": "Los cursos de Año Fundacional son ideales para estudiantes que necesitan un año preparatorio antes de comenzar su título universitario. Estos cursos te proporcionan las habilidades y conocimientos necesarios para tener éxito en tu carrera elegida."
+    },
+    "intro": "Los cursos de Año Fundacional son una excelente oportunidad para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones académicas necesarias para ingresar directamente a un título universitario.",
+    "studentsLimited": {
+      "title": "Estudiantes con Experiencia Académica Limitada",
+      "content": "Si no tienes las calificaciones necesarias para ingresar directamente a un curso universitario, un Año Fundacional te ofrece la oportunidad de actualizar tus conocimientos y habilidades para una transición suave a la educación superior."
+    },
+    "professionals": {
+      "title": "Profesionales que Regresan a lo Académico",
+      "content": "Si has estado fuera de la educación formal por un tiempo y deseas reingresar al ambiente académico, el Año Fundacional proporciona apoyo preparatorio."
+    },
+    "international": {
+      "title": "Estudiantes Internacionales e Inmigrantes",
+      "content": "Para aquellos que se han mudado recientemente al Reino Unido y necesitan un año de adaptación antes de comenzar su título universitario."
+    },
+    "nonTraditional": {
+      "title": "Estudiantes con Calificaciones No Tradicionales",
+      "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
+    }
+ },
   "sfe": {
     "title": "Ventajas del Student Finance England",
     "subtitle": "Apoyo Financiero para tus Estudios",
@@ -169,6 +202,7 @@
     }
   },
   "services": {
+    "title": "Servicos",
     "titlefoundation": "Nuestros Servicios",
     "cards": {
       "consultancy": {
@@ -243,36 +277,13 @@
         "message": "Mensaje",
         "submit": "Enviar"
       }
-    },
-    "title": "Cursos de Año Fundacional",
-    "benefitSection": {
-      "title": "¿Quién puede beneficiarse de los cursos de Año Fundacional?",
-      "intro": "Los cursos de Año Fundacional son una excelente oportunidad para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones académicas necesarias para ingresar directamente a un título universitario.",
-      "studentsLimited": {
-        "title": "Estudiantes con Experiencia Académica Limitada",
-        "content": "Si no tienes las calificaciones necesarias para ingresar directamente a un curso universitario, un Año Fundacional te ofrece la oportunidad de actualizar tus conocimientos y habilidades para una transición suave a la educación superior."
-      },
-      "professionals": {
-        "title": "Profesionales que Regresan a lo Académico",
-        "content": "Si has estado fuera de la educación formal por un tiempo y deseas reingresar al ambiente académico, el Año Fundacional proporciona apoyo preparatorio."
-      },
-      "international": {
-        "title": "Estudiantes Internacionales e Inmigrantes",
-        "content": "Para aquellos que se han mudado recientemente al Reino Unido y necesitan un año de adaptación antes de comenzar su título universitario."
-      },
-      "nonTraditional": {
-        "title": "Estudiantes con Calificaciones No Tradicionales",
-        "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
-      }
-    },
-    "whatIsSection": {
-      "title": "¿Qué es un Año Fundacional?",
-      "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
-      "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
-      "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito.",
-      "paragraph4": "Te permite construir una red de contactos con otros estudiantes internacionales y profesores, facilitando tu integración."
-
-    },
-    "imageAlt": "Estudiantes estudiando"
-  }
+    }
+  },
+  "whatIsSection": {
+    "title": "¿Qué es un Año Fundacional?",
+    "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
+    "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
+    "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito."
+  },
+  "imageAlt": "Estudiantes estudiando"
 }
