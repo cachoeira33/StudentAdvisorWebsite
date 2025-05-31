@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import AboutPG from './pages/AboutPG';
+import About from './components/About';
 import ServicesPage from './pages/ServicesPage';
 import UniversitiesPage from './pages/UniversitiesPage';
 import FoundationPage from './pages/FoundationPage';
@@ -23,7 +23,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/" element={<AboutPG />} />
+          <Route path="/about" element={<About />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/universities" element={<UniversitiesPage />} />
           <Route path="/foundation" element={<FoundationPage />} />
