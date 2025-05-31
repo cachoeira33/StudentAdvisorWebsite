@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+import profileImage from '../public/profile.png';
 
-const About = () => {
+const AboutPG = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="py-24 bg-neutral-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,25 +17,31 @@ const About = () => {
             />
           </div>
           <div>
-            <h2 className="text-3xl md:text-4xl font-serif text-white mb-6">About Me</h2>
+            <h2 className="text-3xl md:text-4xl font-serif text-white mb-6">
+              {t('aboutPage.title')}
+            </h2>
             <p className="text-gray-400 mb-6">
-              With years of experience in academic advising and a passion for photography, I help students navigate their educational journey while capturing life's most extraordinary moments. My unique blend of expertise in UK education systems and creative storytelling allows me to provide comprehensive guidance and support to your whole journey. 
+              {t('aboutPage.description')}
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
-                <h3 className="text-emerald-500 text-lg font-medium mb-2">Experience</h3>
+                <h3 className="text-emerald-500 text-lg font-medium mb-2">
+                  {t('aboutPage.experienceTitle')}
+                </h3>
                 <ul className="text-gray-400 space-y-2">
-                  <li>3+ Years in Academic Advising</li>
-                  <li>100+ Students Placed</li>
-                  <li>Professional Photographer</li>
+                  {t('aboutPage.experienceItems', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
               </div>
               <div>
-                <h3 className="text-emerald-500 text-lg font-medium mb-2">Expertise</h3>
+                <h3 className="text-emerald-500 text-lg font-medium mb-2">
+                  {t('aboutPage.expertiseTitle')}
+                </h3>
                 <ul className="text-gray-400 space-y-2">
-                  <li>UK Education System</li>
-                  <li>Law Support</li>
-                  <li>Events and all kinds of Photography</li>
+                  {t('aboutPage.expertiseItems', { returnObjects: true }).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -42,4 +52,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPG;
