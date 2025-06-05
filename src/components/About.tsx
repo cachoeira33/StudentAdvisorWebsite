@@ -11,34 +11,34 @@ const AboutPG = () => {
           <div>
             <img
               src="/profile.png" 
-              alt={t('aboutPage.profileAlt')}
+              alt={t('aboutPG.profileAlt')}
               className="rounded-lg shadow-2xl"
             />
           </div>
           <div>
             <h2 className="text-3xl md:text-4xl font-serif text-white mb-6">
-              {t('aboutPage.title')}
+              {t('aboutPG.title')}
             </h2>
             <p className="text-gray-400 mb-6">
-              {t('aboutPage.description')}
+              {t('aboutPG.description')}
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <h3 className="text-emerald-500 text-lg font-medium mb-2">
-                  {t('aboutPage.experienceTitle')}
+                  {t('aboutPG.experienceTitle')}
                 </h3>
                 <ul className="text-gray-400 space-y-2">
-                  {t('aboutPage.experienceItems', { returnObjects: true }).map((item, index) => (
+                  {t('aboutPGe.experienceItems', { returnObjects: true }).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
               <div>
                 <h3 className="text-emerald-500 text-lg font-medium mb-2">
-                  {t('aboutPage.expertiseTitle')}
+                  {t('aboutPG.expertiseTitle')}
                 </h3>
                 <ul className="text-gray-400 space-y-2">
-                  {t('aboutPage.expertiseItems', { returnObjects: true }).map((item, index) => (
+                  {t('aboutPG.expertiseItems', { returnObjects: true }).map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
                 </ul>

@@ -20,11 +20,10 @@
       "learnMore": "Scopri di più"
     }
   },
-  "aboutPage": {
-    "title": "Sobre mí",
-    "subtitle": "Tu Experto en Educación Superior en el Reino Unido"
-  },
-  "experienceItems": [
+  "aboutPG": {
+    "title": "Chi sono",
+    "description": "Esperto in istruzione superiore nel Regno Unito",
+    "experienceItems": [
     {
       "title": "Esperienza nell'Istruzione Superiore",
       "description": "Oltre 3 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
@@ -504,7 +503,7 @@
   "description": "Siamo situati nel cuore della città, facilmente raggiungibili con i mezzi pubblici.",
   "mapLink": "https://www.google.com/maps"
 },
-"title": "Corsi di Anno Fondamentale",
+"mainTitle": "Corsi di Anno Fondamentale",
 "benefitSection": {
   "title": "Chi può beneficiare dei corsi di Anno Fondamentale?",
   "intro": "I corsi di Anno Fondamentale sono un'ottima opportunità per coloro che desiderano studiare nel Regno Unito ma non possiedono le qualifiche accademiche necessarie per accedere direttamente a un corso di laurea.",
@@ -532,4 +531,5 @@
   "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
 },
 "imageAlt": "Studenti che studiano"
+}
 }
