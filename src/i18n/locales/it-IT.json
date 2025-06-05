@@ -19,42 +19,6 @@
       "consultation": "Prenota una consulenza",
       "learnMore": "Scopri di più"
     }
-  },
-  "aboutPage": {
-    "title": "Sobre mí",
-    "subtitle": "Tu Experto en Educación Superior en el Reino Unido"
-  },
-  "experienceItems": [
-    {
-      "title": "Esperienza nell'Istruzione Superiore",
-      "description": "Oltre 3 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
-    },
-    {
-      "title": "Network Universitario",
-      "description": "Collaborazioni consolidate con le principali università britanniche"
-    },
-    {
-      "title": "Successo Comprovato",
-      "description": "Migliaia di studenti soddisfatti che studiano nel Regno Unito"
-    }
-  ],
-  "expertiseItems": [
-    {
-      "title": "Ammissioni Universitarie",
-      "description": "Guida esperta nel processo di ammissione alle università britanniche"
-    },
-    {
-      "title": "Finanziamenti per gli Studi",
-      "description": "Consulenza completa sulle opzioni di finanziamento e borse di studio"
-    },
-    {
-      "title": "Supporto all'Immigrazione",
-      "description": "Assistenza con visti e requisiti di immigrazione"
-    },
-    {
-      "title": "Orientamento Accademico",
-      "description": "Consigli personalizzati per scegliere il corso più adatto"
-    }
   ],
 "sfe": {
   "title": "Vantaggi del Student Finance England",
@@ -530,6 +494,43 @@
   "paragraph1": "L'Anno Fondamentale è un anno preparatorio progettato per fornire agli studenti le competenze accademiche necessarie per accedere a un corso di laurea completo.",
   "paragraph2": "Durante quest'anno, gli studenti ricevono formazione in materie come matematica, inglese accademico e altre conoscenze essenziali relative al corso di laurea scelto.",
   "paragraph3": "Alla fine dell'anno, sarai pronto per iniziare il tuo corso di laurea completo con una solida base per il successo."
-},
+  },
 "imageAlt": "Studenti che studiano"
+  },
+  "aboutPage": {
+    "title": "Sobre mí",
+    "subtitle": "Tu Experto en Educación Superior en el Reino Unido"
+  },
+     "experienceItems": [
+    {
+      "title": "Esperienza nell'Istruzione Superiore",
+      "description": "Oltre 3 anni di esperienza nell'aiutare gli studenti a raggiungere i loro obiettivi accademici nel Regno Unito"
+    },
+    {
+      "title": "Network Universitario",
+      "description": "Collaborazioni consolidate con le principali università britanniche"
+    },
+    {
+      "title": "Successo Comprovato",
+      "description": "Migliaia di studenti soddisfatti che studiano nel Regno Unito"
+    }
+  ],
+  "expertiseItems": [
+    {
+      "title": "Ammissioni Universitarie",
+      "description": "Guida esperta nel processo di ammissione alle università britanniche"
+    },
+    {
+      "title": "Finanziamenti per gli Studi",
+      "description": "Consulenza completa sulle opzioni di finanziamento e borse di studio"
+    },
+    {
+      "title": "Supporto all'Immigrazione",
+      "description": "Assistenza con visti e requisiti di immigrazione"
+    },
+    {
+      "title": "Orientamento Accademico",
+      "description": "Consigli personalizzati per scegliere il corso più adatto"
+    }
+    
 }
