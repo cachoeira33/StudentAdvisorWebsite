@@ -32,7 +32,7 @@ const Navbar = () => {
             <NavLink to="/student-finance">{t('nav.funding')}</NavLink>
             <NavLink to="/contact">{t('nav.contact')}</NavLink>
             <NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>
-            <NavLink to="/faq">{t('nav.faq')}</NavLink>
+            <NavLink to="/faq">{t('nav.navfaq')}</NavLink>
             <LanguageSelector />
             <button 
               onClick={handleBookMeeting}

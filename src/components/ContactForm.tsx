@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CheckCircle, AlertTriangle } from 'lucide-react';
 import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
+import { useTranslation } from 'react-i18next';
 
 interface FormData {
   fullName: string;
@@ -9,8 +10,8 @@ interface FormData {
   whatsAppNumber: string;
   message: string;
 }
-
 const ContactForm: React.FC = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState<FormData>({
     fullName: '',
     email: '',
@@ -20,7 +21,7 @@ const ContactForm: React.FC = () => {
   const [submissions, setSubmissions] = useState<FormData[]>([]);
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [errors, setErrors] = useState<Partial<Record<keyof FormData, string>>>({});
-
+  // Function to validate email format
   const validateEmail = (email: string) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
@@ -32,7 +33,7 @@ const ContactForm: React.FC = () => {
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
     } else if (!validateEmail(formData.email)) {
-      newErrors.email = 'Invalid email format';
+      newErrors.email = t('contactForm.formErrors.invalidEmail');
     }
     if (!formData.message.trim()) newErrors.message = 'Message is required';
     setErrors(newErrors);
@@ -42,9 +43,8 @@ const ContactForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validateForm()) return;
-
     setSubmissions([...submissions, formData]);
-    setSuccessMessage('Message sent successfully!');
+    setSuccessMessage(t('msgForm.successMessage'));
     setFormData({
       fullName: '',
       email: '',
@@ -80,7 +80,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className="flex items-center justify-center py-12">
       <div className="max-w-3xl mx-auto w-full bg-neutral-900 rounded-lg shadow-lg p-8 border border-neutral-800">
-        <h2 className="text-2xl font-semibold text-white mb-6 text-center">Contact Us</h2>
+        <h2 className="text-2xl font-semibold text-white mb-6 text-center">{t('contactForm.title')}</h2>
         {successMessage && (
           <div className="bg-emerald-800 text-white p-3 rounded-md mb-4 flex items-center gap-2">
             <CheckCircle size={20} />
@@ -90,7 +90,7 @@ const ContactForm: React.FC = () => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-1" htmlFor="fullName">
-              Full Name
+              {t('contactForm.form.name')}
             </label>
             <input
               type="text"
@@ -99,7 +99,7 @@ const ContactForm: React.FC = () => {
               value={formData.fullName}
               onChange={handleChange}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              placeholder="Your Full Name"
+              placeholder={t('contactForm.form.nameLabel')}
             />
             {errors.fullName && (
               <p className="text-red-500 text-sm mt-1 flex items-center gap-1">
@@ -110,7 +110,7 @@ const ContactForm: React.FC = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-1" htmlFor="email">
-              Email
+              {t('contactForm.form.emailLabel')}
             </label>
             <input
               type="email"
@@ -119,7 +119,7 @@ const ContactForm: React.FC = () => {
               value={formData.email}
               onChange={handleChange}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              placeholder="Your Email Address"
+              placeholder={t('contactForm.form.emailLabel')}
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1 flex items-center gap-1">
@@ -130,7 +130,7 @@ const ContactForm: React.FC = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-1" htmlFor="whatsAppNumber">
-              WhatsApp Number (Optional)
+              {t('contactForm.form.whatsAppLabel2')}
             </label>
             <input
               type="tel"
@@ -139,12 +139,12 @@ const ContactForm: React.FC = () => {
               value={formData.whatsAppNumber}
               onChange={handleChange}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
-              placeholder="Your WhatsApp Number"
+              placeholder={t('contactForm.form.whatsAppLabel')}
             />
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-1" htmlFor="message">
-              Message
+              {t('contactForm.form.message')}
             </label>
             <textarea
               id="message"
@@ -153,7 +153,7 @@ const ContactForm: React.FC = () => {
               onChange={handleChange}
               rows={4}
               className="w-full bg-neutral-800 border border-neutral-700 rounded-md px-3 py-2 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500 resize-none"
-              placeholder="Your Message"
+              placeholder={t('contactForm.form.messageLabel')}
             />
             {errors.message && (
               <p className="text-red-500 text-sm mt-1 flex items-center gap-1">
@@ -166,7 +166,7 @@ const ContactForm: React.FC = () => {
             type="submit"
             className="w-full px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition-colors"
           >
-            Send Message
+            {t('contactForm.form.submit')}
           </button>
         </form>
         {submissions.length > 0 && (
@@ -174,7 +174,7 @@ const ContactForm: React.FC = () => {
             onClick={exportToExcel}
             className="mt-4 px-4 py-2 bg-neutral-700 text-white rounded-md hover:bg-neutral-600 transition-colors w-full"
           >
-            Export to Excel
+            {t('contactForm.exportToExcel')}
           </button>
         )}
       </div>

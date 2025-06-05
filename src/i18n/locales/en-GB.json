@@ -9,7 +9,7 @@
     "contact": "Contact",
     "foundation": "Foundation Year",
     "bookMeeting": "Book a Meeting",
-    "faq": "FAQ"
+    "navfaq": "FAQ"
   },
   "hero": {
     "title": "Study in the UK",
@@ -20,7 +20,81 @@
       "learnMore": "Learn More"
     }
   },
-  "sfe": {
+  "foundation": {
+    "title": "Foundation Year Courses",
+    "subtitle": "Prepare for Your Undergraduate Degree",
+    "description": "Foundation Year courses are designed to help students who may not meet the direct entry requirements for undergraduate programs. They provide essential academic skills and knowledge to ensure a smooth transition into higher education.",
+    "benefits": {
+      "title": "Benefits of Foundation Year Courses",
+      "items": [
+        "Improved academic skills",
+        "Enhanced English language proficiency",
+        "Tailored support for international students",
+        "Pathway to undergraduate degrees"
+      ]
+    },
+    "cta": {
+      "applyNow": "Apply Now",
+      "learnMore": "Learn More"
+    }
+  },
+  "aboutPage": {
+    "title": "About Me",
+    "subtitle": "Your Higher Education Expert in the UK",
+    "experienceItems": [
+      {
+        "title": "Higher Education Experience",
+        "description": "Over 3 years helping students achieve their academic goals in the UK"
+      },
+      {
+        "title": "University Network",
+        "description": "Established partnerships with leading UK universities"
+      },
+      {
+        "title": "Proven Success",
+        "description": "Thousands of satisfied students studying in the UK"
+      }
+    ],
+    "expertiseItems": [
+      {
+        "title": "University Admissions",
+        "description": "Expert guidance on the UK university admissions process"
+      },
+      {
+        "title": "Student Finance",
+        "description": "Comprehensive advice on funding options and scholarships"
+      },
+      {
+        "title": "Migration Support",
+        "description": "Assistance with visas and immigration requirements"
+      },
+      {
+        "title": "Academic Guidance",
+        "description": "Personalized advice to help you choose the right course"
+      }
+    ]
+  },
+  "footer": {
+    "contact": "Contact Me",
+    "followUs": "Follow Us On",
+    "EffectMessage": "Helping students achieve their academic dreams while capturing life's extraordinary moments.",
+    "DireitosReservados": "All rights reserved",
+    "atalhotexto": "Quick Link"
+  },
+  "contactDetails": {
+    "title": "Contact Me",
+    "phoneNumber": "+44 0774543 2478",
+    "emailAdvisor": "gabriielcachoeira@gmail.com"
+  },
+  "newsletter": {
+    "subscribe": "Subscribe to our Newsletter",
+    "emailPlaceholder": "Enter your email address",
+    "subscribeButton": "Subscribe",
+    "title": "Stay Updated",
+    "description": "Subscribe to our newsletter for the latest news, tips, and resources related to studying in the UK.",
+    "subscribeButtonAlt": "Subscribe Now"
+  },
+  "sfeInfo": {
     "title": "Student Finance England Benefits",
     "subtitle": "Financial Support for Your Studies",
     "tuitionLoan": "Tuition Fee Loan",
@@ -30,7 +104,68 @@
     "repayment": "Flexible Repayment",
     "repaymentDesc": "Only start repaying when you earn above the threshold",
     "additional": "Additional Support",
-    "additionalDesc": "Extra funding available for disabled students and those with dependents"
+    "additionalDesc": "Extra funding available for disabled students and those with dependents",
+    "funding": {
+      "title": "Student Finance",
+      "description": "Learn about the financial support available for students in the UK, including tuition fee loans, maintenance loans, and additional funding options."
+    },
+    "sfe.tuitionLoan": {
+      "title": "Tuition Fee Loan",
+      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+    },
+    "sfe.maintenanceLoan": {
+      "title": "Maintenance Loan",
+      "description": "Get support for living costs while you study."
+    },
+    "sfe.repayment": {
+      "title": "Flexible Repayment",
+      "description": "Only start repaying when you earn above the threshold."
+    },
+    "sfe.additional": {
+      "title": "Additional Support",
+      "description": "Extra funding available for disabled students and those with dependents."
+    },
+    "sfe.tuitionLoanDesc": {
+      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+    },
+    "sfe.maintenanceLoanDesc": {
+      "description": "Get support for living costs while you study."
+    },
+    "sfe.tuitionDesc": {
+      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+    },
+    "sfe.maintenanceDesc": {
+      "description": "Get support for living costs while you study."
+    },
+    "sfe.repaymentDesc": {
+      "description": "Only start repaying when you earn above the threshold."
+    },
+    "sfe.additionalDesc": {
+      "description": "Extra funding available for disabled students and those with dependents."
+    },
+    "sfeBenefits": {
+      "title": "Student Finance England Benefits",
+      "description": "Financial support for your studies, including tuition fee loans, maintenance loans, and additional support for eligible students."
+    },
+    "sfeTuitionLoan": {
+      "title": "Tuition Fee Loan",
+      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+    },
+    "sfeMaintenanceLoan": {
+      "title": "Maintenance Loan",
+      "description": "Get support for living costs while you study."
+    },
+    "sfeRepayment": {
+      "title": "Flexible Repayment",
+      "description": "Only start repaying when you earn above the threshold."
+    },
+    "sfeAdditional": {
+      "title": "Additional Support",
+      "description": "Extra funding available for disabled students and those with dependents."
+    },
+    "sfeTuitionDesc": {
+      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -156,37 +291,11 @@
       "answer": "Yes, you can apply for funding for the next academic year if you meet the criteria."
     }
   },
-  "footer": {
-    "contact": "Contact Us",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "social": {
-      "followUs": "Follow Us",
-      "facebook": "Facebook",
-      "twitter": "Twitter",
-      "instagram": "Instagram"
-    },
-    "newsletter": {
-      "subscribe": "Subscribe to our Newsletter",
-      "emailPlaceholder": "Enter your email address",
-      "subscribeButton": "Subscribe"
-    }
-  },
-  "about": {
+  "aboutUs": {
     "title": "About Us",
     "description": "We are dedicated to helping students navigate the complexities of studying in the UK, from university applications to student finance and our mission is to provide clear, accessible information and personalized support to ensure your success in the UK education system.",
     "team": "Meet Our Team",
     "teamDescription": "Our experienced advisors are here to guide you every step of the way, ensuring you have the best possible experience."
-  },
-  "contact": {
-    "title": "Contact Us",
-    "description": "Have questions? We're here to help! Reach out to us via the contact form or book a meeting with one of our advisors.",
-    "form": {
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Your Message",
-      "submit": "Send Message"
-    }
   },
   "services": {
     "title": "Our Services",
@@ -235,11 +344,6 @@
     "cta": "Schedule Your Consultation"
   },
   "learnMore": {
-    "title": "Learn More",
-    "description": "Discover more about our services, the UK education system, and how we can assist you in achieving your academic goals."
-  },
-  "newsletter": {
-    "title": "Stay Updated",
     "description": "Subscribe to our newsletter for the latest news, tips, and resources related to studying in the UK.",
     "subscribeButton": "Subscribe Now"
   },
@@ -252,92 +356,6 @@
     "description": "Choose a convenient time for your consultation with our expert advisors. We look forward to helping you with your study plans in the UK.",
     "cta": "Select a Time"
   },
-  "contactForm": {
-    "title": "Get in Touch",
-    "description": "We'd love to hear from you! Fill out the form below, and one of our advisors will get back to you as soon as possible.",
-    "namePlaceholder": "Your Name",
-    "emailPlaceholder": "Your Email",
-    "messagePlaceholder": "Your Message",
-    "submitButton": "Send Message"
-  },
-  "funding": {
-    "title": "Student Finance",
-    "description": "Learn about the financial support available for students in the UK, including tuition fee loans, maintenance loans, and additional funding options.",
-    "cta": "Explore Student Finance"
-  },
-  "sfe.tuitionLoan": {
-    "title": "Tuition Fee Loan",
-    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-  },
-  "sfe.maintenanceLoan": {
-    "title": "Maintenance Loan",
-    "description": "Get support for living costs while you study."
-  },
-  "sfe.repayment": {
-    "title": "Flexible Repayment",
-    "description": "Only start repaying when you earn above the threshold."
-  },
-  "sfe.additional": {
-    "title": "Additional Support",
-    "description": "Extra funding available for disabled students and those with dependents."
-  },
-  "sfe.tuitionLoanDesc": {
-    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-  },
-  "sfe.maintenanceLoanDesc": {
-    "description": "Get support for living costs while you study."
-  },
-  "sfe.tuitionDesc": {
-    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-  },
-  "sfe.maintenanceDesc": {
-    "description": "Get support for living costs while you study."
-  },
-  "sfe.repaymentDesc": {
-    "description": "Only start repaying when you earn above the threshold."
-  },
-  "sfe.additionalDesc": {
-    "description": "Extra funding available for disabled students and those with dependents."
-  },
-  "sfeBenefits": {
-    "title": "Student Finance England Benefits",
-    "description": "Financial support for your studies, including tuition fee loans, maintenance loans, and additional support for eligible students."
-  },
-  "sfeTuitionLoan": {
-    "title": "Tuition Fee Loan",
-    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-  },
-  "sfeMaintenanceLoan": {
-    "title": "Maintenance Loan",
-    "description": "Get support for living costs while you study."
-  },
-  "sfeRepayment": {
-    "title": "Flexible Repayment",
-    "description": "Only start repaying when you earn above the threshold."
-  },
-  "sfeAdditional": {
-    "title": "Additional Support",
-    "description": "Extra funding available for disabled students and those with dependents."
-  },
-  "sfeTuitionDesc": {
-    "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-  },
-  "aboutPage": {
-    "title": "About Us",
-    "description": "We are committed to providing expert guidance and support to students pursuing education in the UK. Our mission is to simplify the process of university applications, student finance, and other essential aspects of studying abroad.",
-    "experienceTitle": "Our Experience",
-    "experienceItems": [
-      "Years of expertise in academic advising",
-      "Hundreds of students successfully placed",
-      "Comprehensive understanding of the UK education system"
-    ],
-    "expertiseTitle": "Our Expertise",
-    "expertiseItems": [
-      "UK Education System",
-      "Student Finance Guidance",
-      "Personalized Academic Support"
-    ]
-  },
   "contactPage": {
     "title": "Contact Me",
     "description": "Have questions or need assistance? Feel free to reach out via the contact form below, and I'll get back to you as soon as possible.",
@@ -348,40 +366,63 @@
       "submit": "Send Message"
     }
   },
-  "servicesPage": {
-    "title": "My Services",
-    "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
-  },
-  "universitiesPage": {
-    "title": "UK Universities",
-    "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students. Learn more about their offerings and how to apply."
-  },
-  "title": "Foundation Year Courses",
-  "benefitSection": {
-    "title": "Who Can Benefit from Foundation Year Courses?",
-    "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
-    "studentsLimited": {
-      "title": "Students with Limited Academic Experience",
-      "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
+  "contactForm": {
+      "title": "Contact Us",
+      "form": {
+        "name": "Full Name",
+        "email": "Email",
+        "whatsAppNumber": "WhatsApp Number (Optional)",
+        "message": "Message",
+        "messageLabel": "Your Message",
+        "submit": "Send Message",
+        "nameLabel": "Your Full Name",
+        "emailLabel": "Your Email Address",
+        "whatsAppLabel": "Your WhatsApp Number (Optional)",
+        "whatsAppLabel2": "WhatsApp Number (Optional)"
+      },
+      "exportToExcel": "Export to Excel",
+      "msgForm": {
+        "successMessage": "Message sent successfully!"
+      },
+      "formErrors": {
+        "required": "is required",
+        "invalidEmail": "Invalid email format"
+      }
     },
-    "professionals": {
-      "title": "Professionals Returning to Academics",
-      "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
+    "servicesPage": {
+      "title": "My Services",
+      "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
     },
-    "international": {
-      "title": "International Students and Immigrants",
-      "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
+    "universitiesPage": {
+      "title": "UK Universities",
+      "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students. Learn more about their offerings and how to apply."
     },
-    "nonTraditional": {
-      "title": "Students with Non-traditional Qualifications",
-      "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
-    }
-  },
-  "whatIsSection": {
-    "title": "What is a Foundation Year?",
-    "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
-    "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
-    "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
-  },
-  "imageAlt": "Students studying"
-}
+    "title": "Foundation Year Courses",
+    "benefitSection": {
+      "title": "Who Can Benefit from Foundation Year Courses?",
+      "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
+      "studentsLimited": {
+        "title": "Students with Limited Academic Experience",
+        "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
+      },
+      "professionals": {
+        "title": "Professionals Returning to Academics",
+        "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
+      },
+      "international": {
+        "title": "International Students and Immigrants",
+        "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
+      },
+      "nonTraditional": {
+        "title": "Students with Non-traditional Qualifications",
+        "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
+      }
+    },
+    "whatIsSection": {
+      "title": "What is a Foundation Year?",
+      "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
+      "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
+      "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
+    },
+    "imageAlt": "Students studying"
+  }
