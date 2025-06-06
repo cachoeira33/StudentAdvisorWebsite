@@ -29,7 +29,15 @@ const AboutPG = () => {
                 </h3>
                 <ul className="text-gray-400 space-y-2">
                   {t('aboutPage.experienceItems', { returnObjects: true }).map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index}>
+                      {typeof item === 'object' && item.title && item.description ? (
+                        <span>
+                          <strong>{item.title}:</strong> {item.description}
+                        </span>
+                      ) : (
+                        item
+                      )}
+                    </li>
                   ))}
                 </ul>
               </div>
@@ -39,7 +47,15 @@ const AboutPG = () => {
                 </h3>
                 <ul className="text-gray-400 space-y-2">
                   {t('aboutPage.expertiseItems', { returnObjects: true }).map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index}>
+                      {typeof item === 'object' && item.title && item.description ? (
+                        <span>
+                          <strong>{item.title}:</strong> {item.description}
+                        </span>
+                      ) : (
+                        item
+                      )}
+                    </li>
                   ))}
                 </ul>
               </div>
