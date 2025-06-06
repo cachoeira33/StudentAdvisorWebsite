@@ -229,22 +229,22 @@
     },
     "contactForm": {
       "form": {
-        "fullName": "Nome completo",
-        "email": "E-mail",
+        "fullName": "Nombre completo",
+        "email": "Correo electrónico",
         "whatsAppNumber": "WhatsApp",
         "optional": "opcional",
-        "message": "Mensagem",
-        "submit": "Enviar mensagem",
+        "message": "Mensaje",
+        "submit": "Enviar mensaje",
         "submitting": "Enviando..."
       },
       "formErrors": {
-        "nameRequired": "Por favor, insira seu nome completo",
-        "emailRequired": "Por favor, insira seu e-mail",
-        "invalidEmail": "Por favor, insira um e-mail válido",
-        "messageRequired": "Por favor, escreva sua mensagem"
+        "nameRequired": "Por favor, ingresa tu nombre completo",
+        "emailRequired": "Por favor, ingresa tu correo electrónico",
+        "invalidEmail": "Por favor, ingresa un correo electrónico válido",
+        "messageRequired": "Por favor, escribe tu mensaje"
       },
-      "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
-      "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente mais tarde."
+      "successMessage": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.",
+      "errorMessage": "Error al enviar el mensaje. Por favor, intenta nuevamente más tarde."
     }
   },
   "whatIsSection": {
