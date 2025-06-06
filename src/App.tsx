@@ -10,7 +10,7 @@ import UniversitiesPage from './pages/UniversitiesPage';
 import FoundationPage from './pages/FoundationPage';
 import StudentFinancePage from './pages/StudentFinancePage';
 import ContactPage from './pages/ContactPage';
-import Testimonials from './components/Testimonials';
+//import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 
 
@@ -29,7 +29,7 @@ function App() {
           <Route path="/foundation" element={<FoundationPage />} />
           <Route path="/student-finance" element={<StudentFinancePage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/testimonials" element={<Testimonials />} />
+          {/*<Route path="/testimonials" element={<Testimonials />} />*/}
           <Route path="/faq" element={<FAQ />} />
         </Routes>
         <Footer />
