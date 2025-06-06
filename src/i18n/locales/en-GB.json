@@ -366,8 +366,7 @@
     },
     "successMessage": "Message sent successfully! We will contact you soon.",
     "errorMessage": "Error sending message. Please try again later."
-  }
-},
+  },
 "servicesPage": {
   "title": "My Services",
   "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
