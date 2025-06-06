@@ -23,37 +23,19 @@
   "aboutPage": {
     "title": "Sobre Mim",
     "subtitle": "Seu Especialista em Educação Superior no Reino Unido",
+    "description": "Com anos de experiência em consultoria acadêmica e paixão por fotografia, ajudo estudantes a navegar em sua jornada educacional enquanto capturo os momentos mais extraordinários da vida. Minha combinação única de expertise em sistemas educacionais do Reino Unido e narrativa criativa me permite fornecer orientação e suporte abrangentes durante toda sua jornada.",
+    "profileAlt": "Gabriel Cachoeira",
+    "experienceTitle": "Experiência",
     "experienceItems": [
-      {
-        "title": "Experiência em Educação Superior",
-        "description": "Mais de 3 anos ajudando estudantes a alcançar seus objetivos acadêmicos no Reino Unido"
-      },
-      {
-        "title": "Rede de Universidades",
-        "description": "Parcerias estabelecidas com as principais universidades britânicas"
-      },
-      {
-        "title": "Sucesso Comprovado",
-        "description": "Milhares de estudantes satisfeitos estudando no Reino Unido"
-      }
+      "3+ anos em Consultoria Acadêmica",
+      "100+ Estudantes Colocados",
+      "Fotógrafo Profissional"
     ],
+    "expertiseTitle": "Especialidades",
     "expertiseItems": [
-      {
-        "title": "Admissão Universitária",
-        "description": "Orientação especializada no processo de admissão em universidades britânicas"
-      },
-      {
-        "title": "Financiamento Estudantil",
-        "description": "Assessoria completa sobre opções de financiamento e bolsas de estudo"
-      },
-      {
-        "title": "Apoio Migratório",
-        "description": "Assistência com vistos e requisitos de imigração"
-      },
-      {
-        "title": "Orientação Acadêmica",
-        "description": "Conselhos personalizados para escolher o curso ideal"
-      }
+      "Sistema Educacional do Reino Unido",
+      "Suporte Jurídico",
+      "Eventos e Fotografia"
     ]
   },
   "sfe": {
@@ -240,106 +222,82 @@
     },
     "programs": "Principais Cursos:"
   },
-  "aboutFoundation": {
-    "title": "Cursos de Foundation Year",
-    "who": {
-      "title": "Quem Pode se Beneficiar de um Foundation Year?",
-      "general": "Os cursos de Foundation Year são uma excelente oportunidade para quem deseja estudar no Reino Unido mas não possui as qualificações acadêmicas necessárias para ingressar diretamente em uma graduação.",
-      "students": {
-        "title": "Estudantes com Experiência Acadêmica Limitada",
-        "description": "Se você não possui as qualificações para entrar diretamente em uma graduação, o Foundation Year oferece a chance de atualizar seu conhecimento e se preparar."
-      },
-      "professionals": {
-        "title": "Profissionais Retornando aos Estudos",
-        "description": "Se você está afastado da educação formal e deseja retornar ao ambiente acadêmico, o Foundation Year oferece suporte preparatório."
-      },
-      "immigrants": {
-        "title": "Estudantes Internacionais e Imigrantes",
-        "description": "Para quem chegou recentemente ao Reino Unido e precisa de um ano de adaptação antes de iniciar a graduação."
-      },
-      "nontraditional": {
-        "title": "Estudantes com Qualificações Não Tradicionais",
-        "description": "Se você possui diplomas ou certificações que não são reconhecidos diretamente no Reino Unido, o Foundation Year pode ser a ponte para sua graduação."
-      }
+  "footer": {
+    "contact": "Contate-me",
+    "followUs": "Siga-nos em",
+    "EffectMessage": "Ajudando estudantes a alcançar seus sonhos acadêmicos enquanto capturamos os momentos extraordinários da vida.",
+    "DireitosReservados": "Todos os direitos reservados",
+    "atalhotexto": "Link rápido"
+  },
+  "contactDetails": {
+    "title": "Contate-me",
+    "phoneNumber": "+44 0774543 2478",
+    "emailAdvisor": "gabriielcachoeira@gmail.com"
+  },
+  "services": {
+    "title": "Nossos Serviços"
+  },
+  "contactForm": {
+    "title": "Entre em Contato",
+    "form": {
+      "name": "Nome completo",
+      "email": "Email",
+      "whatsAppNumber": "Número do WhatsApp (opcional)",
+      "message": "Mensagem",
+      "messageLabel": "Sua mensagem",
+      "submit": "Enviar mensagem",
+      "nameLabel": "Seu nome completo",
+      "emailLabel": "Seu endereço de email",
+      "whatsAppLabel": "Seu número do WhatsApp (opcional)",
+      "whatsAppLabel2": "Número do WhatsApp (opcional)"
     },
-    "whatIsSection": {
-      "title": "O que é um Foundation Year?",
-      "p1": "O Foundation Year é um ano preparatório projetado para fornecer aos alunos as habilidades acadêmicas necessárias para ingressar em um curso de graduação.",
-      "p2": "Durante esse ano, os alunos recebem treinamento em disciplinas como matemática, inglês acadêmico e outros conhecimentos relevantes para o curso desejado.",
-      "p3": "Ao final do ano, você estará pronto para iniciar sua graduação com uma base sólida para o sucesso."
+    "exportToExcel": "Exportar para Excel",
+    "msgForm": {
+      "successMessage": "Mensagem enviada com sucesso!"
     },
-    "benefits": {
-      "title": "Benefícios do Foundation Year",
-      "paragraph1": "Melhora suas habilidades acadêmicas e de estudo, preparando-o para os desafios da graduação.",
-      "paragraph2": "Oferece uma transição suave para o sistema educacional do Reino Unido, ajudando você a se adaptar ao ambiente acadêmico.",
-      "paragraph3": "Aumenta suas chances de sucesso na graduação, fornecendo uma base sólida em disciplinas essenciais.",
-      "paragraph4": "Permite que você construa uma rede de contatos com outros estudantes internacionais e professores, facilitando sua integração."
-    },
-    "header": {
-      "title": "StudentAdvisor",
-      "features": "Recursos",
-      "testimonials": "Depoimentos",
-      "contact": "Contato",
-      "language": "Idioma"
-    },
-    "footer": {
-      "contact": "Contate-me",
-      "followUs": "Siga-nos em",
-      "EffectMessage": "Ajudando estudantes a alcançar seus sonhos acadêmicos enquanto capturamos os momentos extraordinários da vida.",
-      "DireitosReservados": "Todos os direitos reservados",
-      "atalhotexto": "Link rápido"
-    },
-    "contact": {
-      "title": "Entre em Contato Conosco",
-      "description": "Tem alguma dúvida ou precisa de mais informações? Preencha o formulário abaixo e entraremos em contato.",
-      "form": {
-        "name": "Seu Nome",
-        "email": "Seu Email",
-        "message": "Sua Mensagem",
-        "submit": "Enviar"
-      },
-      "successMessage": "Obrigado por entrar em contato! Responderemos o mais breve possível.",
-      "errorMessage": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde."
-    },
-    "aboutUs": {
-      "title": "Sobre Nós",
-      "description": "Somos uma equipe dedicada a ajudar estudantes internacionais a alcançarem seus objetivos acadêmicos no Reino Unido. Com anos de experiência, oferecemos consultoria personalizada, suporte na inscrição em universidades e orientação sobre financiamento estudantil.",
-      "mission": "Nossa missão é tornar o processo de estudar no Reino Unido acessível e descomplicado para todos os estudantes."
-    },
-    "bookMeeting": {
-      "title": "Agende uma Reunião",
-      "description": "Gostaria de discutir suas opções de estudo no Reino Unido? Agende uma reunião conosco para uma consulta personalizada.",
-      "form": {
-        "name": "Seu Nome",
-        "email": "Seu Email",
-        "date": "Data Preferida",
-        "time": "Hora Preferida",
-        "submit": "Agendar Reunião"
-      },
-      "successMessage": "Sua reunião foi agendada com sucesso! Entraremos em contato para confirmar os detalhes.",
-      "errorMessage": "Ocorreu um erro ao agendar sua reunião. Por favor, tente novamente mais tarde."
-    },
-    "notFound": {
-      "title": "Página Não Encontrada",
-      "description": "Desculpe, a página que você está procurando não existe.",
-      "goHome": "Voltar para o Início"
-    },
-    "aboutPage": {
-      "title": "Sobre Mim",
-      "profileAlt": "Gabriel Cachoeira",
-      "description": "Com anos de experiência em assessoria acadêmica e paixão por fotografia, ajudo estudantes a navegar em sua jornada educacional enquanto capturo os momentos mais extraordinários da vida. Minha combinação única de experiência em sistemas educacionais do Reino Unido e narrativa criativa me permite fornecer orientação e suporte abrangentes para toda a sua jornada.",
-      "experienceTitle": "Experiência",
-      "experienceItems": [
-        "3+ anos em Assessoria Acadêmica",
-        "100+ Estudantes Posicionados",
-        "Fotógrafo Profissional"
-      ],
-      "expertiseTitle": "Especialidades",
-      "expertiseItems": [
-        "Sistema Educacional do Reino Unido",
-        "Suporte Jurídico",
-        "Eventos e Fotografia"
-      ]
+    "formErrors": {
+      "required": "é obrigatório",
+      "invalidEmail": "Formato de email inválido"
     }
-  }
+  },
+  "sfeInfo": {
+    "title": "Benefícios do Student Finance England",
+    "subtitle": "Suporte Financeiro para seus Estudos",
+    "tuitionLoan": "Empréstimo para Mensalidade",
+    "tuitionDesc": "Cubra suas mensalidades com um empréstimo que você só começa a pagar após a graduação",
+    "maintenanceLoan": "Empréstimo para Manutenção",
+    "maintenanceDesc": "Receba suporte para custos de vida enquanto estuda",
+    "repayment": "Pagamento Flexível",
+    "repaymentDesc": "Comece a pagar apenas quando estiver ganhando acima do limite estabelecido",
+    "additional": "Suporte Adicional",
+    "additionalDesc": "Financiamento extra disponível para estudantes com deficiência e dependentes"
+  },
+  "title": "Cursos de Foundation Year",
+  "benefitSection": {
+    "title": "Quem Pode se Beneficiar de Cursos de Foundation Year?",
+    "intro": "Os cursos de Foundation Year são uma excelente oportunidade para quem deseja estudar no Reino Unido mas não possui as qualificações acadêmicas necessárias para ingressar diretamente em uma graduação.",
+    "studentsLimited": {
+      "title": "Estudantes com Experiência Acadêmica Limitada",
+      "content": "Se você não possui as qualificações para entrar diretamente em uma graduação, o Foundation Year oferece a chance de atualizar seu conhecimento e se preparar."
+    },
+    "professionals": {
+      "title": "Profissionais Retornando aos Estudos",
+      "content": "Se você está afastado da educação formal e deseja retornar ao ambiente acadêmico, o Foundation Year oferece suporte preparatório."
+    },
+    "international": {
+      "title": "Estudantes Internacionais e Imigrantes",
+      "content": "Para quem chegou recentemente ao Reino Unido e precisa de um ano de adaptação antes de iniciar a graduação."
+    },
+    "nonTraditional": {
+      "title": "Estudantes com Qualificações Não Tradicionais",
+      "content": "Se você possui diplomas ou certificações que não são reconhecidos diretamente no Reino Unido, o Foundation Year pode ser a ponte para sua graduação."
+    }
+  },
+  "whatIsSection": {
+    "title": "O que é um Foundation Year?",
+    "paragraph1": "O Foundation Year é um ano preparatório projetado para fornecer aos alunos as habilidades acadêmicas necessárias para ingressar em um curso de graduação.",
+    "paragraph2": "Durante esse ano, os alunos recebem treinamento em disciplinas como matemática, inglês acadêmico e outros conhecimentos relevantes para o curso desejado.",
+    "paragraph3": "Ao final do ano, você estará pronto para iniciar sua graduação com uma base sólida para o sucesso."
+  },
+  "imageAlt": "Estudantes estudando"
 }
