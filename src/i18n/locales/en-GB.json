@@ -41,37 +41,19 @@
   "aboutPage": {
     "title": "About Me",
     "subtitle": "Your Higher Education Expert in the UK",
+    "description": "With years of experience in academic advising and a passion for photography, I help students navigate their educational journey while capturing life's most extraordinary moments. My unique combination of expertise in UK education systems and creative storytelling allows me to provide comprehensive guidance and support throughout your journey.",
+    "profileAlt": "Gabriel Cachoeira",
+    "experienceTitle": "Experience",
     "experienceItems": [
-      {
-        "title": "Higher Education Experience",
-        "description": "Over 3 years helping students achieve their academic goals in the UK"
-      },
-      {
-        "title": "University Network",
-        "description": "Established partnerships with leading UK universities"
-      },
-      {
-        "title": "Proven Success",
-        "description": "Thousands of satisfied students studying in the UK"
-      }
+      "3+ years in Academic Advising",
+      "100+ Students Placed",
+      "Professional Photographer"
     ],
+    "expertiseTitle": "Expertise",
     "expertiseItems": [
-      {
-        "title": "University Admissions",
-        "description": "Expert guidance on the UK university admissions process"
-      },
-      {
-        "title": "Student Finance",
-        "description": "Comprehensive advice on funding options and scholarships"
-      },
-      {
-        "title": "Migration Support",
-        "description": "Assistance with visas and immigration requirements"
-      },
-      {
-        "title": "Academic Guidance",
-        "description": "Personalized advice to help you choose the right course"
-      }
+      "UK Education System",
+      "Legal Support",
+      "Events & Photography"
     ]
   },
   "footer": {
@@ -172,7 +154,7 @@
     "search": "Search for a question...",
     "q1": {
       "question": "What is Student Finance?",
-      "answer": "It’s a UK government loan that covers the cost of university tuition fees."
+      "answer": "It's a UK government loan that covers the cost of university tuition fees."
     },
     "q2": {
       "question": "Who can apply for Student Finance?",
@@ -220,18 +202,18 @@
     },
     "q13": {
       "question": "Can I choose any course?",
-      "answer": "Yes, as long as it’s eligible and approved by Student Finance."
+      "answer": "Yes, as long as it's eligible and approved by Student Finance."
     },
     "q14": {
       "question": "Can I study part-time?",
       "answer": "Yes, part-time students can also receive funding."
     },
     "q15": {
-      "question": "My English isn’t great. Can I still apply?",
+      "question": "My English isn't great. Can I still apply?",
       "answer": "Yes, many universities offer Foundation Year with English support."
     },
     "q16": {
-      "question": "I’m over 30. Can I still study?",
+      "question": "I'm over 30. Can I still study?",
       "answer": "Yes! There is no age limit for undergraduate courses with Student Finance."
     },
     "q17": {
@@ -256,15 +238,15 @@
     },
     "q22": {
       "question": "What is UCAS?",
-      "answer": "It’s the official UK university application system. Most courses use it."
+      "answer": "It's the official UK university application system. Most courses use it."
     },
     "q23": {
       "question": "Is Student Finance a loan or a scholarship?",
-      "answer": "It’s a government loan that is repaid through taxes after graduation, only if you earn enough."
+      "answer": "It's a government loan that is repaid through taxes after graduation, only if you earn enough."
     },
     "q24": {
       "question": "What is student life like in the UK?",
-      "answer": "It’s culturally rich, with great student support, events, discounts, and facilities."
+      "answer": "It's culturally rich, with great student support, events, discounts, and facilities."
     },
     "q25": {
       "question": "Can I work while studying?",
@@ -287,7 +269,7 @@
       "answer": "You can apply for additional support through Disabled Students' Allowances (DSAs)."
     },
     "q30": {
-      "question": "Can I apply for funding if I’m already studying?",
+      "question": "Can I apply for funding if I'm already studying?",
       "answer": "Yes, you can apply for funding for the next academic year if you meet the criteria."
     }
   },

@@ -28,17 +28,12 @@ const AboutPG = () => {
                   {t('aboutPage.experienceTitle')}
                 </h3>
                 <ul className="text-gray-400 space-y-2">
-                  {t('aboutPage.experienceItems', { returnObjects: true }).map((item, index) => (
-                    <li key={index}>
-                      {typeof item === 'object' && item.title && item.description ? (
-                        <span>
-                          <strong>{item.title}:</strong> {item.description}
-                        </span>
-                      ) : (
-                        item
-                      )}
-                    </li>
-                  ))}
+                  {Array.isArray(t('aboutPage.experienceItems', { returnObjects: true })) ? 
+                    t('aboutPage.experienceItems', { returnObjects: true }).map((item, index) => (
+                      <li key={index}>{item}</li>
+                    )) : 
+                    <li>{t('aboutPage.experienceItems')}</li>
+                  }
                 </ul>
               </div>
               <div>
@@ -46,17 +41,12 @@ const AboutPG = () => {
                   {t('aboutPage.expertiseTitle')}
                 </h3>
                 <ul className="text-gray-400 space-y-2">
-                  {t('aboutPage.expertiseItems', { returnObjects: true }).map((item, index) => (
-                    <li key={index}>
-                      {typeof item === 'object' && item.title && item.description ? (
-                        <span>
-                          <strong>{item.title}:</strong> {item.description}
-                        </span>
-                      ) : (
-                        item
-                      )}
-                    </li>
-                  ))}
+                  {Array.isArray(t('aboutPage.expertiseItems', { returnObjects: true })) ? 
+                    t('aboutPage.expertiseItems', { returnObjects: true }).map((item, index) => (
+                      <li key={index}>{item}</li>
+                    )) : 
+                    <li>{t('aboutPage.expertiseItems')}</li>
+                  }
                 </ul>
               </div>
             </div>
