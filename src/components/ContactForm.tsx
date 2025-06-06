@@ -19,6 +19,7 @@ const ContactForm: React.FC = () => {
   });
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [errors, setErrors] = useState<Partial<Record<keyof FormData, string>>>({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const validateEmail = (email: string) => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -42,8 +43,11 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     if (!validateForm()) return;
 
+    setIsSubmitting(true);
+    setSuccessMessage(null);
+
     try {
-      const response = await fetch('/api/save-contact', {
+      const response = await fetch('http://localhost:3001/api/save-contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,25 +55,26 @@ const ContactForm: React.FC = () => {
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        setSuccessMessage(t('contactForm.successMessage'));
-        setFormData({
-          fullName: '',
-          email: '',
-          whatsAppNumber: '',
-          message: ''
-        });
-        setErrors({});
+      const data = await response.json();
 
-        setTimeout(() => {
-          setSuccessMessage(null);
-        }, 3000);
-      } else {
-        throw new Error('Failed to save contact');
+      if (!response.ok) {
+        throw new Error(data.error || t('contactForm.errorMessage'));
       }
+
+      setSuccessMessage(t('contactForm.successMessage'));
+      setFormData({
+        fullName: '',
+        email: '',
+        whatsAppNumber: '',
+        message: ''
+      });
+      setErrors({});
+
     } catch (error) {
       console.error('Error saving contact:', error);
-      setSuccessMessage(t('contactForm.errorMessage'));
+      setSuccessMessage(error.message || t('contactForm.errorMessage'));
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -79,6 +84,13 @@ const ContactForm: React.FC = () => {
       ...formData,
       [name]: value
     });
+    // Clear error when typing
+    if (errors[name as keyof FormData]) {
+      setErrors({
+        ...errors,
+        [name]: ''
+      });
+    }
   };
 
   return (
@@ -88,22 +100,96 @@ const ContactForm: React.FC = () => {
         
         {successMessage && (
           <div className={`p-3 rounded-md mb-4 flex items-center gap-2 ${
-            successMessage.includes('Error') ? 'bg-red-800' : 'bg-emerald-800'
+            successMessage.includes(t('contactForm.errorMessage')) ? 'bg-red-800' : 'bg-emerald-800'
           } text-white`}>
-            {successMessage.includes('Error') ? <AlertTriangle size={20} /> : <CheckCircle size={20} />}
+            {successMessage.includes(t('contactForm.errorMessage')) ? 
+              <AlertTriangle size={20} /> : <CheckCircle size={20} />}
             {successMessage}
           </div>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Campos do formulário permanecem os mesmos */}
-          {/* ... seu código existente para os campos ... */}
-          
+          <div>
+            <label htmlFor="fullName" className="block text-sm font-medium text-neutral-300 mb-1">
+              {t('contactForm.form.fullName')}
+            </label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
+              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
+                errors.fullName ? 'border-red-500' : 'border-neutral-700'
+              }`}
+            />
+            {errors.fullName && (
+              <p className="mt-1 text-sm text-red-500">{errors.fullName}</p>
+            )}
+          </div>
+
+          <div>
+            <label htmlFor="email" className="block text-sm font-medium text-neutral-300 mb-1">
+              {t('contactForm.form.email')}
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
+                errors.email ? 'border-red-500' : 'border-neutral-700'
+              }`}
+            />
+            {errors.email && (
+              <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+            )}
+          </div>
+
+          <div>
+            <label htmlFor="whatsAppNumber" className="block text-sm font-medium text-neutral-300 mb-1">
+              {t('contactForm.form.whatsAppNumber')} ({t('contactForm.form.optional')})
+            </label>
+            <input
+              type="tel"
+              id="whatsAppNumber"
+              name="whatsAppNumber"
+              value={formData.whatsAppNumber}
+              onChange={handleChange}
+              className="w-full px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-md text-white"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="message" className="block text-sm font-medium text-neutral-300 mb-1">
+              {t('contactForm.form.message')}
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              rows={4}
+              value={formData.message}
+              onChange={handleChange}
+              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
+                errors.message ? 'border-red-500' : 'border-neutral-700'
+              }`}
+            />
+            {errors.message && (
+              <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+            )}
+          </div>
+
           <button
             type="submit"
-            className="w-full px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition-colors"
+            disabled={isSubmitting}
+            className={`w-full px-4 py-2 rounded-md transition-colors ${
+              isSubmitting
+                ? 'bg-emerald-800 cursor-not-allowed'
+                : 'bg-emerald-600 hover:bg-emerald-700'
+            } text-white`}
           >
-            {t('contactForm.form.submit')}
+            {isSubmitting ? t('contactForm.form.submitting') : t('contactForm.form.submit')}
           </button>
         </form>
       </div>

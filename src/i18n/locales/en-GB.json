@@ -349,62 +349,59 @@
     }
   },
   "contactForm": {
-      "title": "Contact Us",
-      "form": {
-        "name": "Full Name",
-        "email": "Email",
-        "whatsAppNumber": "WhatsApp Number (Optional)",
-        "message": "Message",
-        "messageLabel": "Your Message",
-        "submit": "Send Message",
-        "nameLabel": "Your Full Name",
-        "emailLabel": "Your Email Address",
-        "whatsAppLabel": "Your WhatsApp Number (Optional)",
-        "whatsAppLabel2": "WhatsApp Number (Optional)"
-      },
-      "exportToExcel": "Export to Excel",
-      "msgForm": {
-        "successMessage": "Message sent successfully!"
-      },
-      "formErrors": {
-        "required": "is required",
-        "invalidEmail": "Invalid email format"
-      }
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "whatsAppNumber": "WhatsApp",
+      "optional": "optional",
+      "message": "Message",
+      "submit": "Send Message",
+      "submitting": "Sending..."
     },
-    "servicesPage": {
-      "title": "My Services",
-      "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
+    "formErrors": {
+      "nameRequired": "Please enter your full name",
+      "emailRequired": "Please enter your email",
+      "invalidEmail": "Please enter a valid email",
+      "messageRequired": "Please write your message"
     },
-    "universitiesPage": {
-      "title": "UK Universities",
-      "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students. Learn more about their offerings and how to apply."
-    },
-    "title": "Foundation Year Courses",
-    "benefitSection": {
-      "title": "Who Can Benefit from Foundation Year Courses?",
-      "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
-      "studentsLimited": {
-        "title": "Students with Limited Academic Experience",
-        "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
-      },
-      "professionals": {
-        "title": "Professionals Returning to Academics",
-        "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
-      },
-      "international": {
-        "title": "International Students and Immigrants",
-        "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
-      },
-      "nonTraditional": {
-        "title": "Students with Non-traditional Qualifications",
-        "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
-      }
-    },
-    "whatIsSection": {
-      "title": "What is a Foundation Year?",
-      "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
-      "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
-      "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
-    },
-    "imageAlt": "Students studying"
+    "successMessage": "Message sent successfully! We will contact you soon.",
+    "errorMessage": "Error sending message. Please try again later."
   }
+},
+"servicesPage": {
+  "title": "My Services",
+  "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
+},
+"universitiesPage": {
+  "title": "UK Universities",
+  "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students. Learn more about their offerings and how to apply."
+},
+"title": "Foundation Year Courses",
+"benefitSection": {
+  "title": "Who Can Benefit from Foundation Year Courses?",
+  "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
+  "studentsLimited": {
+    "title": "Students with Limited Academic Experience",
+    "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
+  },
+  "professionals": {
+    "title": "Professionals Returning to Academics",
+    "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
+  },
+  "international": {
+    "title": "International Students and Immigrants",
+    "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
+  },
+  "nonTraditional": {
+    "title": "Students with Non-traditional Qualifications",
+    "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
+  }
+},
+"whatIsSection": {
+  "title": "What is a Foundation Year?",
+  "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
+  "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
+  "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
+},
+"imageAlt": "Students studying"
+}

@@ -250,27 +250,23 @@
     }
   },
   "contactForm": {
-    "title": "Contattaci",
-    "description": "Hai domande o vuoi saperne di più sui nostri servizi? Siamo qui per aiutarti.",
-    "form": {
-      "name": "Nome",
-      "email": "Email",
-      "message": "Messaggio",
-      "submit": "Invia",
-      "nameLabel": "Il tuo nome completo",
-      "emailLabel": "Il tuo indirizzo email",
-      "whatsAppLabel": "Il tuo numero WhatsApp (opzionale)",
-      "whatsAppLabel2": "Numero WhatsApp (opzionale)",
-      "messageLabel": "Il tuo messaggio",
-      "whatsAppNumber": "Numero WhatsApp (opzionale)"
-    },
-    "exportToExcel": "Esporta in Excel",
-    "msgForm": {
-      "successMessage": "Messaggio inviato con successo!"
-    },
-    "formErrors": {
-      "required": "è obbligatorio",
-      "invalidEmail": "Formato email non valido"
+      "form": {
+        "fullName": "Nome completo",
+        "email": "E-mail",
+        "whatsAppNumber": "WhatsApp",
+        "optional": "opcional",
+        "message": "Mensagem",
+        "submit": "Enviar mensagem",
+        "submitting": "Enviando..."
+      },
+      "formErrors": {
+        "nameRequired": "Por favor, insira seu nome completo",
+        "emailRequired": "Por favor, insira seu e-mail",
+        "invalidEmail": "Por favor, insira um e-mail válido",
+        "messageRequired": "Por favor, escreva sua mensagem"
+      },
+      "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente mais tarde."
     }
   },
   "footer": {

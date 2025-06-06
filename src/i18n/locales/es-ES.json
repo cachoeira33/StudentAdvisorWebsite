@@ -228,27 +228,23 @@
       "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
     },
     "contactForm": {
-      "title": "Contáctanos",
       "form": {
-        "name": "Nombre completo",
-        "email": "Correo electrónico",
-        "whatsAppNumber": "Número de WhatsApp (opcional)",
-        "message": "Mensaje",
-        "messageLabel": "Tu mensaje",
-        "submit": "Enviar mensaje",
-        "nameLabel": "Tu nombre completo",
-        "emailLabel": "Tu correo electrónico",
-        "whatsAppLabel": "Tu número de WhatsApp (opcional)",
-        "whatsAppLabel2": "Número de WhatsApp (opcional)"
-      },
-      "exportToExcel": "Exportar a Excel",
-      "msgForm": {
-        "successMessage": "¡Mensaje enviado con éxito!"
+        "fullName": "Nome completo",
+        "email": "E-mail",
+        "whatsAppNumber": "WhatsApp",
+        "optional": "opcional",
+        "message": "Mensagem",
+        "submit": "Enviar mensagem",
+        "submitting": "Enviando..."
       },
       "formErrors": {
-        "required": "es obligatorio",
-        "invalidEmail": "Formato de correo electrónico inválido"
-      }
+        "nameRequired": "Por favor, insira seu nome completo",
+        "emailRequired": "Por favor, insira seu e-mail",
+        "invalidEmail": "Por favor, insira um e-mail válido",
+        "messageRequired": "Por favor, escreva sua mensagem"
+      },
+      "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+      "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente mais tarde."
     }
   },
   "whatIsSection": {
