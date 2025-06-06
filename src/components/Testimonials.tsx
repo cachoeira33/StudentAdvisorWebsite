@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Pencil, Trash2, Plus, X, Check } from 'lucide-react';
+//import React, { useState } from 'react';
+//import { Pencil, Trash2, Plus, X, Check } from 'lucide-react';
 
 interface Testimonial {
   id: string;
@@ -133,4 +133,4 @@ const Testimonials: React.FC = () => {
   );
 };
 
-export default Testimonials;
+//export default Testimonials;

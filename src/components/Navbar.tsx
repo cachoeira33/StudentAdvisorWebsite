@@ -31,7 +31,7 @@ const Navbar = () => {
             <NavLink to="/universities">{t('nav.universities')}</NavLink>
             <NavLink to="/student-finance">{t('nav.funding')}</NavLink>
             <NavLink to="/contact">{t('nav.contact')}</NavLink>
-            <NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>
+           {/*<NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>*/}
             <NavLink to="/faq">{t('nav.navfaq')}</NavLink>
             <LanguageSelector />
             <button 
@@ -65,7 +65,7 @@ const Navbar = () => {
             <MobileNavLink to="/universities">{t('nav.universities')}</MobileNavLink>
             <MobileNavLink to="/student-finance">{t('nav.funding')}</MobileNavLink>
             <MobileNavLink to="/contact">{t('nav.contact')}</MobileNavLink>
-            <MobileNavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</MobileNavLink>
+            {/*<MobileNavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</MobileNavLink>*/}
             <MobileNavLink to="/faq">{t('nav.faq')}</MobileNavLink>
 
             <button 
