@@ -9,7 +9,6 @@ const Navbar = () => {
   const { t } = useTranslation();
 
   const handleBookMeeting = () => {
-    // You can replace this with your actual booking logic
     window.open('https://calendly.com/gabriielcachoeira/30min', '_blank');
   };
 
@@ -29,14 +28,14 @@ const Navbar = () => {
             <NavLink to="/about">{t('nav.about')}</NavLink>
             <NavLink to="/services">{t('nav.services')}</NavLink>
             <NavLink to="/universities">{t('nav.universities')}</NavLink>
+            <NavLink to="/foundation">{t('nav.foundation')}</NavLink>
             <NavLink to="/student-finance">{t('nav.funding')}</NavLink>
             <NavLink to="/contact">{t('nav.contact')}</NavLink>
-           {/*<NavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</NavLink>*/}
-            <NavLink to="/faq">{t('nav.navfaq')}</NavLink>
+            <NavLink to="/faq">{t('nav.faq')}</NavLink>
             <LanguageSelector />
             <button 
               onClick={handleBookMeeting}
-              className="px-4 py-2 text-sm font-medium text-white bg-neutral-800 rounded-md hover:bg-neutral-700 transition-colors border border-neutral-700"
+              className="px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors"
             >
               {t('nav.bookMeeting')}
             </button>
@@ -59,18 +58,18 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-black border-t border-neutral-800">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <MobileNavLink to="/">{t('nav.home')}</MobileNavLink>
-            <MobileNavLink to="/about">{t('nav.about')}</MobileNavLink>
-            <MobileNavLink to="/services">{t('nav.services')}</MobileNavLink>
-            <MobileNavLink to="/universities">{t('nav.universities')}</MobileNavLink>
-            <MobileNavLink to="/student-finance">{t('nav.funding')}</MobileNavLink>
-            <MobileNavLink to="/contact">{t('nav.contact')}</MobileNavLink>
-            {/*<MobileNavLink to="/testimonials">{t('nav.testimonials') || 'Testimonials'}</MobileNavLink>*/}
-            <MobileNavLink to="/faq">{t('nav.faq')}</MobileNavLink>
+            <MobileNavLink to="/" onClick={() => setIsOpen(false)}>{t('nav.home')}</MobileNavLink>
+            <MobileNavLink to="/about" onClick={() => setIsOpen(false)}>{t('nav.about')}</MobileNavLink>
+            <MobileNavLink to="/services" onClick={() => setIsOpen(false)}>{t('nav.services')}</MobileNavLink>
+            <MobileNavLink to="/universities" onClick={() => setIsOpen(false)}>{t('nav.universities')}</MobileNavLink>
+            <MobileNavLink to="/foundation" onClick={() => setIsOpen(false)}>{t('nav.foundation')}</MobileNavLink>
+            <MobileNavLink to="/student-finance" onClick={() => setIsOpen(false)}>{t('nav.funding')}</MobileNavLink>
+            <MobileNavLink to="/contact" onClick={() => setIsOpen(false)}>{t('nav.contact')}</MobileNavLink>
+            <MobileNavLink to="/faq" onClick={() => setIsOpen(false)}>{t('nav.faq')}</MobileNavLink>
 
             <button 
               onClick={handleBookMeeting}
-              className="w-full mt-4 px-4 py-2 text-sm font-medium text-white bg-neutral-800 rounded-md hover:bg-neutral-700 transition-colors border border-neutral-700"
+              className="w-full mt-4 px-4 py-2 text-sm font-medium text-white bg-emerald-600 rounded-md hover:bg-emerald-700 transition-colors"
             >
               {t('nav.bookMeeting')}
             </button>
@@ -90,9 +89,10 @@ const NavLink = ({ to, children }: { to: string; children: React.ReactNode }) =>
   </Link>
 );
 
-const MobileNavLink = ({ to, children }: { to: string; children: React.ReactNode }) => (
+const MobileNavLink = ({ to, children, onClick }: { to: string; children: React.ReactNode; onClick: () => void }) => (
   <Link
     to={to}
+    onClick={onClick}
     className="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium"
   >
     {children}

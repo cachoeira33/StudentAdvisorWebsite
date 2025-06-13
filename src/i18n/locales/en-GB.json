@@ -9,7 +9,7 @@
     "contact": "Contact",
     "foundation": "Foundation Year",
     "bookMeeting": "Book a Meeting",
-    "navfaq": "FAQ"
+    "faq": "FAQ"
   },
   "hero": {
     "title": "Study in the UK",
@@ -86,68 +86,7 @@
     "repayment": "Flexible Repayment",
     "repaymentDesc": "Only start repaying when you earn above the threshold",
     "additional": "Additional Support",
-    "additionalDesc": "Extra funding available for disabled students and those with dependents",
-    "funding": {
-      "title": "Student Finance",
-      "description": "Learn about the financial support available for students in the UK, including tuition fee loans, maintenance loans, and additional funding options."
-    },
-    "sfe.tuitionLoan": {
-      "title": "Tuition Fee Loan",
-      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-    },
-    "sfe.maintenanceLoan": {
-      "title": "Maintenance Loan",
-      "description": "Get support for living costs while you study."
-    },
-    "sfe.repayment": {
-      "title": "Flexible Repayment",
-      "description": "Only start repaying when you earn above the threshold."
-    },
-    "sfe.additional": {
-      "title": "Additional Support",
-      "description": "Extra funding available for disabled students and those with dependents."
-    },
-    "sfe.tuitionLoanDesc": {
-      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-    },
-    "sfe.maintenanceLoanDesc": {
-      "description": "Get support for living costs while you study."
-    },
-    "sfe.tuitionDesc": {
-      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-    },
-    "sfe.maintenanceDesc": {
-      "description": "Get support for living costs while you study."
-    },
-    "sfe.repaymentDesc": {
-      "description": "Only start repaying when you earn above the threshold."
-    },
-    "sfe.additionalDesc": {
-      "description": "Extra funding available for disabled students and those with dependents."
-    },
-    "sfeBenefits": {
-      "title": "Student Finance England Benefits",
-      "description": "Financial support for your studies, including tuition fee loans, maintenance loans, and additional support for eligible students."
-    },
-    "sfeTuitionLoan": {
-      "title": "Tuition Fee Loan",
-      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-    },
-    "sfeMaintenanceLoan": {
-      "title": "Maintenance Loan",
-      "description": "Get support for living costs while you study."
-    },
-    "sfeRepayment": {
-      "title": "Flexible Repayment",
-      "description": "Only start repaying when you earn above the threshold."
-    },
-    "sfeAdditional": {
-      "title": "Additional Support",
-      "description": "Extra funding available for disabled students and those with dependents."
-    },
-    "sfeTuitionDesc": {
-      "description": "Cover your full tuition fees with a loan that you only start repaying after graduation."
-    }
+    "additionalDesc": "Extra funding available for disabled students and those with dependents"
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -340,15 +279,10 @@
   },
   "contactPage": {
     "title": "Contact Me",
-    "description": "Have questions or need assistance? Feel free to reach out via the contact form below, and I'll get back to you as soon as possible.",
-    "form": {
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Your Message",
-      "submit": "Send Message"
-    }
+    "description": "Have questions or need assistance? Feel free to reach out via the contact form below, and I'll get back to you as soon as possible."
   },
   "contactForm": {
+    "title": "Get in Touch",
     "form": {
       "fullName": "Full Name",
       "email": "Email",
@@ -402,5 +336,39 @@
     "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
     "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
   },
-  "imageAlt": "Students studying"
+  "imageAlt": "Students studying",
+  "our_services": "Our Services",
+  "personalized_consultancy": {
+    "title": "Personalized Consultancy",
+    "description": "We help you find the university and course most suited to your goals and personal profile. We consider your academic background, professional aspirations, and preferences."
+  },
+  "application_support": {
+    "title": "Application Support",
+    "description": "From choosing the right institution to final enrollment. We guide you step by step to make the process simple and successful."
+  },
+  "finance_support": {
+    "title": "Finance Support",
+    "description": "We help you apply for Student Finance and understand your financial options clearly and simply."
+  },
+  "accommodation_support": {
+    "title": "Accommodation and Logistics Support",
+    "description": "Advice on how to find housing and plan the cost of living in the UK."
+  },
+  "why_choose_us": "Why Choose Us?",
+  "expertise": {
+    "title": "Specialized Experience",
+    "description": "With years of experience in UK higher education, we know the system inside out and can help you succeed."
+  },
+  "personalized_approach": {
+    "title": "Personalized Attention",
+    "description": "Every student is unique. We offer individual guidance tailored to your needs and goals."
+  },
+  "comprehensive_support": {
+    "title": "Comprehensive Support",
+    "description": "From the first consultation to your arrival in the UK, we accompany you every step of the way."
+  },
+  "ongoing_assistance": {
+    "title": "Ongoing Assistance",
+    "description": "We stay in touch even after your enrollment, to help you in your academic experience."
+  }
 }

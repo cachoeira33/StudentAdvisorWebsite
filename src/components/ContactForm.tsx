@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CheckCircle, AlertTriangle } from 'lucide-react';
+import { CheckCircle, AlertTriangle, Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 interface FormData {
@@ -72,7 +72,7 @@ const ContactForm: React.FC = () => {
 
     } catch (error) {
       console.error('Error saving contact:', error);
-      setSuccessMessage(error.message || t('contactForm.errorMessage'));
+      setSuccessMessage(t('contactForm.errorMessage'));
     } finally {
       setIsSubmitting(false);
     }
@@ -94,105 +94,121 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center py-12">
-      <div className="max-w-3xl mx-auto w-full bg-neutral-900 rounded-lg shadow-lg p-8 border border-neutral-800">
-        <h2 className="text-2xl font-semibold text-white mb-6 text-center">{t('contactForm.title')}</h2>
-        
-        {successMessage && (
-          <div className={`p-3 rounded-md mb-4 flex items-center gap-2 ${
-            successMessage.includes(t('contactForm.errorMessage')) ? 'bg-red-800' : 'bg-emerald-800'
-          } text-white`}>
-            {successMessage.includes(t('contactForm.errorMessage')) ? 
-              <AlertTriangle size={20} /> : <CheckCircle size={20} />}
-            {successMessage}
-          </div>
-        )}
+    <div className="bg-neutral-900 rounded-lg shadow-lg p-6 sm:p-8 border border-neutral-800">
+      <h2 className="text-2xl font-semibold text-white mb-6">{t('contactForm.title')}</h2>
+      
+      {successMessage && (
+        <div className={`p-4 rounded-md mb-6 flex items-center gap-3 ${
+          successMessage.includes('Error') || successMessage.includes('erro') ? 
+          'bg-red-900/50 border border-red-700' : 
+          'bg-emerald-900/50 border border-emerald-700'
+        }`}>
+          {successMessage.includes('Error') || successMessage.includes('erro') ? 
+            <AlertTriangle size={20} className="text-red-400" /> : 
+            <CheckCircle size={20} className="text-emerald-400" />
+          }
+          <span className="text-white">{successMessage}</span>
+        </div>
+      )}
 
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div>
-            <label htmlFor="fullName" className="block text-sm font-medium text-neutral-300 mb-1">
-              {t('contactForm.form.fullName')}
-            </label>
-            <input
-              type="text"
-              id="fullName"
-              name="fullName"
-              value={formData.fullName}
-              onChange={handleChange}
-              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
-                errors.fullName ? 'border-red-500' : 'border-neutral-700'
-              }`}
-            />
-            {errors.fullName && (
-              <p className="mt-1 text-sm text-red-500">{errors.fullName}</p>
-            )}
-          </div>
+      <form onSubmit={handleSubmit} className="space-y-6">
+        <div>
+          <label htmlFor="fullName" className="block text-sm font-medium text-neutral-300 mb-2">
+            {t('contactForm.form.fullName')} *
+          </label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            value={formData.fullName}
+            onChange={handleChange}
+            className={`w-full px-4 py-3 bg-neutral-800 border rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors ${
+              errors.fullName ? 'border-red-500' : 'border-neutral-700'
+            }`}
+            placeholder="Enter your full name"
+          />
+          {errors.fullName && (
+            <p className="mt-2 text-sm text-red-400">{errors.fullName}</p>
+          )}
+        </div>
 
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-neutral-300 mb-1">
-              {t('contactForm.form.email')}
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
-                errors.email ? 'border-red-500' : 'border-neutral-700'
-              }`}
-            />
-            {errors.email && (
-              <p className="mt-1 text-sm text-red-500">{errors.email}</p>
-            )}
-          </div>
+        <div>
+          <label htmlFor="email" className="block text-sm font-medium text-neutral-300 mb-2">
+            {t('contactForm.form.email')} *
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            className={`w-full px-4 py-3 bg-neutral-800 border rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors ${
+              errors.email ? 'border-red-500' : 'border-neutral-700'
+            }`}
+            placeholder="Enter your email address"
+          />
+          {errors.email && (
+            <p className="mt-2 text-sm text-red-400">{errors.email}</p>
+          )}
+        </div>
 
-          <div>
-            <label htmlFor="whatsAppNumber" className="block text-sm font-medium text-neutral-300 mb-1">
-              {t('contactForm.form.whatsAppNumber')} ({t('contactForm.form.optional')})
-            </label>
-            <input
-              type="tel"
-              id="whatsAppNumber"
-              name="whatsAppNumber"
-              value={formData.whatsAppNumber}
-              onChange={handleChange}
-              className="w-full px-3 py-2 bg-neutral-800 border border-neutral-700 rounded-md text-white"
-            />
-          </div>
+        <div>
+          <label htmlFor="whatsAppNumber" className="block text-sm font-medium text-neutral-300 mb-2">
+            {t('contactForm.form.whatsAppNumber')} ({t('contactForm.form.optional')})
+          </label>
+          <input
+            type="tel"
+            id="whatsAppNumber"
+            name="whatsAppNumber"
+            value={formData.whatsAppNumber}
+            onChange={handleChange}
+            className="w-full px-4 py-3 bg-neutral-800 border border-neutral-700 rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors"
+            placeholder="Enter your WhatsApp number"
+          />
+        </div>
 
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-neutral-300 mb-1">
-              {t('contactForm.form.message')}
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={4}
-              value={formData.message}
-              onChange={handleChange}
-              className={`w-full px-3 py-2 bg-neutral-800 border rounded-md text-white ${
-                errors.message ? 'border-red-500' : 'border-neutral-700'
-              }`}
-            />
-            {errors.message && (
-              <p className="mt-1 text-sm text-red-500">{errors.message}</p>
-            )}
-          </div>
+        <div>
+          <label htmlFor="message" className="block text-sm font-medium text-neutral-300 mb-2">
+            {t('contactForm.form.message')} *
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            rows={5}
+            value={formData.message}
+            onChange={handleChange}
+            className={`w-full px-4 py-3 bg-neutral-800 border rounded-md text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition-colors resize-vertical ${
+              errors.message ? 'border-red-500' : 'border-neutral-700'
+            }`}
+            placeholder="Tell us about your goals and how we can help you..."
+          />
+          {errors.message && (
+            <p className="mt-2 text-sm text-red-400">{errors.message}</p>
+          )}
+        </div>
 
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className={`w-full px-4 py-2 rounded-md transition-colors ${
-              isSubmitting
-                ? 'bg-emerald-800 cursor-not-allowed'
-                : 'bg-emerald-600 hover:bg-emerald-700'
-            } text-white`}
-          >
-            {isSubmitting ? t('contactForm.form.submitting') : t('contactForm.form.submit')}
-          </button>
-        </form>
-      </div>
+        <button
+          type="submit"
+          disabled={isSubmitting}
+          className={`w-full px-6 py-3 rounded-md transition-all duration-200 flex items-center justify-center gap-2 font-medium ${
+            isSubmitting
+              ? 'bg-emerald-800 cursor-not-allowed opacity-70'
+              : 'bg-emerald-600 hover:bg-emerald-700 hover:shadow-lg'
+          } text-white`}
+        >
+          {isSubmitting ? (
+            <>
+              <div className="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></div>
+              {t('contactForm.form.submitting')}
+            </>
+          ) : (
+            <>
+              <Send size={18} />
+              {t('contactForm.form.submit')}
+            </>
+          )}
+        </button>
+      </form>
     </div>
   );
 };

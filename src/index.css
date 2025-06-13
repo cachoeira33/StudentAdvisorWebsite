@@ -75,3 +75,86 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #444;
 }
+
+/* Responsive design improvements */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .section-padding {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+  
+  .card-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Form improvements */
+.form-input {
+  transition: all 0.2s ease-in-out;
+}
+
+.form-input:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);
+}
+
+/* Button improvements */
+.btn-primary {
+  background: linear-gradient(135deg, #10b981, #059669);
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+/* Loading animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Testimonial cards */
+.testimonial-card {
+  transition: all 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Profile image styling */
+.profile-image {
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.02);
+}
