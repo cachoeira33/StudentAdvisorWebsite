@@ -1,49 +1,129 @@
-import React from 'react';
-import { Star } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Star, Pencil, Trash2, Plus, X, Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 interface Testimonial {
   id: string;
   name: string;
-  message: string;
-  photo?: string;
-  course?: string;
-  country?: string;
+  course: string;
+  photo: string;
+  testimonial: string;
   rating: number;
 }
 
-const testimonials: Testimonial[] = [
+const initialTestimonials: Testimonial[] = [
   {
     id: '1',
     name: 'Maria Silva',
-    message: 'Gabriel helped me navigate the entire process of applying to UK universities. His guidance was invaluable and I successfully got into my dream course!',
-    photo: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     course: 'Business Management',
-    country: 'Brazil',
+    photo: 'https://images.unsplash.com/photo-1494790108755-2616b612b47c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    testimonial: 'Gabriel helped me navigate the entire process of applying to UK universities. His guidance was invaluable and I successfully got into my dream course!',
     rating: 5
   },
   {
     id: '2',
     name: 'Carlos Rodriguez',
-    message: 'The support with Student Finance was amazing. Gabriel explained everything clearly and helped me understand all my options.',
-    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     course: 'Computer Science',
-    country: 'Spain',
+    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
+    testimonial: 'The support with Student Finance was amazing. Gabriel explained everything clearly and helped me understand all my options.',
     rating: 5
   },
   {
     id: '3',
     name: 'Anna Rossi',
-    message: 'Professional, knowledgeable, and always available to help. I couldn\'t have done it without Gabriel\'s expertise.',
+    course: 'Psychology',
     photo: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-    course: 'Foundation Year',
-    country: 'Italy',
+    testimonial: 'Professional, knowledgeable, and always available to help. I couldn\'t have done it without Gabriel\'s expertise.',
+    rating: 5
+  },
+  {
+    id: '4',
+    name: 'João Santos',
+    course: 'Accounting',
+    photo: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    testimonial: 'From application to enrollment, Gabriel was there every step of the way. Now I\'m studying my dream course in London!',
     rating: 5
   }
 ];
 
-const Testimonials: React.FC = () => {
+interface TestimonialsProps {
+  showAdmin?: boolean;
+  maxDisplay?: number;
+}
+
+const Testimonials: React.FC<TestimonialsProps> = ({ showAdmin = false, maxDisplay }) => {
   const { t } = useTranslation();
+  const [testimonials, setTestimonials] = useState<Testimonial[]>(initialTestimonials);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [formData, setFormData] = useState<Omit<Testimonial, 'id'>>({
+    name: '',
+    course: '',
+    photo: '',
+    testimonial: '',
+    rating: 5
+  });
+
+  // Get random testimonials for display
+  const getRandomTestimonials = (count: number) => {
+    const shuffled = [...testimonials].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  };
+
+  const displayTestimonials = maxDisplay 
+    ? getRandomTestimonials(maxDisplay)
+    : testimonials;
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formData.name || !formData.course || !formData.testimonial) return;
+
+    if (editingId) {
+      setTestimonials(testimonials.map(t => 
+        t.id === editingId ? { ...formData, id: editingId } : t
+      ));
+      setEditingId(null);
+    } else {
+      const newTestimonial = {
+        ...formData,
+        id: Date.now().toString()
+      };
+      setTestimonials([...testimonials, newTestimonial]);
+    }
+
+    setFormData({
+      name: '',
+      course: '',
+      photo: '',
+      testimonial: '',
+      rating: 5
+    });
+  };
+
+  const handleEdit = (testimonial: Testimonial) => {
+    setEditingId(testimonial.id);
+    setFormData({
+      name: testimonial.name,
+      course: testimonial.course,
+      photo: testimonial.photo,
+      testimonial: testimonial.testimonial,
+      rating: testimonial.rating
+    });
+  };
+
+  const handleDelete = (id: string) => {
+    setTestimonials(testimonials.filter(t => t.id !== id));
+  };
+
+  const handleCancel = () => {
+    setEditingId(null);
+    setFormData({
+      name: '',
+      course: '',
+      photo: '',
+      testimonial: '',
+      rating: 5
+    });
+  };
 
   return (
     <section className="py-16 bg-neutral-900">
@@ -57,12 +137,100 @@ const Testimonials: React.FC = () => {
           </p>
         </div>
 
+        {/* Admin Panel */}
+        {showAdmin && (
+          <div className="mb-12 bg-neutral-800 p-6 rounded-lg">
+            <h3 className="text-xl font-serif text-white mb-4">Admin Panel</h3>
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  value={formData.name}
+                  onChange={e => setFormData({ ...formData, name: e.target.value })}
+                  className="bg-neutral-700 border border-neutral-600 rounded-md px-3 py-2 text-white"
+                  required
+                />
+                <input
+                  type="text"
+                  placeholder="Course"
+                  value={formData.course}
+                  onChange={e => setFormData({ ...formData, course: e.target.value })}
+                  className="bg-neutral-700 border border-neutral-600 rounded-md px-3 py-2 text-white"
+                  required
+                />
+                <input
+                  type="url"
+                  placeholder="Photo URL"
+                  value={formData.photo}
+                  onChange={e => setFormData({ ...formData, photo: e.target.value })}
+                  className="bg-neutral-700 border border-neutral-600 rounded-md px-3 py-2 text-white"
+                />
+                <select
+                  value={formData.rating}
+                  onChange={e => setFormData({ ...formData, rating: Number(e.target.value) })}
+                  className="bg-neutral-700 border border-neutral-600 rounded-md px-3 py-2 text-white"
+                >
+                  {[1, 2, 3, 4, 5].map(rating => (
+                    <option key={rating} value={rating}>{rating} Star{rating > 1 ? 's' : ''}</option>
+                  ))}
+                </select>
+              </div>
+              <textarea
+                placeholder="Testimonial"
+                value={formData.testimonial}
+                onChange={e => setFormData({ ...formData, testimonial: e.target.value })}
+                className="w-full bg-neutral-700 border border-neutral-600 rounded-md px-3 py-2 text-white"
+                rows={3}
+                required
+              />
+              <div className="flex gap-2">
+                <button
+                  type="submit"
+                  className="px-4 py-2 bg-emerald-600 text-white rounded-md hover:bg-emerald-700 transition-colors flex items-center gap-2"
+                >
+                  {editingId ? <Check size={16} /> : <Plus size={16} />}
+                  {editingId ? 'Update' : 'Add'} Testimonial
+                </button>
+                {editingId && (
+                  <button
+                    type="button"
+                    onClick={handleCancel}
+                    className="px-4 py-2 bg-neutral-600 text-white rounded-md hover:bg-neutral-500 transition-colors flex items-center gap-2"
+                  >
+                    <X size={16} />
+                    Cancel
+                  </button>
+                )}
+              </div>
+            </form>
+          </div>
+        )}
+
+        {/* Testimonials Display */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial) => (
+          {displayTestimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-neutral-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow relative"
             >
+              {showAdmin && (
+                <div className="absolute top-2 right-2 flex gap-2">
+                  <button
+                    onClick={() => handleEdit(testimonial)}
+                    className="p-1 text-gray-400 hover:text-white transition-colors"
+                  >
+                    <Pencil size={14} />
+                  </button>
+                  <button
+                    onClick={() => handleDelete(testimonial.id)}
+                    className="p-1 text-gray-400 hover:text-red-400 transition-colors"
+                  >
+                    <Trash2 size={14} />
+                  </button>
+                </div>
+              )}
+              
               <div className="flex items-center mb-4">
                 {testimonial.photo && (
                   <img
@@ -73,7 +241,7 @@ const Testimonials: React.FC = () => {
                 )}
                 <div>
                   <h3 className="text-white font-semibold">{testimonial.name}</h3>
-                  <p className="text-gray-400 text-sm">{testimonial.country}</p>
+                  <p className="text-gray-400 text-sm">{testimonial.course}</p>
                 </div>
               </div>
               
@@ -83,13 +251,7 @@ const Testimonials: React.FC = () => {
                 ))}
               </div>
               
-              <p className="text-gray-300 mb-4 italic">"{testimonial.message}"</p>
-              
-              {testimonial.course && (
-                <p className="text-emerald-400 text-sm font-medium">
-                  Course: {testimonial.course}
-                </p>
-              )}
+              <p className="text-gray-300 italic">"{testimonial.testimonial}"</p>
             </div>
           ))}
         </div>

@@ -75,7 +75,7 @@ const ServicesPage = () => {
           </div>
         </div>
       </div>
-      <Testimonials />
+      <Testimonials maxDisplay={2} />
     </div>
   );
 };
@@ -89,7 +89,7 @@ const ServiceCard = ({
   title: string;
   description: string;
 }) => (
-  <div className="bg-neutral-900 p-8 rounded-lg hover:bg-neutral-800 transition-colors group">
+  <div className="bg-neutral-900 p-8 rounded-lg hover:bg-neutral-800 transition-colors group service-card">
     <div className="text-emerald-400 mb-6 group-hover:scale-110 transition-transform">{icon}</div>
     <h3 className="text-xl font-serif text-white mb-4">{title}</h3>
     <p className="text-gray-400 leading-relaxed">{description}</p>

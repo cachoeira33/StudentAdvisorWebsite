@@ -4,10 +4,9 @@
     "about": "Sobre",
     "services": "Serviços",
     "universities": "Universidades",
+    "foundation": "Ano de Fundação",
     "funding": "Financiamento",
-    "foundationYear": "Ano de Fundação",
     "contact": "Contato",
-    "testimonials": "Testemunhos",
     "bookMeeting": "Agendar Reunião",
     "faq": "Perguntas Frequentes"
   },
@@ -18,6 +17,101 @@
     "cta": {
       "consultation": "Agende uma Consulta",
       "learnMore": "Saiba Mais"
+    }
+  },
+  "studentFinance": {
+    "hero": {
+      "title": "Estude no Reino Unido com Financiamento Governamental Completo",
+      "subtitle": "Sem taxas antecipadas. Sem verificação de crédito. Sem fiador. Apenas oportunidade."
+    },
+    "benefits": {
+      "tuition": {
+        "title": "100% Empréstimo para Mensalidade",
+        "description": "O governo paga sua mensalidade universitária."
+      },
+      "maintenance": {
+        "title": "Empréstimo para Manutenção",
+        "description": "Receba suporte para aluguel, comida, transporte e custos diários."
+      },
+      "repayment": {
+        "title": "Pagamento Flexível",
+        "description": "Comece a pagar apenas quando ganhar mais de £25.000/ano."
+      },
+      "noUpfront": {
+        "title": "Sem Pagamentos Antecipados",
+        "description": "Sem pagamentos antecipados e sem juros até a graduação."
+      }
+    },
+    "extraSupport": {
+      "title": "Suporte Extra Disponível",
+      "description": "Ajuda adicional se você tiver filhos ou deficiências."
+    },
+    "eligibility": {
+      "title": "Quem é elegível?",
+      "euCitizens": "Cidadãos da UE",
+      "settledStatus": "Portadores de status pre-settled / settled",
+      "ukResident": "Morou no Reino Unido por 3+ anos",
+      "newStudent": "Novo na universidade ou reiniciando estudos"
+    },
+    "stories": {
+      "title": "Histórias Reais de Estudantes"
+    },
+    "whyMatters": {
+      "title": "Por que isso importa",
+      "education": "Educação é um direito – não um luxo.",
+      "workStudy": "Muitos estudantes trabalham meio período enquanto estudam.",
+      "guidance": "Nós te guiaremos passo a passo: da seleção do curso à inscrição."
+    },
+    "cta": {
+      "title": "Pronto para começar?",
+      "subtitle": "Nós te ajudaremos a se inscrever. Seu futuro começa agora.",
+      "button": "Agendar Consulta Gratuita"
+    }
+  },
+  "universities": {
+    "title": "Universidades e Cursos do Reino Unido",
+    "description": "Explore nossas universidades parceiras e a diversa gama de cursos disponíveis para estudantes internacionais.",
+    "availableCourses": "Áreas de Curso Disponíveis",
+    "partnerUniversities": "Universidades Parceiras",
+    "courses": {
+      "computing": "Computação",
+      "computingDesc": "Desenvolvimento de software, programação e sistemas de TI",
+      "accounting": "Contabilidade",
+      "accountingDesc": "Gestão financeira, auditoria e finanças empresariais",
+      "business": "Negócios",
+      "businessDesc": "Gestão, empreendedorismo e estratégia empresarial",
+      "health": "Saúde",
+      "healthDesc": "Cuidados de saúde, enfermagem e ciências médicas",
+      "psychology": "Psicologia",
+      "psychologyDesc": "Comportamento humano, saúde mental e aconselhamento",
+      "cyberSecurity": "Segurança Cibernética",
+      "cyberSecurityDesc": "Segurança digital, hacking ético e proteção de dados",
+      "construction": "Construção",
+      "constructionDesc": "Design de construção, gestão de projetos e engenharia"
+    },
+    "bathSpa": {
+      "description": "Localizada em Bath, oferecendo programas focados em artes, negócios e ciências sociais. Perfeita para quem busca um ambiente acolhedor."
+    },
+    "victoria": {
+      "description": "Baseada em Londres, oferecendo cursos em design, marketing digital e arte, ideal para indústrias criativas."
+    },
+    "canterbury": {
+      "description": "Oferece uma ampla gama de programas acadêmicos, com foco em saúde, educação e ciências sociais."
+    },
+    "whyStudy": {
+      "title": "Por que Estudar em Nossas Universidades Parceiras?",
+      "quality": {
+        "title": "Educação de Qualidade",
+        "description": "Todas as nossas universidades parceiras são reconhecidas por sua excelência acadêmica e altos padrões de ensino."
+      },
+      "career": {
+        "title": "Perspectivas de Carreira",
+        "description": "Fortes conexões com a indústria e serviços de apoio à carreira para ajudá-lo a ter sucesso após a graduação."
+      },
+      "support": {
+        "title": "Apoio ao Estudante",
+        "description": "Serviços abrangentes de apoio para estudantes internacionais, incluindo suporte linguístico e integração cultural."
+      }
     }
   },
   "aboutPage": {
@@ -38,52 +132,115 @@
       "Eventos e Fotografia"
     ]
   },
-  "sfe": {
-    "title": "Benefícios do Student Finance England",
-    "subtitle": "Suporte Financeiro para seus Estudos",
-    "tuitionLoan": "Empréstimo para Mensalidade",
-    "tuitionDesc": "Cubra suas mensalidades com um empréstimo que você só começa a pagar após a graduação.",
-    "maintenanceLoan": "Empréstimo para Manutenção",
-    "maintenanceDesc": "Receba suporte para custos de vida enquanto estuda.",
-    "repayment": "Pagamento Flexível",
-    "repaymentDesc": "Comece a pagar apenas quando estiver ganhando acima do limite estabelecido.",
-    "additional": "Suporte Adicional",
-    "additionalDesc": "Financiamento extra disponível para estudantes com deficiência e dependentes."
+  "contactPage": {
+    "title": "Entre em Contato",
+    "description": "Tem dúvidas ou precisa de assistência? Sinta-se à vontade para entrar em contato através do formulário abaixo, e eu retornarei o mais breve possível."
+  },
+  "contactForm": {
+    "title": "Entre em Contato",
+    "form": {
+      "fullName": "Nome Completo",
+      "email": "E-mail",
+      "whatsAppNumber": "WhatsApp",
+      "optional": "opcional",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "submitting": "Enviando..."
+    },
+    "formErrors": {
+      "nameRequired": "Por favor, insira seu nome completo",
+      "emailRequired": "Por favor, insira seu e-mail",
+      "invalidEmail": "Por favor, insira um e-mail válido",
+      "messageRequired": "Por favor, escreva sua mensagem"
+    },
+    "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
+    "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente mais tarde."
+  },
+  "testimonials": {
+    "title": "O que Nossos Estudantes Dizem",
+    "description": "Ouça de nossos estudantes sobre suas experiências estudando no Reino Unido e como os ajudamos a alcançar seus objetivos."
+  },
+  "footer": {
+    "contact": "Contate-me",
+    "followUs": "Siga-nos em",
+    "EffectMessage": "Ajudando estudantes a alcançar seus sonhos acadêmicos enquanto capturamos os momentos extraordinários da vida.",
+    "DireitosReservados": "Todos os direitos reservados",
+    "atalhotexto": "Links Rápidos"
+  },
+  "contactDetails": {
+    "title": "Contate-me",
+    "phoneNumber": "+44 0774543 2478",
+    "emailAdvisor": "gabriielcachoeira@gmail.com"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "description": "Ofereço uma gama de serviços para apoiar sua jornada acadêmica, incluindo orientação para inscrições universitárias, aconselhamento sobre financiamento estudantil e consultas personalizadas."
+  },
+  "servicesPage": {
+    "description": "Ofereço uma gama de serviços para apoiar sua jornada acadêmica, incluindo orientação para inscrições universitárias, aconselhamento sobre financiamento estudantil e consultas personalizadas."
   },
   "our_services": "Nossos Serviços",
   "personalized_consultancy": {
     "title": "Consultoria Personalizada",
-    "description": "Receba orientação sobre qual universidade e curso são mais adequados aos seus objetivos e perfil. Levamos em conta sua formação acadêmica, aspirações profissionais e preferências pessoais para recomendar o caminho educacional perfeito."
+    "description": "Te ajudamos a encontrar a universidade e curso mais adequados aos seus objetivos e perfil pessoal. Consideramos sua formação acadêmica, aspirações profissionais e preferências."
   },
   "application_support": {
-    "title": "Apoio Completo na Inscrição",
-    "description": "Desde a escolha da instituição certa até a conclusão da sua matrícula e finalização dos detalhes. Guiamos você em cada etapa do processo de inscrição, garantindo que toda a documentação seja devidamente preparada e enviada."
+    "title": "Apoio na Inscrição",
+    "description": "Da escolha da instituição certa até a matrícula final. Te guiamos passo a passo para tornar o processo simples e bem-sucedido."
   },
   "finance_support": {
-    "title": "Apoio Financeiro ao Estudante",
-    "description": "Auxílio na solicitação de empréstimos estudantis e de manutenção, com explicação detalhada das opções disponíveis. Ajudamos você a entender os aspectos financeiros de estudar no Reino Unido e maximizar suas oportunidades de financiamento."
+    "title": "Apoio Financeiro",
+    "description": "Te ajudamos a solicitar o Student Finance e entender suas opções financeiras de forma clara e simples."
   },
   "accommodation_support": {
-    "title": "Suporte em Acomodação e Logística",
-    "description": "Ajuda na busca por acomodações e informações sobre custos de vida no Reino Unido. Auxiliamos na procura de opções adequadas de moradia e no entendimento do custo de vida em diferentes cidades britânicas."
+    "title": "Apoio em Acomodação e Logística",
+    "description": "Conselhos sobre como encontrar moradia e planejar o custo de vida no Reino Unido."
   },
-  "why_choose_us": "Por que escolher nossos serviços?",
+  "why_choose_us": "Por que Nos Escolher?",
   "expertise": {
-    "title": "Expertise e Experiência",
-    "description": "Com anos de experiência no ensino superior do Reino Unido, entendemos as complexidades do processo de inscrição e podemos ajudá-lo a navegar por elas com sucesso."
+    "title": "Experiência Especializada",
+    "description": "Com anos de experiência no ensino superior do Reino Unido, conhecemos o sistema por dentro e podemos te ajudar a ter sucesso."
   },
   "personalized_approach": {
-    "title": "Atendimento Personalizado",
-    "description": "A jornada de cada estudante é única. Oferecemos orientação personalizada considerando suas circunstâncias e objetivos individuais."
+    "title": "Atenção Personalizada",
+    "description": "Cada estudante é único. Oferecemos orientação individual adaptada às suas necessidades e objetivos."
   },
   "comprehensive_support": {
     "title": "Apoio Abrangente",
-    "description": "Da consulta inicial à chegada no Reino Unido, estamos ao seu lado em todas as etapas, garantindo uma transição tranquila para sua nova vida acadêmica."
+    "description": "Da primeira consulta à sua chegada no Reino Unido, te acompanhamos em cada passo do caminho."
   },
   "ongoing_assistance": {
     "title": "Assistência Contínua",
-    "description": "Nosso suporte não termina com sua aprovação. Continuamos a oferecer orientação durante toda a sua trajetória acadêmica no Reino Unido."
+    "description": "Mantemos contato mesmo após sua matrícula, para te ajudar em sua experiência acadêmica."
   },
+  "title": "Cursos de Foundation Year",
+  "benefitSection": {
+    "title": "Quem Pode se Beneficiar de Cursos de Foundation Year?",
+    "intro": "Os cursos de Foundation Year são uma excelente oportunidade para quem deseja estudar no Reino Unido mas não possui as qualificações acadêmicas necessárias para ingressar diretamente em uma graduação.",
+    "studentsLimited": {
+      "title": "Estudantes com Experiência Acadêmica Limitada",
+      "content": "Se você não possui as qualificações para entrar diretamente em uma graduação, o Foundation Year oferece a chance de atualizar seu conhecimento e se preparar."
+    },
+    "professionals": {
+      "title": "Profissionais Retornando aos Estudos",
+      "content": "Se você está afastado da educação formal e deseja retornar ao ambiente acadêmico, o Foundation Year oferece suporte preparatório."
+    },
+    "international": {
+      "title": "Estudantes Internacionais e Imigrantes",
+      "content": "Para quem chegou recentemente ao Reino Unido e precisa de um ano de adaptação antes de iniciar a graduação."
+    },
+    "nonTraditional": {
+      "title": "Estudantes com Qualificações Não Tradicionais",
+      "content": "Se você possui diplomas ou certificações que não são reconhecidos diretamente no Reino Unido, o Foundation Year pode ser a ponte para sua graduação."
+    }
+  },
+  "whatIsSection": {
+    "title": "O que é um Foundation Year?",
+    "paragraph1": "O Foundation Year é um ano preparatório projetado para fornecer aos alunos as habilidades acadêmicas necessárias para ingressar em um curso de graduação.",
+    "paragraph2": "Durante esse ano, os alunos recebem treinamento em disciplinas como matemática, inglês acadêmico e outros conhecimentos relevantes para o curso desejado.",
+    "paragraph3": "Ao final do ano, você estará pronto para iniciar sua graduação com uma base sólida para o sucesso."
+  },
+  "imageAlt": "Estudantes estudando",
   "faq": {
     "title": "Perguntas Frequentes sobre Estudar na Inglaterra",
     "search": "Buscar pergunta...",
@@ -183,117 +340,5 @@
       "question": "Existe suporte extra para estudantes com deficiência?",
       "answer": "Sim, existem fundos adicionais para apoiar estudantes com necessidades especiais."
     }
-  },
-  "why": {
-    "title": "Por que Escolher Nossos Serviços?",
-    "expertise": {
-      "title": "Especialização e Experiência",
-      "description": "Com anos de experiência no ensino superior do Reino Unido, entendemos as complexidades do processo de inscrição e podemos ajudar você a superá-las com sucesso."
-    },
-    "personalized": {
-      "title": "Abordagem Personalizada",
-      "description": "Cada jornada estudantil é única. Oferecemos orientação personalizada que considera suas circunstâncias e metas individuais."
-    },
-    "support": {
-      "title": "Suporte Completo",
-      "description": "Desde a consulta inicial até a chegada ao Reino Unido, estamos com você em cada etapa, garantindo uma transição tranquila."
-    },
-    "ongoing": {
-      "title": "Assistência Contínua",
-      "description": "Nosso suporte continua mesmo após a aceitação. Seguimos oferecendo orientação durante sua jornada acadêmica."
-    }
-  },
-  "universities": {
-    "title": "Universidades Parceiras",
-    "why": {
-      "title": "Por que Estudar nas Nossas Universidades Parceiras?",
-      "quality": {
-        "title": "Educação de Qualidade",
-        "description": "Todas as nossas universidades parceiras são reconhecidas pela excelência acadêmica e altos padrões de ensino."
-      },
-      "career": {
-        "title": "Perspectivas de Carreira",
-        "description": "Fortes conexões com a indústria e serviços de apoio à carreira para ajudar você a ter sucesso após a graduação."
-      },
-      "support": {
-        "title": "Apoio ao Estudante",
-        "description": "Serviços completos de apoio para estudantes internacionais, incluindo suporte linguístico e integração cultural."
-      }
-    },
-    "programs": "Principais Cursos:"
-  },
-  "footer": {
-    "contact": "Contate-me",
-    "followUs": "Siga-nos em",
-    "EffectMessage": "Ajudando estudantes a alcançar seus sonhos acadêmicos enquanto capturamos os momentos extraordinários da vida.",
-    "DireitosReservados": "Todos os direitos reservados",
-    "atalhotexto": "Link rápido"
-  },
-  "contactDetails": {
-    "title": "Contate-me",
-    "phoneNumber": "+44 0774543 2478",
-    "emailAdvisor": "gabriielcachoeira@gmail.com"
-  },
-  "services": {
-    "title": "Nossos Serviços"
-  },
-    "contactForm": {
-      "form": {
-        "fullName": "Nome completo",
-        "email": "E-mail",
-        "whatsAppNumber": "WhatsApp",
-        "optional": "opcional",
-        "message": "Mensagem",
-        "submit": "Enviar mensagem",
-        "submitting": "Enviando..."
-      },
-      "formErrors": {
-        "nameRequired": "Por favor, insira seu nome completo",
-        "emailRequired": "Por favor, insira seu e-mail",
-        "invalidEmail": "Por favor, insira um e-mail válido",
-        "messageRequired": "Por favor, escreva sua mensagem"
-      },
-      "successMessage": "Mensagem enviada com sucesso! Entraremos em contato em breve.",
-      "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente mais tarde."
-    },
-  "sfeInfo": {
-    "title": "Benefícios do Student Finance England",
-    "subtitle": "Suporte Financeiro para seus Estudos",
-    "tuitionLoan": "Empréstimo para Mensalidade",
-    "tuitionDesc": "Cubra suas mensalidades com um empréstimo que você só começa a pagar após a graduação",
-    "maintenanceLoan": "Empréstimo para Manutenção",
-    "maintenanceDesc": "Receba suporte para custos de vida enquanto estuda",
-    "repayment": "Pagamento Flexível",
-    "repaymentDesc": "Comece a pagar apenas quando estiver ganhando acima do limite estabelecido",
-    "additional": "Suporte Adicional",
-    "additionalDesc": "Financiamento extra disponível para estudantes com deficiência e dependentes"
-  },
-  "title": "Cursos de Foundation Year",
-  "benefitSection": {
-    "title": "Quem Pode se Beneficiar de Cursos de Foundation Year?",
-    "intro": "Os cursos de Foundation Year são uma excelente oportunidade para quem deseja estudar no Reino Unido mas não possui as qualificações acadêmicas necessárias para ingressar diretamente em uma graduação.",
-    "studentsLimited": {
-      "title": "Estudantes com Experiência Acadêmica Limitada",
-      "content": "Se você não possui as qualificações para entrar diretamente em uma graduação, o Foundation Year oferece a chance de atualizar seu conhecimento e se preparar."
-    },
-    "professionals": {
-      "title": "Profissionais Retornando aos Estudos",
-      "content": "Se você está afastado da educação formal e deseja retornar ao ambiente acadêmico, o Foundation Year oferece suporte preparatório."
-    },
-    "international": {
-      "title": "Estudantes Internacionais e Imigrantes",
-      "content": "Para quem chegou recentemente ao Reino Unido e precisa de um ano de adaptação antes de iniciar a graduação."
-    },
-    "nonTraditional": {
-      "title": "Estudantes com Qualificações Não Tradicionais",
-      "content": "Se você possui diplomas ou certificações que não são reconhecidos diretamente no Reino Unido, o Foundation Year pode ser a ponte para sua graduação."
-    }
-  },
-  "whatIsSection": {
-    "title": "O que é um Foundation Year?",
-    "paragraph1": "O Foundation Year é um ano preparatório projetado para fornecer aos alunos as habilidades acadêmicas necessárias para ingressar em um curso de graduação.",
-    "paragraph2": "Durante esse ano, os alunos recebem treinamento em disciplinas como matemática, inglês acadêmico e outros conhecimentos relevantes para o curso desejado.",
-    "paragraph3": "Ao final do ano, você estará pronto para iniciar sua graduação com uma base sólida para o sucesso."
-  },
-  "imageAlt": "Estudantes estudando"
+  }
 }

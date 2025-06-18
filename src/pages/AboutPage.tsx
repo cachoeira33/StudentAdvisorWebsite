@@ -15,7 +15,7 @@ const AboutPage = () => {
                 <img
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
                   alt={t('aboutPage.profileAlt')}
-                  className="rounded-lg shadow-2xl w-full max-w-md mx-auto"
+                  className="rounded-lg shadow-2xl w-full max-w-md mx-auto profile-image"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-lg"></div>
               </div>
@@ -74,7 +74,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      <Testimonials />
+      <Testimonials maxDisplay={2} />
     </div>
   );
 };

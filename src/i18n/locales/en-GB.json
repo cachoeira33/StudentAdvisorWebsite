@@ -4,10 +4,9 @@
     "about": "About",
     "services": "Services",
     "universities": "Universities",
-    "testimonials": "Testimonials",
+    "foundation": "Foundation Year",
     "funding": "Student Finance",
     "contact": "Contact",
-    "foundation": "Foundation Year",
     "bookMeeting": "Book a Meeting",
     "faq": "FAQ"
   },
@@ -20,22 +19,99 @@
       "learnMore": "Learn More"
     }
   },
-  "foundation": {
-    "title": "Foundation Year Courses",
-    "subtitle": "Prepare for Your Undergraduate Degree",
-    "description": "Foundation Year courses are designed to help students who may not meet the direct entry requirements for undergraduate programs. They provide essential academic skills and knowledge to ensure a smooth transition into higher education.",
+  "studentFinance": {
+    "hero": {
+      "title": "Study in the UK with Full Government Funding",
+      "subtitle": "No upfront fees. No credit checks. No guarantor. Just opportunity."
+    },
     "benefits": {
-      "title": "Benefits of Foundation Year Courses",
-      "items": [
-        "Improved academic skills",
-        "Enhanced English language proficiency",
-        "Tailored support for international students",
-        "Pathway to undergraduate degrees"
-      ]
+      "tuition": {
+        "title": "100% Tuition Fee Loan",
+        "description": "The government pays your university tuition."
+      },
+      "maintenance": {
+        "title": "Maintenance Loan",
+        "description": "Get support for rent, food, transport & daily costs."
+      },
+      "repayment": {
+        "title": "Flexible Repayment",
+        "description": "Start paying only when you earn over £25,000/year."
+      },
+      "noUpfront": {
+        "title": "No Upfront Payments",
+        "description": "No upfront payments and no interest until graduation."
+      }
+    },
+    "extraSupport": {
+      "title": "Extra Support Available",
+      "description": "Additional help if you have children or disabilities."
+    },
+    "eligibility": {
+      "title": "Who's eligible?",
+      "euCitizens": "EU Citizens",
+      "settledStatus": "Pre-settled / Settled status holders",
+      "ukResident": "Lived in the UK for 3+ years",
+      "newStudent": "New to university or restarting studies"
+    },
+    "stories": {
+      "title": "Real Student Stories"
+    },
+    "whyMatters": {
+      "title": "Why this matters",
+      "education": "Education is a right – not a luxury.",
+      "workStudy": "Many students work part-time while studying.",
+      "guidance": "We'll guide you step-by-step: from course selection to application."
     },
     "cta": {
-      "applyNow": "Apply Now",
-      "learnMore": "Learn More"
+      "title": "Ready to start?",
+      "subtitle": "We'll help you apply. Your future starts now.",
+      "button": "Book Free Consultation"
+    }
+  },
+  "universities": {
+    "title": "UK Universities & Courses",
+    "description": "Explore our partner universities and the diverse range of courses available to international students.",
+    "availableCourses": "Available Course Areas",
+    "partnerUniversities": "Partner Universities",
+    "courses": {
+      "computing": "Computing",
+      "computingDesc": "Software development, programming, and IT systems",
+      "accounting": "Accounting",
+      "accountingDesc": "Financial management, auditing, and business finance",
+      "business": "Business",
+      "businessDesc": "Management, entrepreneurship, and business strategy",
+      "health": "Health",
+      "healthDesc": "Healthcare, nursing, and medical sciences",
+      "psychology": "Psychology",
+      "psychologyDesc": "Human behavior, mental health, and counseling",
+      "cyberSecurity": "Cyber Security",
+      "cyberSecurityDesc": "Digital security, ethical hacking, and data protection",
+      "construction": "Construction",
+      "constructionDesc": "Building design, project management, and engineering"
+    },
+    "bathSpa": {
+      "description": "Located in Bath, offering programs focused on arts, business, and social sciences. Perfect for those seeking a welcoming environment."
+    },
+    "victoria": {
+      "description": "Based in London, offering courses in design, digital marketing, and art, ideal for creative industries."
+    },
+    "canterbury": {
+      "description": "Offers a wide range of academic programs, with a focus on health, education, and social sciences."
+    },
+    "whyStudy": {
+      "title": "Why Study at Our Partner Universities?",
+      "quality": {
+        "title": "Quality Education",
+        "description": "All our partner universities are recognized for their academic excellence and high teaching standards."
+      },
+      "career": {
+        "title": "Career Prospects",
+        "description": "Strong industry connections and career support services to help you succeed after graduation."
+      },
+      "support": {
+        "title": "Student Support",
+        "description": "Comprehensive support services for international students, including language support and cultural integration."
+      }
     }
   },
   "aboutPage": {
@@ -56,38 +132,115 @@
       "Events & Photography"
     ]
   },
+  "contactPage": {
+    "title": "Contact Me",
+    "description": "Have questions or need assistance? Feel free to reach out via the contact form below, and I'll get back to you as soon as possible."
+  },
+  "contactForm": {
+    "title": "Get in Touch",
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "whatsAppNumber": "WhatsApp",
+      "optional": "optional",
+      "message": "Message",
+      "submit": "Send Message",
+      "submitting": "Sending..."
+    },
+    "formErrors": {
+      "nameRequired": "Please enter your full name",
+      "emailRequired": "Please enter your email",
+      "invalidEmail": "Please enter a valid email",
+      "messageRequired": "Please write your message"
+    },
+    "successMessage": "Message sent successfully! We will contact you soon.",
+    "errorMessage": "Error sending message. Please try again later."
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "description": "Hear from our students about their experiences studying in the UK and how we helped them achieve their goals."
+  },
   "footer": {
     "contact": "Contact Me",
     "followUs": "Follow Us On",
     "EffectMessage": "Helping students achieve their academic dreams while capturing life's extraordinary moments.",
     "DireitosReservados": "All rights reserved",
-    "atalhotexto": "Quick Link"
+    "atalhotexto": "Quick Links"
   },
   "contactDetails": {
     "title": "Contact Me",
     "phoneNumber": "+44 0774543 2478",
     "emailAdvisor": "gabriielcachoeira@gmail.com"
   },
-  "newsletter": {
-    "subscribe": "Subscribe to our Newsletter",
-    "emailPlaceholder": "Enter your email address",
-    "subscribeButton": "Subscribe",
-    "title": "Stay Updated",
-    "description": "Subscribe to our newsletter for the latest news, tips, and resources related to studying in the UK.",
-    "subscribeButtonAlt": "Subscribe Now"
+  "services": {
+    "title": "Our Services",
+    "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
   },
-  "sfeInfo": {
-    "title": "Student Finance England Benefits",
-    "subtitle": "Financial Support for Your Studies",
-    "tuitionLoan": "Tuition Fee Loan",
-    "tuitionDesc": "Cover your full tuition fees with a loan that you only start repaying after graduation",
-    "maintenanceLoan": "Maintenance Loan",
-    "maintenanceDesc": "Get support for living costs while you study",
-    "repayment": "Flexible Repayment",
-    "repaymentDesc": "Only start repaying when you earn above the threshold",
-    "additional": "Additional Support",
-    "additionalDesc": "Extra funding available for disabled students and those with dependents"
+  "servicesPage": {
+    "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
   },
+  "our_services": "Our Services",
+  "personalized_consultancy": {
+    "title": "Personalized Consultancy",
+    "description": "We help you find the university and course most suited to your goals and personal profile. We consider your academic background, professional aspirations, and preferences."
+  },
+  "application_support": {
+    "title": "Application Support",
+    "description": "From choosing the right institution to final enrollment. We guide you step by step to make the process simple and successful."
+  },
+  "finance_support": {
+    "title": "Finance Support",
+    "description": "We help you apply for Student Finance and understand your financial options clearly and simply."
+  },
+  "accommodation_support": {
+    "title": "Accommodation and Logistics Support",
+    "description": "Advice on how to find housing and plan the cost of living in the UK."
+  },
+  "why_choose_us": "Why Choose Us?",
+  "expertise": {
+    "title": "Specialized Experience",
+    "description": "With years of experience in UK higher education, we know the system inside out and can help you succeed."
+  },
+  "personalized_approach": {
+    "title": "Personalized Attention",
+    "description": "Every student is unique. We offer individual guidance tailored to your needs and goals."
+  },
+  "comprehensive_support": {
+    "title": "Comprehensive Support",
+    "description": "From the first consultation to your arrival in the UK, we accompany you every step of the way."
+  },
+  "ongoing_assistance": {
+    "title": "Ongoing Assistance",
+    "description": "We stay in touch even after your enrollment, to help you in your academic experience."
+  },
+  "title": "Foundation Year Courses",
+  "benefitSection": {
+    "title": "Who Can Benefit from Foundation Year Courses?",
+    "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
+    "studentsLimited": {
+      "title": "Students with Limited Academic Experience",
+      "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
+    },
+    "professionals": {
+      "title": "Professionals Returning to Academics",
+      "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
+    },
+    "international": {
+      "title": "International Students and Immigrants",
+      "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
+    },
+    "nonTraditional": {
+      "title": "Students with Non-traditional Qualifications",
+      "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
+    }
+  },
+  "whatIsSection": {
+    "title": "What is a Foundation Year?",
+    "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
+    "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
+    "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
+  },
+  "imageAlt": "Students studying",
   "faq": {
     "title": "Frequently Asked Questions",
     "search": "Search for a question...",
@@ -186,189 +339,6 @@
     "q24": {
       "question": "What is student life like in the UK?",
       "answer": "It's culturally rich, with great student support, events, discounts, and facilities."
-    },
-    "q25": {
-      "question": "Can I work while studying?",
-      "answer": "Yes, most students can work part-time during their studies."
-    },
-    "q26": {
-      "question": "What if I need help with my application?",
-      "answer": "You can book a consultation with our advisors for personalized support."
-    },
-    "q27": {
-      "question": "How do I contact you for more information?",
-      "answer": "You can use the contact form on our website or book a meeting with an advisor."
-    },
-    "q28": {
-      "question": "Can I get funding for a Master's degree?",
-      "answer": "Yes, there are specific loans available for postgraduate courses."
-    },
-    "q29": {
-      "question": "What if I have a disability?",
-      "answer": "You can apply for additional support through Disabled Students' Allowances (DSAs)."
-    },
-    "q30": {
-      "question": "Can I apply for funding if I'm already studying?",
-      "answer": "Yes, you can apply for funding for the next academic year if you meet the criteria."
     }
-  },
-  "aboutUs": {
-    "title": "About Us",
-    "description": "We are dedicated to helping students navigate the complexities of studying in the UK, from university applications to student finance and our mission is to provide clear, accessible information and personalized support to ensure your success in the UK education system.",
-    "team": "Meet Our Team",
-    "teamDescription": "Our experienced advisors are here to guide you every step of the way, ensuring you have the best possible experience."
-  },
-  "services": {
-    "title": "Our Services",
-    "description": "We offer a range of services to support your journey in the UK, including university application guidance, student finance advice"
-  },
-  "universities": {
-    "title": "UK Universities",
-    "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students.",
-    "cta": "Learn More About Universities"
-  },
-  "testimonials": {
-    "title": "What Our Students Say",
-    "description": "Hear from our students about their experiences studying in the UK and how we helped them achieve their goals.",
-    "cta": "Read More Testimonials"
-  },
-  "bookMeeting": {
-    "title": "Book a Meeting",
-    "description": "Schedule a one-on-one consultation with our advisors to discuss your study plans, student finance, and any other questions you may have.",
-    "cta": "Book Now"
-  },
-  "privacyPolicy": {
-    "title": "Privacy Policy",
-    "description": "Your privacy is important to us. Read our privacy policy to understand how we collect, use, and protect your personal information."
-  },
-  "termsOfService": {
-    "title": "Terms of Service",
-    "description": "By using our website, you agree to our terms of service. Please read them carefully to understand your rights and responsibilities."
-  },
-  "notFound": {
-    "title": "Page Not Found",
-    "description": "Sorry, the page you are looking for does not exist. Please check the URL or return to the home page.",
-    "cta": "Go to Home"
-  },
-  "loading": {
-    "message": "Loading, please wait..."
-  },
-  "success": {
-    "message": "Your request has been successfully submitted!"
-  },
-  "error": {
-    "message": "An error occurred. Please try again later."
-  },
-  "consultation": {
-    "title": "Book a Consultation",
-    "description": "Get personalized advice on studying in the UK, including university applications, student finance, and much more. Our experts are here to help you every step of the way.",
-    "cta": "Schedule Your Consultation"
-  },
-  "learnMore": {
-    "description": "Subscribe to our newsletter for the latest news, tips, and resources related to studying in the UK.",
-    "subscribeButton": "Subscribe Now"
-  },
-  "team": {
-    "title": "Meet Our Team",
-    "description": "Our dedicated team of advisors is here to support you with their expertise and experience in UK education."
-  },
-  "consultationBooking": {
-    "title": "Book Your Consultation",
-    "description": "Choose a convenient time for your consultation with our expert advisors. We look forward to helping you with your study plans in the UK.",
-    "cta": "Select a Time"
-  },
-  "contactPage": {
-    "title": "Contact Me",
-    "description": "Have questions or need assistance? Feel free to reach out via the contact form below, and I'll get back to you as soon as possible."
-  },
-  "contactForm": {
-    "title": "Get in Touch",
-    "form": {
-      "fullName": "Full Name",
-      "email": "Email",
-      "whatsAppNumber": "WhatsApp",
-      "optional": "optional",
-      "message": "Message",
-      "submit": "Send Message",
-      "submitting": "Sending..."
-    },
-    "formErrors": {
-      "nameRequired": "Please enter your full name",
-      "emailRequired": "Please enter your email",
-      "invalidEmail": "Please enter a valid email",
-      "messageRequired": "Please write your message"
-    },
-    "successMessage": "Message sent successfully! We will contact you soon.",
-    "errorMessage": "Error sending message. Please try again later."
-  },
-  "servicesPage": {
-    "title": "My Services",
-    "description": "I offer a range of services to support your academic journey, including university application guidance, student finance advice, and personalized consultations."
-  },
-  "universitiesPage": {
-    "title": "UK Universities",
-    "description": "Explore the diverse range of universities in the UK, each offering unique programs and opportunities for international students. Learn more about their offerings and how to apply."
-  },
-  "title": "Foundation Year Courses",
-  "benefitSection": {
-    "title": "Who Can Benefit from Foundation Year Courses?",
-    "intro": "Foundation Year courses are an excellent opportunity for those who wish to study in the UK but do not have the academic qualifications necessary to enter directly into an undergraduate degree.",
-    "studentsLimited": {
-      "title": "Students with Limited Academic Experience",
-      "content": "If you don't have the qualifications needed to directly enter an undergraduate course, a Foundation Year offers you the chance to update your knowledge and skills for a smooth transition to higher education."
-    },
-    "professionals": {
-      "title": "Professionals Returning to Academics",
-      "content": "If you've been out of formal education for a while and wish to re-enter the academic environment, the Foundation Year provides preparatory support."
-    },
-    "international": {
-      "title": "International Students and Immigrants",
-      "content": "For those who have recently moved to the UK and need a year of adaptation before starting their undergraduate degree."
-    },
-    "nonTraditional": {
-      "title": "Students with Non-traditional Qualifications",
-      "content": "If you have diplomas or qualifications that aren't directly recognized in the UK, the Foundation Year could be the bridge to your desired degree."
-    }
-  },
-  "whatIsSection": {
-    "title": "What is a Foundation Year?",
-    "paragraph1": "The Foundation Year is a preparatory year designed to equip students with the academic skills necessary to enter a full undergraduate course.",
-    "paragraph2": "During this year, students receive training in subjects like mathematics, academic English, and other essential knowledge relevant to their chosen degree.",
-    "paragraph3": "By the end of the year, you will be ready to begin your full degree course with a solid foundation for success."
-  },
-  "imageAlt": "Students studying",
-  "our_services": "Our Services",
-  "personalized_consultancy": {
-    "title": "Personalized Consultancy",
-    "description": "We help you find the university and course most suited to your goals and personal profile. We consider your academic background, professional aspirations, and preferences."
-  },
-  "application_support": {
-    "title": "Application Support",
-    "description": "From choosing the right institution to final enrollment. We guide you step by step to make the process simple and successful."
-  },
-  "finance_support": {
-    "title": "Finance Support",
-    "description": "We help you apply for Student Finance and understand your financial options clearly and simply."
-  },
-  "accommodation_support": {
-    "title": "Accommodation and Logistics Support",
-    "description": "Advice on how to find housing and plan the cost of living in the UK."
-  },
-  "why_choose_us": "Why Choose Us?",
-  "expertise": {
-    "title": "Specialized Experience",
-    "description": "With years of experience in UK higher education, we know the system inside out and can help you succeed."
-  },
-  "personalized_approach": {
-    "title": "Personalized Attention",
-    "description": "Every student is unique. We offer individual guidance tailored to your needs and goals."
-  },
-  "comprehensive_support": {
-    "title": "Comprehensive Support",
-    "description": "From the first consultation to your arrival in the UK, we accompany you every step of the way."
-  },
-  "ongoing_assistance": {
-    "title": "Ongoing Assistance",
-    "description": "We stay in touch even after your enrollment, to help you in your academic experience."
   }
 }

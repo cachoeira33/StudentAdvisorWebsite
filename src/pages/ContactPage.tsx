@@ -54,7 +54,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Testimonials />
+      <Testimonials maxDisplay={2} />
     </div>
   );
 };

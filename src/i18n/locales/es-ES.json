@@ -4,8 +4,8 @@
     "about": "Sobre mí",
     "services": "Servicios",
     "universities": "Universidades",
+    "foundation": "Año de Fundación",
     "funding": "Financiación",
-    "testimonials": "Testimonios",
     "contact": "Contacto",
     "bookMeeting": "Reservar cita",
     "faq": "Preguntas Frecuentes"
@@ -17,6 +17,101 @@
     "cta": {
       "consultation": "Reserva una Consulta",
       "learnMore": "Saber más"
+    }
+  },
+  "studentFinance": {
+    "hero": {
+      "title": "Estudia en el Reino Unido con Financiación Gubernamental Completa",
+      "subtitle": "Sin tasas por adelantado. Sin verificación de crédito. Sin avalista. Solo oportunidad."
+    },
+    "benefits": {
+      "tuition": {
+        "title": "100% Préstamo de Matrícula",
+        "description": "El gobierno paga tu matrícula universitaria."
+      },
+      "maintenance": {
+        "title": "Préstamo de Mantenimiento",
+        "description": "Recibe apoyo para alquiler, comida, transporte y gastos diarios."
+      },
+      "repayment": {
+        "title": "Pago Flexible",
+        "description": "Comienza a pagar solo cuando ganes más de £25,000/año."
+      },
+      "noUpfront": {
+        "title": "Sin Pagos Anticipados",
+        "description": "Sin pagos anticipados y sin intereses hasta la graduación."
+      }
+    },
+    "extraSupport": {
+      "title": "Apoyo Extra Disponible",
+      "description": "Ayuda adicional si tienes hijos o discapacidades."
+    },
+    "eligibility": {
+      "title": "¿Quién es elegible?",
+      "euCitizens": "Ciudadanos de la UE",
+      "settledStatus": "Portadores de estatus pre-settled / settled",
+      "ukResident": "Vivido en el Reino Unido por 3+ años",
+      "newStudent": "Nuevo en la universidad o reiniciando estudios"
+    },
+    "stories": {
+      "title": "Historias Reales de Estudiantes"
+    },
+    "whyMatters": {
+      "title": "Por qué esto importa",
+      "education": "La educación es un derecho – no un lujo.",
+      "workStudy": "Muchos estudiantes trabajan medio tiempo mientras estudian.",
+      "guidance": "Te guiaremos paso a paso: desde la selección del curso hasta la solicitud."
+    },
+    "cta": {
+      "title": "¿Listo para empezar?",
+      "subtitle": "Te ayudaremos a aplicar. Tu futuro comienza ahora.",
+      "button": "Reservar Consulta Gratuita"
+    }
+  },
+  "universities": {
+    "title": "Universidades y Cursos del Reino Unido",
+    "description": "Explora nuestras universidades asociadas y la diversa gama de cursos disponibles para estudiantes internacionales.",
+    "availableCourses": "Áreas de Curso Disponibles",
+    "partnerUniversities": "Universidades Asociadas",
+    "courses": {
+      "computing": "Computación",
+      "computingDesc": "Desarrollo de software, programación y sistemas de TI",
+      "accounting": "Contabilidad",
+      "accountingDesc": "Gestión financiera, auditoría y finanzas empresariales",
+      "business": "Negocios",
+      "businessDesc": "Gestión, emprendimiento y estrategia empresarial",
+      "health": "Salud",
+      "healthDesc": "Atención médica, enfermería y ciencias médicas",
+      "psychology": "Psicología",
+      "psychologyDesc": "Comportamiento humano, salud mental y asesoramiento",
+      "cyberSecurity": "Seguridad Cibernética",
+      "cyberSecurityDesc": "Seguridad digital, hacking ético y protección de datos",
+      "construction": "Construcción",
+      "constructionDesc": "Diseño de construcción, gestión de proyectos e ingeniería"
+    },
+    "bathSpa": {
+      "description": "Ubicada en Bath, ofreciendo programas enfocados en artes, negocios y ciencias sociales. Perfecta para quienes buscan un ambiente acogedor."
+    },
+    "victoria": {
+      "description": "Con sede en Londres, ofreciendo cursos en diseño, marketing digital y arte, ideal para industrias creativas."
+    },
+    "canterbury": {
+      "description": "Ofrece una amplia gama de programas académicos, con enfoque en salud, educación y ciencias sociales."
+    },
+    "whyStudy": {
+      "title": "¿Por qué Estudiar en Nuestras Universidades Asociadas?",
+      "quality": {
+        "title": "Educación de Calidad",
+        "description": "Todas nuestras universidades asociadas son reconocidas por su excelencia académica y altos estándares de enseñanza."
+      },
+      "career": {
+        "title": "Perspectivas Profesionales",
+        "description": "Fuertes conexiones con la industria y servicios de apoyo profesional para ayudarte a tener éxito después de la graduación."
+      },
+      "support": {
+        "title": "Apoyo al Estudiante",
+        "description": "Servicios integrales de apoyo para estudiantes internacionales, incluyendo apoyo lingüístico e integración cultural."
+      }
     }
   },
   "aboutPage": {
@@ -37,30 +132,115 @@
       "Eventos y Fotografía"
     ]
   },
+  "contactPage": {
+    "title": "Contáctame",
+    "description": "¿Tienes preguntas o necesitas asistencia? No dudes en contactarme a través del formulario a continuación, y te responderé lo antes posible."
+  },
+  "contactForm": {
+    "title": "Ponte en Contacto",
+    "form": {
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "whatsAppNumber": "WhatsApp",
+      "optional": "opcional",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando..."
+    },
+    "formErrors": {
+      "nameRequired": "Por favor, ingresa tu nombre completo",
+      "emailRequired": "Por favor, ingresa tu correo electrónico",
+      "invalidEmail": "Por favor, ingresa un correo electrónico válido",
+      "messageRequired": "Por favor, escribe tu mensaje"
+    },
+    "successMessage": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.",
+    "errorMessage": "Error al enviar el mensaje. Por favor, intenta nuevamente más tarde."
+  },
+  "testimonials": {
+    "title": "Lo que Dicen Nuestros Estudiantes",
+    "description": "Escucha de nuestros estudiantes sobre sus experiencias estudiando en el Reino Unido y cómo los ayudamos a alcanzar sus objetivos."
+  },
   "footer": {
     "contact": "Contáctame",
     "followUs": "Síguenos en",
     "EffectMessage": "Ayudando a los estudiantes a alcanzar sus sueños académicos mientras capturamos los momentos extraordinarios de la vida.",
     "DireitosReservados": "Todos los derechos reservados",
-    "atalhotexto": "Link rapido"
+    "atalhotexto": "Enlaces Rápidos"
   },
   "contactDetails": {
     "title": "Contáctame",
     "phoneNumber": "+44 0774543 2478",
     "emailAdvisor": "gabriielcachoeira@gmail.com"
   },
-  "sfe": {
-    "title": "Ventajas del Student Finance England",
-    "subtitle": "Apoyo Financiero para tus Estudios",
-    "tuitionLoan": "Préstamo de Matrícula",
-    "tuitionDesc": "Cubre el coste de la universidad con un préstamo que solo pagas después de graduarte.",
-    "maintenanceLoan": "Préstamo de Mantenimiento",
-    "maintenanceDesc": "Obtén ayuda económica para tus gastos de vida mientras estudias.",
-    "repayment": "Reembolso Flexible",
-    "repaymentDesc": "Solo empiezas a pagar cuando ganas por encima del umbral establecido.",
-    "additional": "Apoyo Adicional",
-    "additionalDesc": "Financiación extra disponible para estudiantes con discapacidades y personas a cargo."
+  "services": {
+    "title": "Nuestros Servicios",
+    "description": "Ofrezco una gama de servicios para apoyar tu jornada académica, incluyendo orientación para solicitudes universitarias, asesoramiento sobre financiación estudiantil y consultas personalizadas."
   },
+  "servicesPage": {
+    "description": "Ofrezco una gama de servicios para apoyar tu jornada académica, incluyendo orientación para solicitudes universitarias, asesoramiento sobre financiación estudiantil y consultas personalizadas."
+  },
+  "our_services": "Nuestros Servicios",
+  "personalized_consultancy": {
+    "title": "Asesoramiento Personalizado",
+    "description": "Te ayudamos a encontrar la universidad y el curso más adecuados a tus objetivos y perfil personal. Consideramos tu formación académica, aspiraciones profesionales y preferencias."
+  },
+  "application_support": {
+    "title": "Apoyo en el Proceso de Inscripción",
+    "description": "Desde la elección del centro hasta la matrícula final. Te guiamos paso a paso para que el proceso sea simple y exitoso."
+  },
+  "finance_support": {
+    "title": "Apoyo con la Financiación",
+    "description": "Te ayudamos a solicitar el Student Finance y entender tus opciones financieras de forma clara y sencilla."
+  },
+  "accommodation_support": {
+    "title": "Ayuda con Alojamiento y Logística",
+    "description": "Asesoramiento sobre cómo encontrar vivienda y planificar el coste de vida en el Reino Unido."
+  },
+  "why_choose_us": "¿Por Qué Elegirnos?",
+  "expertise": {
+    "title": "Experiencia Especializada",
+    "description": "Con años de experiencia en educación superior británica, conocemos el sistema a fondo y podemos ayudarte a tener éxito."
+  },
+  "personalized_approach": {
+    "title": "Atención Personalizada",
+    "description": "Cada estudiante es único. Ofrecemos orientación individual adaptada a tus necesidades y metas."
+  },
+  "comprehensive_support": {
+    "title": "Apoyo Integral",
+    "description": "Desde la primera consulta hasta tu llegada al Reino Unido, te acompañamos en cada paso del camino."
+  },
+  "ongoing_assistance": {
+    "title": "Seguimiento Continuo",
+    "description": "Seguimos en contacto incluso después de tu inscripción, para ayudarte en tu experiencia académica."
+  },
+  "title": "Cursos de Año Fundacional",
+  "benefitSection": {
+    "title": "¿Quién puede beneficiarse de los cursos de Año Fundacional?",
+    "intro": "Los cursos de Año Fundacional son una excelente oportunidad para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones académicas necesarias para ingresar directamente a un título universitario.",
+    "studentsLimited": {
+      "title": "Estudiantes con Experiencia Académica Limitada",
+      "content": "Si no tienes las calificaciones necesarias para ingresar directamente a un curso universitario, un Año Fundacional te ofrece la oportunidad de actualizar tus conocimientos y habilidades para una transición suave a la educación superior."
+    },
+    "professionals": {
+      "title": "Profesionales que Regresan a lo Académico",
+      "content": "Si has estado fuera de la educación formal por un tiempo y deseas reingresar al ambiente académico, el Año Fundacional proporciona apoyo preparatorio."
+    },
+    "international": {
+      "title": "Estudiantes Internacionales e Inmigrantes",
+      "content": "Para aquellos que se han mudado recientemente al Reino Unido y necesitan un año de adaptación antes de comenzar su título universitario."
+    },
+    "nonTraditional": {
+      "title": "Estudiantes con Calificaciones No Tradicionales",
+      "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
+    }
+  },
+  "whatIsSection": {
+    "title": "¿Qué es un Año Fundacional?",
+    "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
+    "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
+    "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito."
+  },
+  "imageAlt": "Estudiantes estudiando",
   "faq": {
     "title": "Preguntas Frecuentes sobre Estudiar en Inglaterra",
     "search": "Buscar pregunta...",
@@ -160,165 +340,5 @@
       "question": "¿Hay apoyo adicional para estudiantes con discapacidad?",
       "answer": "Sí, existen fondos adicionales para estudiantes con necesidades especiales."
     }
-  },
-  "services": {
-    "title": "Servicios",
-    "titlefoundation": "Nuestros Servicios",
-    "cards": {
-      "consultancy": {
-        "title": "Asesoramiento Personalizado",
-        "description": "Te ayudamos a encontrar la universidad y el curso más adecuados a tus objetivos y perfil personal. Consideramos tu formación académica, aspiraciones profesionales y preferencias."
-      },
-      "application": {
-        "title": "Apoyo en el Proceso de Inscripción",
-        "description": "Desde la elección del centro hasta la matrícula final. Te guiamos paso a paso para que el proceso sea simple y exitoso."
-      },
-      "finance": {
-        "title": "Apoyo con la Financiación",
-        "description": "Te ayudamos a solicitar el Student Finance y entender tus opciones financieras de forma clara y sencilla."
-      },
-      "accommodation": {
-        "title": "Ayuda con Alojamiento y Logística",
-        "description": "Asesoramiento sobre cómo encontrar vivienda y planificar el coste de vida en el Reino Unido."
-      }
-    },
-    "why": {
-      "title": "¿Por Qué Elegirnos?",
-      "expertise": {
-        "title": "Experiencia Especializada",
-        "description": "Con años de experiencia en educación superior británica, conocemos el sistema a fondo y podemos ayudarte a tener éxito."
-      },
-      "personalized": {
-        "title": "Atención Personalizada",
-        "description": "Cada estudiante es único. Ofrecemos orientación individual adaptada a tus necesidades y metas."
-      },
-      "support": {
-        "title": "Apoyo Integral",
-        "description": "Desde la primera consulta hasta tu llegada al Reino Unido, te acompañamos en cada paso del camino."
-      },
-      "ongoing": {
-        "title": "Seguimiento Continuo",
-        "description": "Seguimos en contacto incluso después de tu inscripción, para ayudarte en tu experiencia académica."
-      }
-    },
-    "universities": {
-      "title": "Universidades Asociadas",
-      "why": {
-        "title": "¿Por Qué Estudiar en Nuestras Universidades Asociadas?",
-        "quality": {
-          "title": "Educación de Calidad",
-          "description": "Todas nuestras universidades asociadas tienen reconocimiento por su excelencia académica."
-        },
-        "career": {
-          "title": "Perspectivas Laborales",
-          "description": "Fuertes vínculos con el mercado laboral y servicios de orientación profesional para ayudarte después de graduarte."
-        },
-        "support": {
-          "title": "Apoyo al Estudiante",
-          "description": "Servicios completos para estudiantes internacionales, incluyendo ayuda lingüística y cultural."
-        }
-      },
-      "programs": "Principales Carreras:"
-    },
-    "aboutUni": {
-      "title": "Acerca de Nosotros",
-      "content": "Bienvenidos a nuestra institución educativa. Estamos dedicados a proporcionar educación de alta calidad y oportunidades de aprendizaje para estudiantes de todo el mundo. Nuestra misión es preparar a los estudiantes para el éxito académico y profesional a través de programas innovadores y un ambiente de aprendizaje de apoyo."
-    },
-    "msgForm": {
-      "successMessage": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto."
-    },
-    "contactForm": {
-      "form": {
-        "fullName": "Nombre completo",
-        "email": "Correo electrónico",
-        "whatsAppNumber": "WhatsApp",
-        "optional": "opcional",
-        "message": "Mensaje",
-        "submit": "Enviar mensaje",
-        "submitting": "Enviando..."
-      },
-      "formErrors": {
-        "nameRequired": "Por favor, ingresa tu nombre completo",
-        "emailRequired": "Por favor, ingresa tu correo electrónico",
-        "invalidEmail": "Por favor, ingresa un correo electrónico válido",
-        "messageRequired": "Por favor, escribe tu mensaje"
-      },
-      "successMessage": "¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.",
-      "errorMessage": "Error al enviar el mensaje. Por favor, intenta nuevamente más tarde."
-    }
-  },
-  "whatIsSection": {
-    "title": "¿Qué es un Año Fundacional?",
-    "paragraph1": "El Año Fundacional es un año preparatorio diseñado para equipar a los estudiantes con las habilidades académicas necesarias para ingresar a un curso universitario completo.",
-    "paragraph2": "Durante este año, los estudiantes reciben formación en materias como matemáticas, inglés académico y otros conocimientos esenciales relevantes para el título elegido.",
-    "paragraph3": "Al final del año, estarás listo para comenzar tu curso de título completo con una base sólida para el éxito."
-  },
-  "imageAlt": "Estudiantes estudiando",
-  "our_services": "Nuestros Servicios",
-  "personalized_consultancy": {
-    "title": "Asesoramiento Personalizado",
-    "description": "Te ayudamos a encontrar la universidad y el curso más adecuados a tus objetivos y perfil personal."
-  },
-  "application_support": {
-    "title": "Apoyo en el Proceso de Inscripción",
-    "description": "Desde la elección del centro hasta la matrícula final. Te guiamos paso a paso para que el proceso sea simple y exitoso."
-  },
-  "finance_support": {
-    "title": "Apoyo con la Financiación",
-    "description": "Te ayudamos a solicitar el Student Finance y entender tus opciones financieras de forma clara y sencilla."
-  },
-  "accommodation_support": {
-    "title": "Ayuda con Alojamiento y Logística",
-    "description": "Asesoramiento sobre cómo encontrar vivienda y planificar el coste de vida en el Reino Unido."
-  },
-  "why_choose_us": "¿Por Qué Elegirnos?",
-  "expertise": {
-    "title": "Experiencia Especializada",
-    "description": "Con años de experiencia en educación superior británica, conocemos el sistema a fondo y podemos ayudarte a tener éxito."
-  },
-  "personalized_approach": {
-    "title": "Atención Personalizada",
-    "description": "Cada estudiante es único. Ofrecemos orientación individual adaptada a tus necesidades y metas."
-  },
-  "comprehensive_support": {
-    "title": "Apoyo Integral",
-    "description": "Desde la primera consulta hasta tu llegada al Reino Unido, te acompañamos en cada paso del camino."
-  },
-  "ongoing_assistance": {
-    "title": "Seguimiento Continuo",
-    "description": "Seguimos en contacto incluso después de tu inscripción, para ayudarte en tu experiencia académica."
-  },
-  "title": "Cursos de Año Fundacional",
-  "benefitSection": {
-    "title": "¿Quién puede beneficiarse de los cursos de Año Fundacional?",
-    "intro": "Los cursos de Año Fundacional son una excelente oportunidad para quienes desean estudiar en el Reino Unido pero no tienen las calificaciones académicas necesarias para ingresar directamente a un título universitario.",
-    "studentsLimited": {
-      "title": "Estudiantes con Experiencia Académica Limitada",
-      "content": "Si no tienes las calificaciones necesarias para ingresar directamente a un curso universitario, un Año Fundacional te ofrece la oportunidad de actualizar tus conocimientos y habilidades para una transición suave a la educación superior."
-    },
-    "professionals": {
-      "title": "Profesionales que Regresan a lo Académico",
-      "content": "Si has estado fuera de la educación formal por un tiempo y deseas reingresar al ambiente académico, el Año Fundacional proporciona apoyo preparatorio."
-    },
-    "international": {
-      "title": "Estudiantes Internacionales e Inmigrantes",
-      "content": "Para aquellos que se han mudado recientemente al Reino Unido y necesitan un año de adaptación antes de comenzar su título universitario."
-    },
-    "nonTraditional": {
-      "title": "Estudiantes con Calificaciones No Tradicionales",
-      "content": "Si tienes diplomas o calificaciones que no son directamente reconocidos en el Reino Unido, el Año Fundacional podría ser el puente hacia el título que deseas."
-    }
-  },
-  "sfeInfo": {
-    "title": "Benefícios del Student Finance England",
-    "subtitle": "Apoyo Financiero para tus Estudios",
-    "tuitionLoan": "Préstamo de Matrícula",
-    "tuitionDesc": "Cubre el coste de la universidad con un préstamo que solo pagas después de graduarte",
-    "maintenanceLoan": "Préstamo de Mantenimiento",
-    "maintenanceDesc": "Obtén ayuda económica para tus gastos de vida mientras estudias",
-    "repayment": "Reembolso Flexible",
-    "repaymentDesc": "Solo empiezas a pagar cuando ganas por encima del umbral establecido",
-    "additional": "Apoyo Adicional",
-    "additionalDesc": "Financiación extra disponible para estudiantes con discapacidades y personas a cargo"
   }
 }

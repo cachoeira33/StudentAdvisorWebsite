@@ -12,7 +12,7 @@ const HomePage = () => {
       <Services />
       <StudentFinance />
       <About />
-      <Testimonials />
+      <Testimonials maxDisplay={2} />
     </>
   );
 };
