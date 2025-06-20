@@ -47,7 +47,7 @@ const ContactForm: React.FC = () => {
     setSuccessMessage(null);
 
     try {
-      const response = await fetch('http://localhost:3001/api/save-contact', {
+      const response = await fetch('https://gabrielcachoeira.com:3001/api/save-contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
