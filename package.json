@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001736",
     "file-saver": "^2.0.5",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",
